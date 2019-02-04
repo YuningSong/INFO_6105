@@ -1,0 +1,10265 @@
+The future of financial infrastructure
+
+An ambitious look at how blockchain can reshape financial services
+
+An Industry Project of the Financial Services Community | Prepared in collaboration with Deloitte
+
+Part of the Future of Financial Services Series • August 2016
+
+Foreword
+
+Consistent with the World Economic Forum’s mission of applying a multistakeholder approach to address issues of global impact, 
+creating this report involved extensive outreach and dialogue with the Financial Services Community, Innovation Community, Technology 
+Community, academia and the public sector. The dialogue included numerous interviews and interactive sessions to discuss the insights 
+and opportunities for collaborative action.
+Sincere thanks to the industry and subject matter experts who contributed unique insights to this report. In particular, the members of 
+this Financial Services Community project ’s Steering Committee and Working Group, who are introduced in the Acknowledgements 
+section, played an invaluable role as experts and patient mentors.
+We are also very grateful to Deloitte Consulting LLP in the US, an entity within the Deloitte1 network, for its generous commitment and 
+support in its capacity as the official professional services adviser to the World Economic Forum for this project.
+
+Contact
+
+For feedback or questions:
+
+R. Jesse McWaters, Lead Author
+jesse.mcwaters@weforum.org
++1 (212) 703 6633
+
+1 Deloitte refers to one or more of Deloitte Touche Tohmatsu Limited, a UK private company limited by guarantee (“DTTL”), its network of member firms, and their 
+related entities. DTTL and each of its member firms are legally separate and independent entities. DTTL (also referred to as “Deloitte Global”) does not provide 
+services to clients. Please see www.deloitte.com/about for a more detailed description of DTTL and its member firms. Please see www.deloitte.com/us/about for a 
+detailed description of the legal structure of Deloitte LLP and its subsidiaries. Certain services may not be available to attest clients under the rules and regulations 
+of public accounting.
+This publication contains general information only and Deloitte is not, by means of this publication, rendering accounting, business, financial, investment, legal, tax, 
+or other professional advice or services. This publication is not a substitute for such professional advice or services, nor should it be used as a basis for any decision 
+or action that may affect your business. Before making any decision or taking any action that may affect your business, you should consult a qualified professional 
+advisor. Deloitte shall not be responsible for any loss sustained by any person who relies on this publication.
+
+WORLD ECONOMIC FORUM | 2016
+
+2
+
+The Distributed Ledger Technology project is the most recent phase of the Forum’s 
+ongoing Disruptive Innovation in Financial Services work
+
+2015
+
+2016
+
+THE FUTURE OF FINANCIAL SERVICES
+The Future of Financial Services project explored the landscape 
+of disruptive innovations in financial services, provided the first 
+consolidated taxonomy for these disruptions, and explored their 
+potential impacts on the structure of the industry
+
+BEYOND THE FUTURE OF FINANCIAL SERVICES
+This phase of the disruptive innovation work explores two topics 
+with key potential as foundational enablers of future disruption
+
+The future of financial infrastructure: An ambitious look at how 
+blockchain can reshape financial services
+
+This project explores the potential 
+for distributed ledger technology 
+to transform the infrastructure of 
+the financial services industry
+
+A Blueprint for Digital Identity: The Role of Financial Institutions 
+in building Digital Identity
+
+This project explores the potential 
+for digital identity in financial 
+services and beyond and lays out 
+a blueprint for the 
+implementation of effective digital 
+identity systems
+
+WORLD ECONOMIC FORUM | 2016
+
+3
+
+Contents
+
+Acknowledgements............................................................................................................................... ...........................................................
+Executive Summary
+Context and Approach….…………………..…………………………………………………………………………………………………………………………………………………. 13
+Key Findings..……………………………………………………………………………………………………………………………………………………………………………………….
+17
+Use Case Deep‐Dives
+Approach….………………………………………………………………………………………………………………………………………………………………………………………….
+Summaries….……………………………………………………………………………………………………………………………………………………………………………………….
+Modules
+
+32
+37
+
+5
+
+Payments: Global Payments......................................................................................................................................................................................... 46
+Insurance: P&C Claims Processing................................................................................................................................................................................ 56
+Deposits and Lending: Syndicated Loans...................................................................................................................................................................... 65
+Deposits and Lending: Trade Finance........................................................................................................................................................................... 74
+Capital Raising: Contingent Convertible (“CoCo”) Bonds.............................................................................................................................................
+Investment Management: Automated Compliance.....................................................................................................................................................
+Investment Management: Proxy Voting....................................................................................................................................................................... 101
+Market Provisioning: Asset Rehypothecation............................................................................................................................................................... 110
+Market Provisioning: Equity Post‐Trade....................................................................................................................................................................... 119
+
+83
+92
+
+Contact Details............................................................................................................................... .................................................................. 128
+
+WORLD ECONOMIC FORUM | 2016
+
+4
+
+Section 1
+
+Acknowledgements
+
+WORLD ECONOMIC FORUM | 2016
+
+5
+
+Acknowledgements
+Members of the Steering Committee
+
+The following senior leaders from global FIs provided guidance, oversight and thought leadership to the Future of Financial Services 
+series as its Steering Committee:
+
+Robert Contri
+
+Vice Chairman, 
+Deloitte & Touche LLP
+
+Ann Cairns
+
+President, International Markets,
+MasterCard
+
+David Craig 
+
+President, Financial and Risk,
+Thomson Reuters
+
+Kim Hammonds 
+
+Global Chief Operating Officer and Chief 
+Information Officer, Deutsche Bank
+
+Jason Harris
+
+Chief Executive Officer, International 
+Property and Casualty, XL Group
+
+Michael Harte
+
+Anju Patwardhan
+
+Venture Partner, 
+CreditEase
+
+David Puth
+
+Chief Executive Officer,
+CLS Bank International
+
+William Sheedy
+
+Chief Operations and Technology Officer, 
+Barclays
+
+Global Executive, Corporate Strategy, 
+M&A, Government Relations, Visa
+
+John Flint 
+
+Axel Lehmann
+
+Chief Executive Officer, Retail Banking and 
+Wealth Management, HSBC
+
+Group Chief Operating Officer and Member 
+of the Group Executive Board, UBS
+
+Dieter Wemmer
+
+Chief Financial Officer, 
+Allianz
+
+WORLD ECONOMIC FORUM | 2016
+
+6
+
+Acknowledgements
+Members of the Working Group
+
+The project team would also like to acknowledge the following executives of global FIs who helped define the project framework and 
+shape strategic analyses as its Working Group:
+
+Tom Brown
+Partner, 
+Paul Hastings
+
+Christof Edel
+Global Head, Strategy and Business 
+Development, Financial, Thomson Reuters
+
+Rob Galaski (Project Advisor)
+Head of Financial Services,
+Deloitte Canada
+
+Dorothy Hillenius
+Director, Corporate Strategy, 
+ING
+
+Marc Lien 
+Director, Innovation and Digital Development,
+Lloyds Banking Group
+
+Matthew Levin
+Executive Vice‐President and Head, Global 
+Strategy, Aon Corporation
+
+Lena Mass‐Cresnik, PhD
+Head, Innovation, Strategic Product 
+Management, BlackRock
+
+Victor Matarranz
+Senior Executive Vice‐President, Strategy, and 
+Executive Chairman’s Office, Santander
+
+Neil Mumm
+Vice‐President, Corporate Strategy, 
+Visa
+
+Max Neukirchen
+Managing Director and Head, Strategy, 
+JP Morgan Chase
+
+Christine O’Connell
+Global Head of Strategy, Risk, 
+Thomson Reuters
+
+Robert Palatnick
+Managing Director and Chief Technology 
+Architect, DTCC
+
+Kosta Peric
+Deputy Director, Financial Services for the 
+Poor, Bill & Melinda Gates Foundation
+
+Justin Pinkham
+Senior Business Leader, Strategic Initiatives, 
+MasterCard
+
+Bob Reany
+Senior Vice‐President and Group Head, 
+Identity Solutions, MasterCard
+
+Peter Rutland
+
+Partner, Global Co‐Head of Financial Services, 
+CVC Capital Partners
+
+Nicolas de Skowronski
+Chief of Staff,
+Bank Julius Baer
+
+Huw Van Steenis
+Managing Director and Head, Financial 
+Services Research, Morgan Stanley
+
+Colin Teichholtz
+Partner and Portfolio Manager, 
+Pine River Capital Management
+
+Fabien Vandenreydt
+Global Head, Securities Markets, Innotribe &
+the SWIFT Institute, SWIFT
+
+WORLD ECONOMIC FORUM | 2016
+
+7
+
+Acknowledgements
+List of subject matter experts
+
+In addition, the project team expresses  its gratitude to the following subject matter experts who contributed their valuable perspectives 
+through interviews and workshops (in alphabetical order):
+
+Meyer Aaron
+Mark Adams
+Mark Adams
+Keith Ajmani
+Andrew Alexandratos
+Robleh Ali
+Jeremy Allaire
+Sarah Andrews
+Angus Armour
+Akhtar Badshah
+Murad Baig
+Steven Bardy
+Nick Beecroft
+Adi Ben‐Ari
+Peter Berg
+Michael Bodson
+Sven Bossu
+Andre Boysen
+Carolyn Burke
+Ross Burnett
+Oliver Bussman
+Claire Calmejane
+Nick Caplan
+Alicia Carmona
+Michael Casey
+Stephen Catchpole
+Javier Celaya
+Matthew Chan
+Christophe Chazot
+Ilsa Christ
+Lynne Cockerell
+
+Bank of Canada
+Australian Securities and Investments Commission
+National Australia Bank
+TD Bank Group
+Australian Prudential Regulation Authority
+Bank of England
+Circle
+Thomson Reuters
+Business Council of Australia
+Catalytic Innovators Group
+Deloitte LLP
+Australian Securities and Investments Commission
+Lloyd's of London
+Applied Blockchain
+Visa
+Depository Trust & Clearing Corporation
+SWIFT
+SecureKey Technologies
+RBC
+Macquarie Group
+UBS
+Lloyds Banking Group
+Faster Payments
+Identity2020
+MIT Media Lab
+Macquarie Group
+Banco Santander S.A.
+Depository Trust & Clearing Corporation
+HSBC Bank Plc
+Australian Transaction Reports and Analysis Centre
+Reserve Bank of Australia
+
+James Colaco
+Robert Cranmer
+Neil Cross
+Stephen Cross
+Dame Damevski
+Andrew Davis
+Shellie Davis
+Avery Dellheim
+Thomas DeLuca
+Nigel Dobson
+Kirsten Dunlop
+John Edge
+Anna Ewing
+Scott Farrell
+Usama Fayyad
+Daniel Feichtinger
+Karin Flinspach
+Brian Forde
+Mary Ann Francis
+Conan French
+Steve Gallagher
+Emilio Garcia de la Sierra
+Nicholas Giurietto
+Julian Gorman
+Udayan Goyal
+Michael Gronager
+Joe Guastella
+Aran Hamilton
+Aldila Hananto
+Anna Harper
+Adrienne Harris
+
+Deloitte Canada
+Deloitte Canada
+DBS Bank
+Aon
+inpay
+Stone & Chalk
+Commonwealth Treasury
+Circle
+AMP Credit Technologies
+ANZ
+Suncorp Group
+Identity2020
+Nasdaq
+King & Wood Mallesons
+Barclays
+Digital Asset Holdings
+Standard Chartered
+MIT Media Lab
+Wipro
+Institute of International Finance
+Australian Prudential Regulation Authority
+Santander InnoVentures
+Australian Digital Currency & Commerce Association
+GSMA
+Anthemis Group SA
+Chainalysis
+Deloitte Consulting LLP
+Vantage
+Telstra
+SocietyOne
+Council of Economic Advisers 
+
+WORLD ECONOMIC FORUM | 2016
+
+8
+
+Acknowledgements
+List of subject matter experts (cont.)
+
+In addition, the project team expresses  its gratitude to the following subject matter experts who contributed their valuable perspectives 
+through interviews and workshops (in alphabetical order):
+
+Oliver Harvey
+Andrew Hauser
+Ian Hill
+Steven Holzer
+Matt Hooper
+Chuck Hounsell
+Gys Hyman
+Raj Iyer
+Chetan Jain
+Kevin Johnson
+Ashton Jones
+Eiichi Kashiwagi
+Steffen Kern
+Andrew Keys
+Dan Kimerling
+Philipp Kroemer
+Matthias Kroner
+Ashwin Kumar
+Jo Lambert
+Jo Lang
+Chris Larsen
+Mikkel Larson
+Matthew Leavenworth
+Ian Lee
+Leo Lipis
+Joel Lipman
+James Lloyd
+Sharon Lu
+Joseph Lubin
+Adam Ludwin
+Christian Lundkvist
+
+Australian Securities and Investments Commission
+Bank of England
+Westpac Group
+Citi
+Barclays
+TD Bank Group
+Deloitte Consulting LLP
+Bloomberg LP
+Inspira Enterprise
+SWIFT
+Macquarie Group
+Bank of Tokyo‐Mitsubishi UFJ
+European Securities and Markets Authority
+Consensys
+Silicon Valley Bank
+Commerzbank AG
+Fidor Bank AG
+Deutsche Boerse
+Paypal
+R3CEV
+Ripple
+DBS Bank
+Bank of America
+Citi Ventures
+Lipis Advisors
+Deloitte Australia
+EY
+Tyro FinTechHub
+Consensys
+Chain
+Consensys
+
+Joanna Marathakis
+Blythe Masters
+Lukas May
+Richard McCarthy
+Mark McDonald
+Todd McDonald
+Claire McFarland
+Richard Miller
+John Moss
+Eddie Niestat
+Hanna Nilsson
+Kevin Nixon
+Madan Oberoi
+Dan O'Prey
+Cheryl Parker Rose
+Bharat Patel
+Jon Perkinson
+Guy Picone
+Eric Piscini
+Rick Porter
+Dan Quan
+Dilan Rajasingham
+Rhomaios Ram
+Suresh Ramamurthi
+Dilip Rao
+Tara Richards
+Alex Rinaldi
+Alex Rozman
+Wiebe Ruttenberg
+Joel Sacmar
+Joy Savage
+
+Deloitte Transactions & Business Analytics LLP
+Digital Asset Holdings
+Transferwise
+Perpetual Limited
+QIC
+R3CEV
+Commonwealth Department of Industry, Innovation and Science
+Deloitte Australia
+UBS
+Novantas
+Allianz
+Deloitte Australia
+INTERPOL
+Digital Asset Holdings
+Consumer Financial Protection Bureau 
+Australian Securities and Investments Commission
+Deloitte Australia
+Suncorp Group
+Deloitte Consulting LLP
+Deloitte & Touche LLP
+Consumer Financial Protection Bureau 
+Commonwealth Bank
+Deutsche Bank
+CBW Bank
+Ripple
+National Australia Bank
+Deloitte Canada
+Deloitte & Touche LLP
+European Central Bank
+Daon
+Deloitte Canada
+
+WORLD ECONOMIC FORUM | 2016
+
+9
+
+Acknowledgements
+List of subject matter experts (cont.)
+
+In addition, the project team expresses  its gratitude to the following subject matter experts who contributed their valuable perspectives 
+through interviews and workshops (in alphabetical order):
+
+Rocky Scopelliti
+Angus Scott
+Sabrina Sdao
+Anton Semenov
+Beth Shah
+Rajesh Shenoy
+Makoto Shibata
+Matthew Spoke
+Elizabeth Stark
+Maxwell Sutton
+Paul Szurek
+Michael Tang
+Don Tapscott
+Alison Tarditi
+Simon Taylor
+Adizah Tejani
+Craig Tillotson
+Keith Tippell
+Marcus Treacher
+Alan Tse
+Hedi Uustalu
+Peter Vander Auwera
+Wayne Vaughn
+Chris Wasden
+Casey Wilcox
+Shane Williams
+Greg Williamson
+Jeremy Wilson
+Lawrence Wintermeyer
+Jerry Yohananov
+Tom Zschach
+
+Telstra
+Euroclear
+Deloitte Canada
+Commerzbank AG
+Digital Asset Holdings
+Citi
+Bank of Tokyo‐Mitsubishi UFJ
+nuco
+Lightning Network
+Reserve Bank of Australia
+Blockchain
+Deloitte Canada
+The Tapscott Group
+Commonwealth Superannuation Corporation
+11:FS
+Level39
+Faster Payments
+SWIFT
+Ripple
+Commonwealth Treasury
+Nasdaq
+SWIFT
+Tierion
+Univerity of Utah
+Paretix
+UBS
+JPMorgan Chase & Co.
+Barclays
+Innovate Finance
+SocietyOne
+CLS Bank
+
+WORLD ECONOMIC FORUM | 2016
+
+10
+
+Acknowledgements
+Project team and core team
+
+Project Team
+The “The future of financial infrastructure: An ambitious look at 
+how blockchain can reshape financial services” project team 
+includes the following individuals:
+
+Core Team
+The World Economic Forum expresses  its gratitude to the 
+following individuals on the project core team from Deloitte for 
+their contribution and support throughout the project:
+
+World Economic Forum Project Team
+Jesse McWaters, Project Lead, Disruptive Innovation in Financial 
+Services
+Giancarlo Bruno, Senior Director, Head of Financial Services 
+Industries
+Michael Drexler, Senior Director, Head of Investors Industries
+
+Professional Services Leadership from Deloitte
+Rob Galaski
+Soumak Chatterjee
+
+Vikas Singla
+Chris Talley
+Mayank Singhal
+Roberto Durscki
+
+Special Thanks for Contributions from
+Hanna Nilsson, Allianz
+Frank Oberholzner, Allianz
+
+WORLD ECONOMIC FORUM | 2016
+
+11
+
+Section 2
+
+Executive Summary
+
+WORLD ECONOMIC FORUM | 2016
+
+12
+
+Section 2.1
+
+Context and Approach
+
+WORLD ECONOMIC FORUM | 2016
+
+13
+
+Distributed ledger technology (DLT), more commonly called “blockchain”, has captured 
+the imaginations, and wallets, of the financial services ecosystem
+
+24+ countries currently 
+investing in DLT
+
+Global
+interest
+
+2,500+ patents filed over 
+the last 3 years
+
+90+ corporations have joined 
+blockchain consortia
+
+Research
+
+Bank 
+experimentation
+
+Consortium 
+efforts
+
+DLT activity
+
+Venture
+capital
+
+Central 
+banks
+
+80% of banks predicted to 
+initiate DLT projects by 2017
+
+Over US$ 1.4 billion in 
+
+investments over the past 3 years
+
+90+ central banks engaged 
+in DLT discussions worldwide
+
+Awareness of DLT has grown rapidly, but significant hurdles remain to large‐scale implementation
+
+An uncertain and unharmonized 
+regulatory environment
+
+Nascent collective 
+standardization efforts
+
+An absence of formal legal 
+frameworks
+
+WORLD ECONOMIC FORUM | 2016
+
+14
+
+This report aims to complement existing distributed ledger technology research by 
+providing a clear view into how financial service functions can be reimagined
+
+Past approaches
+
+Our approach
+
+Future approaches
+
+Top‐down approach
+
+Address pain‐points within select 
+financial service functions
+
+Bottom‐up approach
+
+Identify transformative potential 
+across all financial service functions
+
+Solution‐first methodology
+
+Identify current‐state issues and envision 
+future‐state through DLT capabilities
+
+Problem‐first methodology
+
+Understand business domains drive 
+adoption of DLT capabilities
+
+Technology focus
+
+Position advances as having significant 
+disruptive impact to business models
+
+Business‐process focus
+
+Question orthodoxies and accept that 
+DLT is one of many available tools
+
+The potential for future 
+approaches will be explored at 
+the conclusion of 
+Section 2: Executive summary
+
+Important elements covered within this report
+
+Important elements not covered within this report
+
+•
+
+•
+
+•
+
+This report presents nine use cases that highlight potential 
+applications, which participants can utilize to assess feasibility
+This business process‐level analyses articulate how to:
+o Overcome current‐state pain points through DLT
+o Drive dialogue around key critical conditions
+o Provide basis for quantitative analyses to be conducted
+This report identifies financial service orthodoxies that may be 
+called into question through distributed ledger technology
+
+•
+•
+
+•
+
+•
+
+This report does not cover real‐economy applications
+This report does not explore applications outside of financial 
+economies and their potential to foster financial inclusion
+This report does not evaluate the setup and transition costs 
+associated with a distributed ledger technology implementation
+This report does not predict implementation and technical 
+considerations
+
+WORLD ECONOMIC FORUM | 2016
+
+NOTE: Please reference Section 3: Use case deep‐dive approach to learn 
+more about our underlying focus and assumptions across our analysis.
+
+15
+
+This analysis was based on over 12 months of research, engaging industry leaders and 
+subject matter experts through interviews and multistakeholder workshops
+
+Received guidance from thought leaders 
+across global financial institutions
+
+Conducted interviews and solicited 
+input from subject matter experts
+
+Engaged leaders in academia, 
+government and regulation 
+
+Global workshops
+
+Five multistakeholder workshops at global financial hubs, with 200+ total participants, including 
+industry leaders, innovators, subject matter experts and regulators
+
+Singapore
+Oct. 2015
+
+New York, USA
+Nov. 2015
+
+London, UK
+Dec. 2015
+
+Davos, Switzerland 
+Jan. 2016
+
+Sydney, Australia
+Apr. 2016
+
+WORLD ECONOMIC FORUM | 2016
+
+16
+
+Section 2.2
+
+Key Findings
+
+WORLD ECONOMIC FORUM | 2016
+
+17
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+The World Economic Forum’s analysis has yielded six key findings regarding the 
+implications of distributed ledger technology (DLT) on the future of financial services
+
+Key findings
+
+DLT has great potential to drive simplicity and efficiency through the establishment of new financial services infrastructure 
+and processes
+
+DLT is not a panacea; instead it should be viewed as one of many technologies that will form the foundation of next‐
+generation financial services infrastructure
+
+Applications of DLT will differ by use case, each leveraging the technology in different ways for a diverse range of benefits
+
+Digital Identity is a critical enabler to broaden applications to new verticals; Digital Fiat (legal tender), along with other 
+emerging capabilities, has the ability to amplify benefits
+
+The most impactful DLT applications will require deep collaboration between incumbents, innovators and regulators, adding 
+complexity and delaying implementation
+
+New financial services infrastructure built on DLT will redraw processes and call into question orthodoxies that are 
+foundational to today ’s business models
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+These key findings are explored in depth in the following pages, based on the use case deep‐dives conducted across financial services. 
+
+WORLD ECONOMIC FORUM | 2016
+
+18
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Distributed ledger technology has great potential to drive simplicity and efficiency 
+through the establishment of new financial services infrastructure and processes
+
+The following six key value drivers for DLT were identified through the in‐depth examination of nine use cases from across financial 
+services.
+
+Value drivers
+
+Operational simplification
+
+DLT reduces / eliminates manual efforts required to perform reconciliation and resolve disputes
+
+Regulatory efficiency improvement
+
+DLT enables real‐time monitoring of financial activity between regulators and regulated entities
+
+Counterparty risk reduction
+
+DLT challenges the need to trust counterparties to fulfil obligations as agreements are codified and executed in a shared, 
+immutable environment
+
+Clearing and settlement time reduction
+
+DLT disintermediates third parties that support transaction verification / validation and accelerates settlement
+
+Liquidity and capital improvement
+
+DLT reduces locked‐in capital and provides transparency into sourcing liquidity for assets
+
+Fraud minimization
+
+DLT enables asset provenance and full transaction history to be established within a single source of truth
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+WORLD ECONOMIC FORUM | 2016
+
+19
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Distributed ledger technology is not a panacea; instead it should be viewed as one of many 
+technologies that will form the foundation of next‐generation financial services infrastructure
+
+Over the last 50 years, technology innovation has been fundamental to financial services industry transformation. Today, multiple 
+technologies poised to drive the next wave of financial services innovation are converging in maturity.
+
+1970s
+
+s
+
+1980s
+
+1990s
+
+2000s
+
+2010s
+
+Emerging technologies
+
+future
+
+1960s
+
+s
+
+r
+r
+
+o
+o
+
+t
+
+s
+c
+s
+
+c
+
+u
+e
+d
+o
+n
+o
+p
+o
+
+c
+
+r
+
+i
+
+r
+
+c
+
+m
+m
+
+e
+S
+
+i
+
+e
+
+m
+
+a
+
+r
+f
+
+n
+
+i
+
+a
+
+M
+
+s
+
+l
+
+i
+
+s
+
+m
+
+a
+n
+C
+P
+d
+e
+n
+T
+a
+
+r
+
+s
+
+k
+
+r
+
+o
+
+w
+
+t
+
+l
+
+a
+
+c
+
+o
+e
+n
+
+L
+
+t
+
+e
+n
+
+r
+
+e
+
+t
+
+n
+
+I
+
+s
+
+e
+
+c
+
+t
+r
+
+i
+
+a
+v
+e
+S
+d
+
+m
+
+e
+
+l
+i
+
+b
+o
+
+M
+
+Biometrics
+
+Cloud computing
+
+Cognitive computing
+
+Distributed ledger
+technology
+Machine learning /
+predictive analytics
+
+Quantum computing
+
+Robotics
+
+Allowed the 
+replacement of 
+physical recording 
+by digital data
+
+Enabled batch 
+overnight 
+processing
+
+Automated 
+banks 
+and branches 
+and facilitated 
+offline remote 
+banking
+
+Enabled data 
+centres,
+intranets 
+and corporate 
+systems
+
+Facilitated the 
+global exchange of 
+data and enabled a 
+series of 
+international 
+businesses
+
+Created a new 
+medium to interact 
+with clients and 
+collect data
+
+Spearheaded 
+frictionless 
+payments
+
+Credit
+cards
+
+Messaging
+services (e.g. SWIFT)
+
+ATMs
+
+Electronic
+trading
+
+Digital 
+banking
+
+DLT is one of many transformative new 
+technologies that will shape future financial 
+services infrastructure and should be seen as 
+part of a toolbox
+
+WORLD ECONOMIC FORUM | 2016
+
+20
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Applications of distributed ledger technology will differ by use case, each leveraging the 
+technology in different ways for a diverse range of benefits
+
+Examples of DLT value drivers 
+and benefits
+
+Use case
+
+Trade 
+finance
+
+Automated 
+compliance
+
+Global 
+payments
+
+Value driver
+
+Benefits
+
+Operational simplification
+
+Enables real‐time multi‐party tracking and management of 
+letters of credit, and enables faster automated settlement
+
+Regulatory efficiency 
+improvement
+
+Provides faster and more accurate reporting by automating 
+compliance processes that draw on immutable data sources
+
+Settlement time reduction
+
+Enables the near real‐time point‐to‐point transfer of funds 
+between financial institutions (FIs), removing friction and 
+accelerating settlement 
+
+Asset 
+rehypothecation
+
+Liquidity and capital 
+improvement
+
+Provides market participants with an improved line of sight into 
+assets, enabling improved risk evaluation and decision‐making 
+
+WORLD ECONOMIC FORUM | 2016
+
+21
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Digital Identity is a critical enabler to broaden applications to new verticals; Digital Fiat 
+(legal tender), along with other emerging capabilities, has the ability to amplify benefits
+
+Digital identity
+
+Digital fiat
+
+Future innovations
+
+Correct identity information is critical to 
+ensuring financial transactions are accurate 
+and compliant – but integrating physical 
+identity protocols with DLT creates frictions 
+and increases the potential for errors
+
+DLT systems are frequently denominated 
+with tokens that are native to the system –
+but users of formal financial infrastructure 
+will demand high levels of liquidity 
+between assets on the system and fiat 
+currency
+
+e
+
+t
+
+a
+
+t
+
+s
+
+t
+
+n
+e
+
+r
+r
+
+u
+C
+
+The advent of the fourth industrial 
+revolution is rapidly altering the financial 
+system and broader economy through the 
+exponential acceleration of innovation
+
+l
+
+a
+
+e
+b
+
+r A fully digital system for storing and 
+transferring identity attributes could be 
+directly integrated into distributed financial 
+infrastructure
+
+n
+e
+y
+
+t
+
+i
+l
+i
+
+b
+
+a
+
+p
+
+a
+C
+
+f
+
+t
+
+s • Faster and accurate anti‐money 
+laundering (AML) and know‐your‐client 
+(KYC) processes
+• Seamless customer onboarding
+• Improved counterparty matching
+
+e
+n
+e
+b
+e
+
+u
+
+r
+
+t
+
+i
+
+u
+
+Distributed fiat currencies issued by central 
+banks could be employed within 
+distributed financial infrastructure, 
+ensuring the availability of liquidity even in 
+the event of systemic instability
+
+Opportunities for integration may emerge 
+between distributed financial 
+infrastructure and a range of innovations, 
+such as artificial intelligence or the rapidly 
+evolving internet of things
+
+• Settlement to liquid cash‐equivalent 
+tokens issued by a central bank
+• Elimination of the need for an inefficient 
+bridge between cash and new financial 
+infrastructure
+
+?
+
+The potential benefits of these integrations
+are highly uncertain
+
+F
+
+WORLD ECONOMIC FORUM | 2016
+
+22
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+The most impactful DLT applications will require deep collaboration between 
+incumbents, innovators and regulators, adding complexity and delaying implementation
+
+Updating financial infrastructure through DLT will require significant time and investment. Three key observations must be taken into 
+consideration for this implementation to be successful. 
+
+Key observations and insights
+
+Replacing existing financial 
+infrastructure by DLT will 
+require significant time and 
+investment
+
+Infrastructure 
+replacement
+
+Competing 
+interests
+
+Aligning key stakeholders for 
+collective action will require 
+difficult balancing of interests in 
+the face of diverging interests 
+and zero‐sum games 
+
+Implementing new financial infrastructure will 
+require changes to existing regulations, 
+standards of practice, and the creation of new 
+legal and liability frameworks. Specifically, the 
+implementation of smart contracts will 
+require additional stakeholder alignment and 
+governance considerations
+
+Legal, regulatory and 
+governance frameworks
+
+Achieving all three key observations will 
+delay large‐scale, multi‐party DLT 
+implementations in highly regulated 
+markets. However, if successful, these 
+could enable scalable infrastructure 
+fabrics, industry‐wide solutions and 
+standardized processes
+
+WORLD ECONOMIC FORUM | 2016
+
+23
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+a
+
+b
+
+c
+
+New financial services infrastructure built on DLT will redraw processes and call into 
+question orthodoxies that are foundational to today ’s business models
+
+Assumptions that are central to today ’s financial business models will be impacted both intentionally and unintentionally by the shift to 
+distributed financial infrastructure, requiring incumbents to adjust their business practices in response.
+
+Current‐state assumptions
+
+Transformative characteristics of 
+distributed infrastructure
+
+Implications for market participants 
+within financial services
+
+Information silos drive the need for detailed 
+reconciliation activities
+
+Lack of a single version of the truth and audit 
+trails creates arbitrage concerns
+
+Asymmetric information between market 
+participants drives the proliferation of 
+central authorities
+
+Lack of transparency increases regulations on 
+FIs
+
+a) immutability
+
+b) transparency
+
+Eliminates need for 
+reconciliation
+
+Provides historical single 
+version of the truth
+
+Eliminates imbalance of 
+information among market 
+participants
+
+Increases cooperation 
+between regulators and 
+regulated entities
+
+Lack of trust between counterparties creates 
+the need for central authority oversight in 
+contract execution
+
+c) autonomy
+
+Ensures agreements are 
+executed to agreed upon 
+business outcomes
+
+Disintermediates supporting 
+entities established to 
+resolve disputes
+
+WORLD ECONOMIC FORUM | 2016
+
+24
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+a
+
+Distributed ledger technology will question the need for individual books of record 
+through immutable and distributed record‐keeping
+
+DLT provides transaction immutability, which is a key requirement for eliminating the need for an enforcer of trust in the ecosystem. 
+Tamper‐proof distributed data enables an environment in which trust is not an issue and allows counterparties to operate with a single 
+version of the truth. 
+
+Current state
+
+Traditionally, asset and transaction information was stored within physical books to independently reference previous actions internally 
+and externally. As technologies advanced, physical books were translated into digital ledgers
+
+Today, every FI maintains its own digital “book of record” repository
+
+As a result, central intermediaries proliferate in the industry, providing unbiased reconciliation services to facilitate transactions between 
+counterparties without requiring them to trust each other. For transactions executed internal to the organization, reconciliation is 
+performed within lines of businesses
+
+DLT transformative potential
+
+At its core, DLT is a growing repository of transactions 
+organized in chronological blocks where the technology 
+intrinsically makes changes to previous transactions 
+functionally impossible
+
+DLT has been designed to replicate data among 
+participating nodes in real time, ensuring all parties 
+operate off of a single version of the truth at all times
+
+Financial services implications
+
+Challenges information silos between market 
+participants and eliminates the need for inter‐firm 
+reconciliation
+
+Disintermediates central intermediaries and reduces the 
+fear of arbitrage within the ecosystem
+
+Enables audit trails to be established for assets and 
+transactions with a significant reduction in disputes
+
+WORLD ECONOMIC FORUM | 2016
+
+25
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+b
+
+Distributed ledger technology will significantly increase transparency between market 
+participants
+
+Infrastructure must be capable of sharing information among all market participants. DLT builds upon a single version of the truth to 
+provide transparency for historical and real‐time transactions.
+
+Current state
+
+The age and fragmentation of large parts of existing financial infrastructure have placed limits on the degree of transparency these 
+systems are able to offer, creating opportunities for information asymmetry
+
+As a result, some actors within the ecosystem have gained competitive advantages through the imbalance of information
+
+While some entities profit from this state of information, others experience suboptimal performance and spend excessive resources on 
+risk hedging and liquidity guarantees
+
+DLT transformative potential
+
+The “default setting” of DLT is to provide full 
+transparency into transactions
+
+DLT has the potential to transform existing notions of 
+private records, in which transaction details are only 
+known to counterparties
+
+DLT can promote the creation of a public record of 
+activity in the ecosystem to which all market participants 
+have access in real time
+
+Financial services implications
+
+Challenges existing competitive advantage models that 
+leverage information asymmetry
+
+Reduces the role of supporting entities (e.g. insurers) 
+that profit from opacity within the ecosystem
+
+Promotes discourse in the ecosystem where 
+transparency best serves market participants vs where 
+opacity is needed (e.g. secure personally identifiable 
+information data)
+
+WORLD ECONOMIC FORUM | 2016
+
+26
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+b
+
+Distributed ledger technology will have implications for the cost of leverage by reducing 
+information asymmetry between borrowers and lenders
+
+DLT enables improved visibility into the ways in which assets are being employed through the tokenization of assets and a public record 
+of transactions.
+
+Current state
+
+In a wide variety of transactions types, FIs may loan or pledge assets to provide or receive access to credit; however, limited visibility 
+exists into how many times an asset has been loaned or pledged 
+
+This limited line‐of‐sight into liens against an asset enables that asset to be used to secure multiple debts by the borrowers, often in 
+excess of nominal asset value
+
+This opacity causes lenders to rely upon reputational factors and assessments by supporting entities such as rating agencies
+
+DLT transformative potential
+
+DLT can tokenize individual assets (e.g. property and 
+bonds) on a shared and trusted ledger to establish 
+provenance
+
+DLT can provide visibility into assets and associated 
+liabilities based on transactional history while increasing 
+the efficiency of credit transactions
+
+Financial services implications
+
+Promotes visibility of assets and associated 
+liens/ownerships to quantify risk and increase pricing 
+accuracy
+
+Reduces access to capital for borrowers by limiting the 
+ability to use the same asset to secure leverage from 
+multiple parties
+
+Challenges the role of rating entities in quantifying risks
+
+WORLD ECONOMIC FORUM | 2016
+
+27
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+b
+
+Distributed ledger technology will transform the relationship between regulators and 
+regulated entities, reducing frictions and improving outcomes
+
+Transactional data must provide granularity and accuracy to regulators in order to monitor and comply with regulatory obligations. DLT 
+facilitates transparency between regulators and regulated entities through a shared repository with real‐time access to data.
+
+Current state
+
+Regulated entities and regulators are increasingly challenged to support information requirements to certify compliance
+
+While regulated entities are committed to enable transparency, significant costs and risks are associated with current systems and 
+business processes
+
+As complexity within the ecosystem and financial instruments increases, the trade‐off between transparency and cost becomes a 
+balancing act
+
+DLT transformative potential
+
+DLT can become a shared data repository between 
+regulators and regulated entities, breaking down 
+organizational silos
+
+DLT has the potential to allow subsets of transactional 
+data to be effortlessly shared with regulators in real‐time
+
+DLT can facilitate ‘regulatory‐inclusive’ business models, 
+in which regulators utilize smart contracts to verify 
+transactions / deals in real‐time
+
+Financial services implications
+
+Transforms compliance from post‐transaction 
+monitoring to on‐demand and immediate monitoring
+
+Improves capability of regulators to fulfil their mandate 
+of ensuring the legality, security and stability of financial 
+markets
+
+Improves efficiency for regulators to monitor trading 
+venues such as over‐the‐counter markets and dark pools
+
+Reduces regulatory compliance costs significantly
+
+WORLD ECONOMIC FORUM | 2016
+
+28
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+c
+
+Distributed ledger technology will reduce the need for intermediaries by providing 
+autonomous execution capabilities
+
+Financial agreements are enforced via a complex set of business rules and processes to ensure obligations are fulfilled by counterparties. 
+DLT provides the ability to autonomously execute these conditions in a shared and trusted environment.
+
+Current state
+
+All transactions involving at least two market participants are governed by agreements that highlight business outcomes based on
+obligations that must be met by each counterparty
+
+The responsibility for ensuring these agreements are enforcements dependent on legal and regulatory frameworks
+
+As a result, the complexity of these agreements has given rise to intermediaries that mediate disputes between parties and resolve 
+deviations within agreed upon outcomes
+
+DLT transformative potential
+
+DLT can codify financial agreements in a shared platform 
+and guarantee execution based on mutually agreed 
+conditions, limiting unilateral counterparty actions
+
+DLT can eliminate the manual effort required to support 
+the execution of financial agreements and can accelerate 
+business outcomes
+
+Financial services implications
+
+Reduces counterparty risk due to the reduced need to 
+trust counterparties’ willingness or ability to fulfil 
+obligations
+
+Disintermediates entities that currently mediate 
+disputes and resolve business outcomes
+
+WORLD ECONOMIC FORUM | 2016
+
+29
+
+Additional research remains to assess distributed ledger technology feasibility, quantify 
+benefits and analyze implementation details
+
+Past approaches
+
+Our approach
+
+Future approaches
+
+Top‐down approach
+
+Bottom‐up approach
+
+Solution‐first methodology
+
+Problem‐first methodology
+
+Technology focus
+
+Business‐process focus
+
+Quantitative approach
+
+Conduct DLT cost‐benefit analysis 
+across financial services functions
+
+Feasibility‐centric methodology
+
+Develop implementation roadmap to 
+achieve DLT transformative potential
+
+Stakeholder alignment focus
+
+Determine if market participants are 
+interested in achieving DLT benefits
+
+Important questions to be answered moving forward
+
+•
+•
+•
+•
+
+Cost‐benefit analyses need to be conducted to determine the financial viability of distributed ledger technology
+Roadmaps need to be developed to achieve market participant collaboration and establish standards
+Governance models, backed by societal‐level discussions, need to be envisioned to support technology accountability
+Regulatory, legal and jurisdictional‐specific tax frameworks need to be established and well‐understood
+
+To conclude our executive summary, the following page will expand on our approach and help navigate across our use case deep‐dives.
+
+WORLD ECONOMIC FORUM | 2016
+
+NOTE: Please reference Section 3: Use case deep‐dive approach to learn 
+more about our underlying focus and assumptions across our analysis.
+
+30
+
+This report provides comprehensive, business‐process‐level views of distributed ledger 
+technology implementations within each financial services function
+
+This report ’s detailed findings are designed to be consumed according to business affinity and interest. The table below shows the 
+location of each use case, which can be read independently of each other. 
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Context and Approach
+
+An overview of current global DLT activity and the analysis methodology
+
+Executive Summary
+
+A summary of the use case deep‐dives through six key findings
+
+Use Case Deep‐Dive Approach
+
+An introduction of selected use cases, the analysis structure and high‐potential use case characteristics
+
+Use Case Deep‐Dive Summaries
+
+A summary of the key findings of each use case organized by financial services function
+
+Use Case Deep‐Dive Modules
+
+Nine business‐process‐level analyses of a use case’s current state and transformed future state enabled by DLT
+Each use case can be read individually according to the table below:
+
+Global Payments
+Trade Finance
+Proxy Voting
+
+46
+74
+101
+
+P&C Claims Processing
+Contingent Convertible Bonds
+Asset Rehypothecation
+
+56
+83
+110
+
+Syndicated Loans
+Automated Compliance
+Equity Post‐Trade
+
+WORLD ECONOMIC FORUM | 2016
+
+65
+92
+119
+
+31
+
+Section 3
+
+Use Case Deep‐Dive Approach
+
+WORLD ECONOMIC FORUM | 2016
+
+32
+
+Use cases for this report were identified across each function within financial services
+
+Leveraging the financial services innovation taxonomy within the World Economic Forum’s The Future of Financial Services 2015 report, 
+the implementation of DLT is considered across each function of financial services.
+
+Disruptive innovation 
+in Financial Services, 
+June 2015
+
+DLT use cases in 
+Financial Services, 
+July 2016
+
+Use case portfolio selection criteria
+
+1. Representation of DLT implementations across various asset classes across multiple subsectors 
+2. Demonstration of scenarios where DLT must be implemented in a networked or single entity environment
+3. Consideration of implementations that could be justified both on financial and non‐financial/strategic grounds
+
+WORLD ECONOMIC FORUM | 2016
+
+33
+
+Use case deep‐dives were conducted and summarized in a standardized format
+
+Use case deep‐dives that follow a standardized format were conducted to strike a balance between the possible and practical in order to 
+consider how the structure of financial services might be transformed by DLT.
+
+Introduction
+
+Current state
+
+Future state
+
+Critical conditions
+
+Conclusion
+
+Use case deep‐dive structure
+
+Overview of 
+ecosystem players 
+and statistics
+
+Current‐state 
+process description 
+and pain points 
+analysis
+
+Future‐state 
+process description 
+and benefits 
+analysis
+
+The goals
+
+Key barriers that 
+must be met for 
+DLT to be 
+successful
+
+Summary, outlook 
+and unanswered 
+questions of use 
+case deep‐dive
+
+1
+
+Educate the community on the key 
+DLT value drivers through business‐
+process‐level use cases
+
+2
+
+Highlight key conditions that must 
+be met to implement new, 
+distributed financial services 
+infrastructure
+
+3
+
+Support existing conversations to 
+implement DLT and initiate new 
+discussions elsewhere
+
+Throughout the use case deep‐dives, a broad set of assumptions regarding DLT had to be developed.
+
+WORLD ECONOMIC FORUM | 2016
+
+34
+
+Each use case deep‐dive maintained a consistent focus and set of assumptions
+
+Our focus
+
+•
+•
+
+• Understanding the direct impacts that DLT can have at the business‐process level on FIs and other market participants
+Analysing use cases that are broadly applicable in global financial markets, occasionally utilizing US regulations as reference points
+Identifying critical conditions for the successful implementation of DLT across the following four categories:
+Stakeholder alignment: achievement of shared benefits
+Regulatory: compliance‐related requirements
+Technology: implementation dependencies
+Governance: administration and liability oversight
+
+Our assumptions
+
+A note on security considerations
+
+1. We assume that enabling capabilities (e.g. digital identity) are 
+available to be incorporated, in conjunction with distributed 
+ledger technology, to meet each use case’s goals securely and 
+effectively
+2. We assume that distributed ledger solutions implemented in 
+the near future will be scalable to meet volume requirements 
+(including, in some cases, billions of transactions)
+3. We assume data sources that are accessible by distributed 
+ledgers and/or facilitate autonomy cannot be compromised
+4. We understand that benefits realized will be contingent on 
+specific business models for each FI and jurisdictional 
+uniqueness
+
+Similar to any technological innovation, DLT comes with a set of 
+risks that must be considered:
+1. Ensuring that distributed ledgers are secure and safeguarded 
+against errors is paramount to the long‐term success of the 
+technology and should not be treated the same as 
+fundamentally questioning the strength of the protocol
+2. While smart contracts enable autonomous agreement 
+execution between parties, they rely on architects and security 
+experts to build business rules that prevent malicious 
+behaviour, complete thorough end‐to‐end testing and verify all 
+code
+3. Meticulous IT controls must be in place to detect potential gaps 
+in security across all the inputs, components and outputs of DLT
+
+WORLD ECONOMIC FORUM | 2016
+
+35
+
+Through the deep‐dives, a number of characteristics were discovered that should be 
+utilized to identify other high‐potential use cases in financial services
+
+Through the examination of nine use cases, a set of common characteristics were identified that appeared to be shared by high‐
+potential applications of DLT
+
+Characteristics of high‐potential use cases 
+
+Example
+
+Shared repository
+
+A shared repository of information is 
+used by multiple parties
+
+Ledger that stores financial assets in which an owner and owned assets 
+are tracked and shared with other internal/external parties (e.g. 
+regulators and other geographical units)
+
+Multiple writers
+
+More than one entity generates 
+transactions that require 
+modifications to the shared 
+repository
+
+Minimal trust
+
+A level of mistrust exists between 
+entities that generate transactions
+
+Payments system collectively managed and maintained by a small group 
+of banks, but each bank has millions of end users transacting with their 
+bank
+
+Multiple parties within a trade finance arrangement (e.g. importer, 
+exporter, issuing bank, receiving bank, correspondent banks and 
+customs) that do not “trust” each other and, therefore, institute layers of 
+verification and impose collateral requirements
+
+Intermediaries
+
+One (or multiple) intermediary or a 
+central gatekeeper is present to 
+enforce trust
+
+Removing and/or reducing the importance of a central intermediary, 
+whose primary role is to provide “trust” to the post‐trade ecosystem
+
+Transaction 
+dependencies
+
+Interaction or dependency between 
+transactions is created by different 
+entities
+
+A situation in which Alice needs to send funds to Bob, then Bob needs to 
+send funds to Charlie. Bob’s transaction is dependent on Alice’s 
+transaction, and one cannot verify Bob’s transaction without checking 
+Alice’s first
+
+WORLD ECONOMIC FORUM | 2016
+
+36
+
+Section 4
+
+Use Case Deep‐Dive Summaries
+
+WORLD ECONOMIC FORUM | 2016
+
+37
+
+Reading guide
+
+This section provides a summary of the findings, divided by function and DLT use cases within the function. For each use case, the key 
+players and impact are summarized, the critical conditions to be successful are identified and the possible outcomes are examined.
+
+Function grouping
+
+DLT use case name
+
+High‐level summary of potential DLT benefits
+
+Key stakeholders involved within use case
+
+Predicted financial services outcomes if DLT 
+is successfully implemented
+
+Identified conditions that must be met for 
+DLT to achieve determined benefits
+
+WORLD ECONOMIC FORUM | 2016
+
+38
+
+Use cases | Payments
+
+Global Payments
+
+Summary
+Conducting international money 
+transfers through DLT could 
+provide real‐time settlement and 
+reduce costs, enabling new 
+business models (e.g. 
+micropayments), and institute 
+newer models of regulatory 
+oversight
+
+Money Sender
+and Beneficiary Money Transfer
+Operator
+Regulator
+
+Local Clearing 
+Network
+
+SWIFT
+
+Sender
+Bank
+Beneficiary
+Bank
+
+Correspondent
+Bank
+
+Implications for FIs
+• Real‐time settlement of international money transfers can increase 
+profitability by reducing liquidity and operational costs
+• Utilizing DLT will enable direct interaction between sender and 
+beneficiary banks, and eliminate the role of correspondents
+• Smart contracts can capture obligations and drive reporting, 
+minimizing operational errors and accelerating outcomes
+Critical conditions for implementation
+• Ensuring compliance via standard KYC processes
+• Binding legality of cryptographic hash to exchange value
+• Adopting standards and ensuring interoperability
+
+WORLD ECONOMIC FORUM | 2016
+
+39
+
+Use cases | Insurance
+
+P&C Claims Processing
+
+Summary
+Facilitating claims management 
+for property and casualty (P&C) 
+insurers on DLT can automate 
+processing through smart 
+contracts, improve assessment 
+through historical claims 
+information and reduce potential 
+for fraudulent claims
+
+Insuree
+
+Insurer
+
+Supporting
+Data Sources
+
+Broker
+
+Reinsurer
+
+Regulator
+
+Implications for FIs
+• Smart contracts can automate claims processing through third‐party 
+data sources and codification of business rules
+• DLT can drive reductions in operating costs through process 
+simplification
+• Storing historical claims information on the ledger will enable 
+insurers to identify suspicious behaviour and improve assessment
+Critical conditions for implementation
+• Building a comprehensive set of asset profiles and history
+• Adopting standards for relevant claims data
+• Providing a legal and regulatory framework
+
+WORLD ECONOMIC FORUM | 2016
+
+40
+
+Use cases | Deposits and Lending
+
+Syndicated Loans
+
+Trade Finance
+
+Summary
+Utilizing DLT to automate 
+syndicate formation, 
+underwriting and the 
+disbursement of funds (e.g. 
+principal and interest payments) 
+can reduce loan issuance time 
+and operational risk
+
+Regulator
+
+Lead Arranger
+
+Requesting 
+Entity
+
+Syndicate
+
+Summary
+Utilizing DLT to store financial 
+details can facilitate the real‐time 
+approval of financial documents, 
+create new financing structures, 
+reduce counterparty risk and 
+enable faster settlement
+
+Correspondent
+Banks
+
+Customs
+
+Freight
+
+Importer
+
+Inspection
+Company
+
+Import
+Bank
+
+Exporter
+
+Export
+Bank
+
+Implications for FIs
+• Forming syndicates through smart contracts can increase speed and 
+provide regulators with a real‐time view to facilitate AML/KYC
+• Performing risk underwriting through DLT can substantially reduce 
+the number of resources required to perform these activities
+• Smart contracts can facilitate real‐time loan funding and automated 
+servicing activities without the need for intermediaries
+Critical conditions for implementation
+• Building risk rating framework for syndicate selection
+• Standardizing diligence and underwriting templates
+• Providing access to financial details on the distributed ledger
+
+Implications for FIs
+• Storing financial details on the ledger can automate the creation 
+and management of credit facilities through smart contracts
+• DLT can improve real‐time visibility to the transaction to better 
+institute regulatory and customs oversight
+• Utilizing DLT will enable direct interaction between import and 
+export banks, and eliminate the role of correspondent banks
+Critical conditions for implementation
+• Providing transparency into trade finance agreements
+• Enabling interoperability with legacy platforms
+• Rewriting regulatory guidance and legal frameworks
+
+WORLD ECONOMIC FORUM | 2016
+
+41
+
+Use cases | Capital Raising
+
+Contingent Convertible (“CoCo”) Bonds
+
+Summary
+Utilizing smart contracts to 
+automate regulator reporting can 
+minimize the need for point‐in‐
+time stress tests, reduce market 
+volatility and, ultimately, increase 
+“CoCo” bond issuance
+
+Regulator
+
+Financial 
+Institution
+
+Investor
+
+Implications for FIs
+• Tokenizing bond instruments when soliciting capital from investors 
+can enable them to make informed, data‐driven decisions
+• Smart contracts can alert regulators when loan absorption needs to 
+be activated, minimizing need for point‐in‐time stress tests
+• Providing investors with transparency into loan absorption can 
+reduce uncertainty currently associated with “CoCo” bonds
+Critical conditions for implementation
+• Standardizing attributes for soliciting investments
+• Streamlining trigger calculations across FIs
+• Developing processes to act on real‐time trigger notifications
+
+WORLD ECONOMIC FORUM | 2016
+
+42
+
+Use cases | Investment Management
+
+Automated Compliance
+
+Proxy Voting
+
+Summary
+Utilizing DLT to store financial 
+information can eliminate errors 
+associated with manual audit 
+activities, improve efficiency, 
+reduce reporting costs and, 
+potentially, support deeper 
+regulatory oversight in the future
+
+Financial 
+Institution
+
+Regulator
+
+Accountant
+
+Auditor
+
+Internal
+Revenue
+Service
+
+Federal
+Reserve
+
+Summary
+Distributing proxy statements via 
+DLT and counting votes via smart 
+contracts may improve retail 
+investor participation, automate 
+the validation of votes and, 
+potentially, enable personalized 
+analyses in the future
+
+Regulator
+
+Corporation
+
+Third Party/
+Intermediaries
+
+Investor
+
+•
+
+Implications for FIs
+• Storing financial information on the ledger provides immutable, 
+real‐time updates and facilitates automated review
+• Executing reporting activities through smart contracts can facilitate 
+the automated creation of quarterly and annual findings
+In the future, DLT can seamlessly execute and automate compliance 
+activities (e.g. Comprehensive Capital Assessment Review)
+Critical conditions for implementation
+• Providing compartmentalized access to data
+• Automating faster and efficient enforcement of regulations
+• Enabling interoperability with legacy platforms
+
+Implications for FIs
+• Distributing proxy statements via the distributed ledger can reduce 
+costs associated with printing and mailing
+• Smart contracts can automate the validation of votes and increase 
+the transparency of counting votes (e.g. end‐to‐end confirmation)
+• Storing proxy statements on the ledger may enable investors to 
+conduct personalized, automated analyses in the future
+Critical conditions for implementation
+• Storing investment records on a distributed ledger
+Integrating legacy voting mechanisms into tokens
+• Collaborating across actors to ensure success
+
+•
+
+WORLD ECONOMIC FORUM | 2016
+
+43
+
+Use cases | Market Provisioning
+
+Asset Rehypothecation
+
+Equity Post‐Trade
+
+Summary
+Utilizing DLT to track and manage 
+asset rehypothecation via smart 
+contracts can enable the real‐
+time enforcement of regulatory 
+control limits across the financial 
+system and reduce settlement 
+time
+
+Broker/
+Dealer
+
+Regulator
+
+Buying
+Investor
+
+Selling
+Investor
+
+Summary
+Utilizing DLT and smart contracts 
+to facilitate post‐trade activities 
+can disintermediate processes, 
+reduce counterparty and 
+operational risk and, potentially, 
+pave the way for reduced 
+settlement time
+
+Custodian 
+Bank
+
+Investor
+
+Exchange
+
+Central
+Clearing 
+Counterparty
+
+Central
+Securities
+Depository
+
+Implications for FIs
+• Rating counterparties based on transaction history stored on DLT 
+can enable investors to improve investment decisions
+• Smart contracts enable the real‐time reporting of asset history and 
+the enforcement of regulatory constraints
+• Facilitating clearing and settlement processes via smart contracts 
+can eliminate need for intermediaries and reduce settlement time
+Critical conditions for implementation
+• Tokenizing assets using a shared standard
+• Fostering engagement among the financial ecosystem
+• Architecting solution to manage over‐the‐counter (OTC) templates
+
+Implications for FIs
+• Conducting clearing activities through the ledger can automate 
+processes, reduce settlement time and lower counterparty risk
+• Smart contracts can simultaneously transfer equity and cash in real 
+time, reducing the likelihood of errors impacting settlement
+• Disintermediating clearing, settlement and servicing processes can 
+reduce costs and enable capital & liquidity management efficiencies
+Critical conditions for implementation
+Incorporating “net transaction” benefits within settlement
+• Achieving multistakeholder alignment across participants
+• Standardizing reference data utilized to match trades
+
+•
+
+WORLD ECONOMIC FORUM | 2016
+
+44
+
+Section 5
+
+Use Case Deep‐Dive Modules
+
+WORLD ECONOMIC FORUM | 2016
+
+45
+
+Section 5.1
+
+Payments: Global Payments
+
+WORLD ECONOMIC FORUM | 2016
+
+46
+
+Global Payments
+Introduction
+
+Current‐state background
+A payment refers to the process of transferring value from one individual or organization to another in exchange for goods, services 
+or the fulfillment of a legal obligation. Global payments are an expansion of that concept, in which payments can be completed 
+across geographical borders through multiple fiat currencies.
+
+Key ecosystem stakeholders
+
+Overview
+
+Money Sender
+and Beneficiary
+
+Regulator
+
+Local Clearing 
+Network
+
+SWIFT
+
+Correspondent Bank
+
+Money Transfer
+Operator
+
+Sender
+Bank
+
+Beneficiary
+Bank
+
+•
+
+Business is growing fast and steadily : The global payments volume is 
+increasing at an approximate rate of 5% yearly worldwide and will reach 
+an estimated US$ 601 billion in 2016.1 Revenue is growing in all regions, 
+especially in Asia where China will likely surpass Brazil as the third largest 
+payment area after the United States and the Eurozone2, 3
+Profit margins are high: The average cost to the final customer (money 
+sender) is 7.68% of the amount transferred
+• Newcomers are arriving: Non‐bank transactions are reaching up to 10% 
+of the total payments volume2
+
+•
+
+The focus of this use case is on low value−high volume payments from an 
+individual/business to an individual via banks or money transfer operators. 
+These transfers are more commonly known as remittances
+
+WORLD ECONOMIC FORUM | 2016
+
+1. Migration and Remittances Factbook 2016, World Bank, 2016.
+2. Top 10 Trends in Payments in 2016, Capgemini, 2016.
+3. Global Payments 2015: A Healthy Industry Confronts Disruption, McKinsey & Company, 2015.
+
+47
+
+Global Payments
+Key market participants
+
+Market participant
+
+Money Sender and 
+Beneficiary
+
+Role
+
+Core
+
+Description
+
+An individual or business wishing to transfer money (sender) to another individual 
+or business (beneficiary) internationally
+
+Money Transfer Operator
+
+Core
+
+Non‐bank companies specialized in international money transfer through a global 
+network of agents
+
+Sender Bank
+
+Beneficiary Bank
+
+Core
+
+Core
+
+A sender’s preferred bank that offers international money transfer
+
+A bank used by the beneficiary to receive funds
+
+Correspondent Bank
+
+Supporting
+
+A bank that has access to foreign exchange (FX) corridors and facilitates the 
+transfer (via nostro accounts and SWIFT)
+
+SWIFT
+
+Supporting
+
+The global member‐owned cooperative provider of secure financial messaging and 
+settlement services
+
+Local Clearing Network
+
+Supporting
+
+The national interbank network that allow financial messaging/settlement (e.g. 
+ACH, SPB and Zengin)
+
+Regulator
+
+Supporting
+
+Central banks and monetary authorities that determine and monitor adherence to 
+KYC and AML standards
+
+WORLD ECONOMIC FORUM | 2016
+
+48
+
+Global Payments
+Current‐state process depiction
+
+Initiate relationship
+
+Transfer money
+
+Deliver funds
+
+Act post payment
+
+Perform KYC
+
+Process funds
+
+Track transfer
+
+1
+
+Sender
+
+Sender
+bank
+
+Money
+transfer
+operator
+
+2a
+
+2b
+
+SWIFT
+
+Local clearing
+network
+
+Local clearing
+network
+
+Correspondent
+bank
+
+4
+
+Perform KYC
+
+Pay funds
+
+5
+
+Beneficiary
+bank
+
+Money
+transfer
+operator
+
+Beneficiary
+3
+
+All banks
+
+Money
+transfer
+operator
+
+Periodic
+reports
+
+6
+
+Regulator
+
+Current‐state process description
+
+1
+
+Sender needs to send money to 
+another country and 
+approaches a bank or money 
+transfer operator, which does 
+the following:
+‐ Performs AML/KYC 
+activities
+‐ Collects funds and fees
+‐ Confirms and supports 
+transfer inquiries/disputes
+
+2a
+
+The bank or money transfer 
+operator will move money across 
+borders through either of the 
+following mechanisms:
+‐ Utilizes SWIFT network (part of 
+SWIFT network)
+‐ Facilitates transfer via 
+correspondent banks (not part 
+of SWIFT network)
+* Transactions can either be 
+“netted” or initiated per‐transaction
+
+2b
+
+3
+
+4
+
+5
+
+The beneficiary is notified and 
+approaches a bank or money 
+transfer operator
+Depending on the pre‐existing 
+relationship, KYC may be 
+performed by the bank or 
+money transfer operator 
+The amount due in local 
+currency is paid
+
+6
+
+Periodically, according to local 
+regulations, the bank and 
+money transfer operator will 
+provide reports to regulators
+containing transaction details 
+(e.g. sender and beneficiary ID, 
+currencies, transferred amount 
+and timestamps)
+
+WORLD ECONOMIC FORUM | 2016
+
+49
+
+Global Payments
+Current‐state pain points
+
+Initiate relationship
+
+Transfer money 
+
+Deliver funds
+
+Act post payment
+
+Perform KYC
+
+Process funds
+
+Track transfer
+
+1
+
+2
+
+Sender
+
+Sender
+bank
+
+Money
+transfer
+operator
+
+3
+
+SWIFT
+
+Local clearing
+network
+
+Local clearing
+network
+
+Beneficiary
+bank
+
+6
+
+Perform KYC
+
+Pay funds
+
+Beneficiary
+
+4
+5
+Correspondent
+bank
+
+Money
+transfer
+operator
+
+Current‐state pain points
+
+All banks
+
+Money
+transfer
+operator
+
+7
+
+Periodic
+reports
+
+Regulator
+
+1
+
+2
+
+Inefficient onboarding: 
+information about the sender 
+and beneficiary is collected via 
+manual and repetitive business 
+processes
+Vulnerable KYC: limited control 
+exists over the veracity of 
+information and supporting 
+documentation, with various 
+maturity levels across 
+institutions
+
+3
+
+4
+
+5
+
+Cost and delay: payments are 
+costly and time consuming 
+depending on route
+Error prone: information is 
+validated per bank/transaction, 
+resulting in high rejection rate
+Liquidity requirement: banks 
+must hold funds in nostro 
+accounts, resulting in 
+opportunity and hedging costs
+
+7
+
+6
+
+Vulnerable KYC: similar to #2, 
+limited control exists over the 
+veracity of information and 
+supporting documentation, with 
+various maturity levels across 
+institutions
+
+Demanding regulatory 
+compliance: due to various data 
+sources and channels or 
+origination, regulatory reports 
+can require costly technology 
+capabilities in addition to 
+complex business processes 
+(often supported by multiple 
+operation teams)
+
+WORLD ECONOMIC FORUM | 2016
+
+50
+
+Global Payments
+Future‐state process depiction
+
+Initiate relationship
+
+Transfer money 
+
+Deliver funds
+
+Act post payment
+
+1
+
+Verify KYC
+
+Transfer request
+
+Submit transfer
+
+2
+
+3
+
+Sender
+
+Sender
+bank
+
+Money
+transfer
+operator
+
+Sender ID
+Beneficiary ID
+FX rate
+
+Transfer amount
+Date and time
+Payout conditions
+
+Fiat currency 
+
+Fiat currency 
+
+5
+Smart contract
+
+4
+
+Real‐time AML
+
+Regulator
+
+Beneficiary
+bank
+
+Money
+transfer
+operator
+
+Verify KYC
+
+Pay funds
+
+6
+
+Beneficiary
+
+7
+
+Distributed
+ledger
+
+On‐demand
+reports
+
+Regulator
+
+Future‐state process description
+
+1
+
+2
+
+3
+
+Trust between the sender and a 
+bank or money transfer 
+operator is established either 
+via traditional KYC or a digital 
+identity profile
+A smart contract encapsulates 
+the obligation to transfer funds 
+between sender and beneficiary
+The currency conversion is 
+facilitated through liquidity 
+providers on the ledger
+
+4
+
+5
+
+The regulator can monitor 
+transactions in real time and 
+receive specific AML alerts 
+through a smart contract
+A smart contract enables the 
+real‐time transfer of funds with 
+minimal fees and guaranteed 
+delivery without the need for 
+correspondent bank(s)
+
+6
+
+Funds are deposited
+automatically to the beneficiary 
+account via a smart contract or 
+made available for pickup after 
+verifying KYC
+
+7
+
+The transaction history is 
+available on the ledger and can 
+be continuously reviewed by 
+regulators
+
+WORLD ECONOMIC FORUM | 2016
+
+51
+
+Global Payments
+Future‐state benefits
+
+Initiate relationship
+
+Transfer money 
+
+Deliver funds
+
+Act post payment
+
+1
+
+Verify KYC
+
+Transfer request
+
+Submit transfer
+
+2
+
+Sender
+
+Sender
+bank
+
+Money
+transfer
+operator
+
+Sender ID
+Beneficiary ID
+FX rate
+
+Transfer amount
+Date and time
+Payout conditions
+
+Fiat currency 
+
+Fiat currency 
+
+4
+5
+Smart contract
+
+3
+
+Real‐time AML
+
+Regulator
+
+Beneficiary
+bank
+
+6
+
+Verify KYC
+
+Pay funds
+
+Money
+transfer
+operator
+
+Beneficiary
+
+7
+
+Distributed
+ledger
+
+On‐demand
+reports
+
+Regulator
+
+Future‐state benefits
+
+1
+
+2
+
+Seamless KYC: leveraging the 
+digital profile stored on DLT 
+establishes trust and 
+authenticates the sender
+FX liquidity capabilities: 
+through smart contracts, 
+foreign exchange can be 
+sourced from participants 
+willing to facilitate the 
+conversion of fiat currencies
+
+3
+
+4
+
+5
+
+Real‐time AML: regulators will 
+have access to transaction data 
+and can receive specific alerts 
+based on predefined conditions
+Reduced settlement time: 
+cross‐border payments can be 
+completed in real time
+Cost savings: with fewer 
+participants, the improved cost 
+structure can generate value
+
+6
+
+Seamless KYC: leveraging the 
+digital profile stored on DLT 
+establishes trust and 
+authenticates the beneficiary
+
+7
+
+Automated compliance: the
+regulator will have on‐demand 
+access to the complete 
+transaction history over the 
+ledger
+
+WORLD ECONOMIC FORUM | 2016
+
+52
+
+Global Payments
+Critical conditions
+
+Ensuring compliance via standard 
+KYC processes
+
+Binding legality of cryptographic 
+hash to exchange value
+
+Adopting standards and 
+ensuring interoperability
+
+Members of the ledger as well as regulators 
+need to converge on common KYC processes to 
+effectively identify stakeholders involved in the 
+transaction and ensure a corresponding
+template data set is available on DLT
+
+Regulators, central banks and legal participants 
+will need to collaborate from different 
+countries to reach a valid legal framework for 
+global payments
+
+Consensus on the choice of DLT platform across
+a significant number of FIs will allow economies 
+of scale and higher return on investment
+
+Why?
+
+Why?
+
+Why?
+
+Real‐time and on‐demand AML/KYC 
+compliance for global payments is enabled 
+when banks and money transfer operators
+provide trusted and standard dataset on DLT
+
+If the underlying solution is not legally 
+accepted, legacy solutions will have to be 
+maintained in parallel, limiting the forecasted 
+benefits
+
+Different ledgers and/or adoption cycles from 
+key stakeholders would compromise benefits 
+and lead to interoperability issues
+
+Challenge
+
+Challenge
+
+Challenge
+
+The policies and processes of banks and money 
+transfer operators to onboard customers 
+(sender, beneficiary) are diverse, as are the 
+regional regulatory requirements
+
+Given no legal precedent, legal and technology 
+subject matter experts from different countries 
+will need to establish a globally accepted legal 
+framework 
+
+The differing priorities, levels of urgency and 
+budgets of players will created obstacles to 
+forming international agreements among 
+participants 
+
+WORLD ECONOMIC FORUM | 2016
+
+Stakeholder 
+alignment
+
+Technology
+
+Regulatory
+
+Governance
+
+53
+
+Critical condition categories
+
+Global Payments
+Additional considerations
+
+DLT enabled by global banks
+
+Embedded solution
+
+Cryptocurrency as the linking 
+currency
+
+Overview
+
+Overview
+
+Overview
+
+Global correspondent banks can implement 
+DLT to unlock benefits and increase efficiency 
+in the value chain, while also enabling next‐
+generation competitive services to local banks
+
+The adoption of DLT may be driven by key 
+information technology  providers; as they 
+integrate DLT into their core banking platforms, 
+they might play a key role on setting standards
+
+Banks can leverage cryptocurrency on the DLT 
+to facilitate global payments, eliminating 
+supporting settlement platforms and foreign 
+currency buffers in nostro accounts
+
+Impact
+
+Impact
+
+Impact
+
+• Non‐members of the DLT platform would 
+still be reliant on middlemen and their 
+associated fees to offer global payments as 
+a product
+
+•
+
+•
+
+Banks and information technology
+providers will need to collaborate on a 
+shared strategy to converge on mutual 
+interest
+The use of DLT may be driven by the choice 
+of ledger implemented by the information
+technology  provider
+
+•
+
+•
+
+•
+
+Additional gains will be made on liquidity 
+management and transaction settlement 
+time 
+The use of cryptocurrency will add to 
+additional volatility and will demand 
+additional hedging instruments
+Banks would be required to hold 
+cryptocurrency as assets on their books
+
+WORLD ECONOMIC FORUM | 2016
+
+54
+
+Global Payments
+Conclusion
+
+Summary
+
+Outlook
+
+•
+
+•
+
+Real‐time settlement: enabling banks can fulfil and settle 
+international money transfers in real time, while increasing 
+profitability via a reduction in liquidity and operations costs
+Reduced fraud: transparent and immutable data on DLT can 
+reduce fraudulent transactions to a fraction of what they are 
+today
+• Development of digital obligations: smart contracts can be 
+used to capture obligations among FIs in order to ensure that 
+appropriate funds are exchanged, eliminating operational 
+errors
+
+•
+
+•
+
+SWIFT is implementing a “Global Payments Innovation 
+Initiative” to facilitate global payments with transparent fees 
+and same‐day funds delivery but this initiative does not employ 
+DLT
+Currently, the adoption of DLT for global payments by 
+incumbent banks is limited, although concrete initiatives are 
+occurring in North America and Europe across retail and 
+wholesale banking
+• Opportunities exist for regulators to assess and promote the 
+viability of prototypes and future implementations within 
+current regulatory frameworks
+
+Key takeaways
+
+Unanswered questions
+
+•
+
+•
+
+•
+
+Challenge correspondent banks: DLT has the potential to 
+disrupt the role of dedicated banks that act as gateways to 
+international fund transfers
+Allow direct interaction between sender and beneficiary 
+banks: DLT can give direct access to most if not all relevant 
+destinations for adopting banks and money transfer operators
+Enable micropayments: DLT can make low‐value transactions 
+more feasible to FIs as cost structures are modified
+
+•
+
+•
+
+•
+
+Initiatives: Will retail and wholesale banking initiatives merge 
+towards common DLT implementation despite competing 
+interests?
+Volatility: Is there a role for cryptocurrencies as a bridge asset 
+to facilitate FX?
+SWIFT: What role will SWIFT play in enabling DLT‐based global 
+payments?
+
+WORLD ECONOMIC FORUM | 2016
+
+55
+
+Section 5.2
+
+Insurance: P&C Claims Processing
+
+WORLD ECONOMIC FORUM | 2016
+
+56
+
+P&C Claims Processing
+Introduction
+
+Current‐state background
+Insurance is a financial risk management product in which an individual or entity receives protection against losses (e.g. property, 
+asset, casualty and health) from the insurer. Commercial property and casualty (P&C) insurance (e.g. commercial motor, commercial 
+property and commercial  liability) protects businesses against risks that may result in loss of life or property. 
+
+Key ecosystem stakeholders
+
+Insuree
+
+Insurer
+
+Overview
+
+•
+
+•
+
+P&C is large: P&C is the second largest segment of insurance worldwide 
+(after life and health) with earned premiums in 2014 of US$ 728.6 billion, 
+growing at 5.1% since 2010, and is set to reach US$ 895.1 billion by 20181
+Claims processing is a key bottleneck: For P&C insurance, the tasks 
+associated with claim and loss processing are a major source of friction, 
+accounting for an average of 11% of the overall written premium 
+(revenue)2
+
+Reinsurer
+
+Regulator
+
+Supporting
+Data Sources
+
+Broker
+
+WORLD ECONOMIC FORUM | 2016
+
+DLT has the potential to optimize the back‐office operational costs of property 
+and casualty insurers. This use case highlights the key opportunities in claims 
+processing for the P&C commercial insurance business
+
+1. Global Commercial Non‐Life Insurance: Size, Segmentation
+and Forecast for the Worldwide Market, Finaccord, 2015.
+2. ISO Verisk Analytics, 2016.
+
+57
+
+P&C Claims Processing
+Key market participants
+
+Market participant
+
+Role
+
+Description
+
+Insuree
+
+Insurer
+
+Reinsurer
+
+Regulator
+
+Broker
+
+Core
+
+Core
+
+Core
+
+Supporting
+
+Supporting
+
+Supporting Data Sources
+
+Supporting
+
+Companies looking for insurance to cover their underlying operational risks 
+(properties and casualties)
+
+A company that, through a contractual agreement, undertakes to compensate 
+specified losses, liability or damages incurred by another company
+
+A company that provides financial protection to insurance companies handling 
+risks that are too large for insurance companies to handle on their own
+
+Insurance supervisory agency and central banks that determine and monitor 
+adherence to KYC, AML, risk concentration, liquidity and solvency standards
+
+A specialized company or registered professional that acts as an intermediary, 
+advising and connecting insurees with insurers
+
+Diversified sources of information used by insurers to assess underwriting risks 
+and evaluate claims and losses; they can include authorities, experts and official 
+data sources, among others (e.g. police report, weather database, official 
+inspection reports, asset ownership records)
+
+WORLD ECONOMIC FORUM | 2016
+
+58
+
+P&C Claims Processing
+Current‐state process depiction
+
+Claim submission
+
+1
+
+Report loss
+
+2
+
+Loss assessment
+
+Request additional 
+information
+
+Claim approval
+
+Claim approved
+
+Insuree
+
+Provide requested 
+information
+Submit claim
+
+3
+
+Broker
+
+Insurer
+
+Loss adjuster Claims agent
+
+5
+
+6
+
+Provide 
+additional 
+information
+
+7
+Loss adjuster
+
+Claims agent
+
+Initiate
+payment
+
+8
+
+Insuree
+
+Asset 
+database
+
+Weather 
+statistics
+
+Credit 
+reports
+
+Inspection 
+provider
+
+Authority 
+report
+
+Broker
+
+6
+
+Insuree
+
+Insurer
+
+Reinsurer
+
+4
+
+Confirm
+submission
+
+5
+
+Reinsurer
+
+Loss adjuster Claims agent
+
+Request additional 
+information
+
+1
+
+2
+
+3
+
+Insuree reports loss and claims 
+restitution from an insurer (and 
+reinsurer, if applicable) via a 
+broker (or independently)
+Broker may request additional 
+information from insuree to 
+support the loss claim
+Broker submits the claim to the 
+insurer and reinsurer (in cases 
+of syndicate insurance or 
+reinsurance)
+
+Current‐state process description
+
+4
+
+5
+
+6
+
+After verifying the documentation received, the insurer(s) confirm 
+receipt of the claim submission
+Loss adjusters perform claim assessments and verify the validity of the 
+claims through client information, secondary data sources (e.g. 
+weather statistics and authority reports) or additional inspection 
+assessments/interviews
+If additional information is required by the insurer, a new information 
+request is made to the broker or insuree. In some situations, the 
+insuree must collect supporting documentation directly from 
+secondary data sources
+
+7
+
+8
+
+After concluding claim 
+assessments, the loss adjuster 
+within each insurer reaches a 
+conclusion about the claim
+If the claim is approved, 
+payment to the insuree is 
+initiated via an insurer’s claims 
+agent
+
+WORLD ECONOMIC FORUM | 2016
+
+59
+
+P&C Claims Processing
+Current‐state pain points
+
+Claim submission
+
+1
+
+Report loss
+
+2
+
+Loss assessment
+
+Request additional 
+information
+
+Claim approval
+
+Claim approved
+
+Insuree
+
+Provide requested 
+information
+Submit claim
+
+4
+
+Broker
+
+Insurer
+
+Loss adjuster Claims agent
+
+3
+
+Asset 
+database
+
+Weather 
+statistics
+
+Credit 
+reports
+
+Inspection 
+provider
+
+Authority 
+report
+
+Provide 
+additional 
+information
+
+5
+Loss adjuster
+
+Broker
+
+Insuree
+
+Insurer
+
+Reinsurer
+
+4
+
+Confirm
+submission
+
+4
+
+Reinsurer
+
+Loss adjuster Claims agent
+
+Request additional 
+information
+
+Claims agent
+
+Initiate
+payment
+
+Insuree
+
+1
+
+2
+
+Undesirable customer 
+experience: to initiate a claim, 
+the insuree must complete a 
+complex questionnaire and 
+maintain physical receipts of 
+the costs incurred by the loss
+Costly intermediaries: brokers 
+act as intermediaries during 
+processing, adding delays and 
+costs to the submission
+
+WORLD ECONOMIC FORUM | 2016
+
+Current‐state pain points
+
+3
+
+4
+
+Fragmented data sources: insurers must establish individual 
+relationships with third‐party data providers to get manual access to 
+supporting asset, risk and loss data that may not be updated
+Fraud prone: the loss assessment is completed on a per‐insurer and 
+per‐loss basis with no information sharing between insurers, 
+increasing the potential for fraud and manual rework
+
+5
+
+Manual claim processing: loss 
+adjusters are required to review 
+claims and to:
+‐ Ensure their completeness
+‐ Request additional 
+information or use 
+supporting data sources
+‐ Validate loss coverage
+‐
+Identify the scope of the 
+liability
+‐ Calculate the loss amount
+
+60
+
+P&C Claims Processing
+Future‐state process depiction
+
+Claim submission
+
+Loss assessment
+
+Claim approval
+
+Claim approved
+
+1
+
+Submit claim
+
+Request loss 
+confirmation data
+
+4
+
+Insuree
+
+Confirm coverage
+
+Request manual review
+
+or
+
+2
+
+3
+
+5
+
+Smart 
+contract
+
+Smart
+asset
+
+Insuree information
+Covered asset information
+Coverage terms
+
+Coverage period
+Claim history
+Loss submission details
+
+Asset 
+database
+
+Weather 
+statistics
+
+Credit 
+reports
+
+Inspection 
+provider
+
+Authority 
+report
+
+Loss adjuster
+
+6
+
+7
+
+Smart 
+contract
+
+Initiate
+payment
+
+Insurer
+
+Loss adjuster
+
+Reinsurer
+
+Loss adjuster
+
+Insuree
+
+Future‐state process description
+
+1
+
+2
+
+Loss information is submitted 
+by the insuree or smart asset 
+(via sensors or external data 
+sources if the asset is 
+technologically capable), 
+triggering an automated claim 
+application
+For insurance policies issued via 
+a smart contract, insurees 
+receive feedback regarding 
+initial coverage in real time
+
+3
+
+4
+
+5
+
+6
+
+Claim due diligence is automated via codified business rules within the 
+smart contract, using information submitted by the insuree
+DLT automatically utilizes secondary data sources to assess the claim 
+and calculate the loss amount
+Depending on the insurance policy, a smart contract can automate the 
+liability calculation for each carrier where a syndicate (or insurers or 
+reinsurers) exists
+In predetermined situations, the smart contract can trigger an 
+additional assessment of the claim in order to reach a final 
+decision/calculation
+
+7
+
+If the claim is approved, 
+payment to the insuree is 
+initiated via a smart contract
+
+WORLD ECONOMIC FORUM | 2016
+
+61
+
+P&C Claims Processing
+Future‐state benefits
+
+Claim submission
+
+Loss assessment
+
+Claim approval
+
+Claim approved
+
+1
+
+Submit claim
+
+Request loss 
+confirmation data
+
+5
+
+Insuree
+
+Confirm coverage
+
+Request manual review
+
+or
+
+2
+
+3
+
+4
+
+Smart 
+contract
+
+Smart
+asset
+
+Insuree information
+Covered asset information
+Coverage terms
+
+Coverage period
+Claim history
+Loss submission details
+
+Asset 
+database
+
+Weather 
+statistics
+
+Credit 
+reports
+
+Inspection 
+provider
+
+Authority 
+report
+
+Loss adjuster
+
+6
+
+Smart 
+contract
+
+Initiate
+payment
+
+Insurer
+
+Loss adjuster
+
+Reinsurer
+
+Loss adjuster
+
+Insuree
+
+1
+
+Simplified and/or automated 
+claim submission: through a 
+smart contract, the claim 
+submission process will be 
+simplified and/or fully 
+automated (in cases of smart 
+assets)
+
+Future‐state benefits
+
+2
+
+3
+
+4
+
+Enhanced customer experience: through the streamlined transfer of 
+loss information from insuree to insurer, DLT eliminates the need for 
+brokers and reduces claim processing times
+Automated claim processing: business rules encoded in a smart 
+contract eliminate the need for loss adjustors to review every claim 
+(functionality will enable the loss adjuster to review the claim and 
+provide a decision, in specific risk situations)
+Reduction in fraudulent claims: the insurer will seamlessly have 
+access to historical claims and asset provenance, enabling better 
+identification of suspicious behaviour
+
+5
+
+6
+
+Integrated data sources: DLT 
+facilitates the integration of 
+various data sources from 
+trusted providers with minimal 
+required manual review
+Streamlined payment process: 
+in most cases, the smart 
+contract will facilitate the 
+payment automatically without 
+effort from the back office
+
+WORLD ECONOMIC FORUM | 2016
+
+62
+
+P&C Claims Processing
+Critical conditions
+
+Building a comprehensive set of 
+asset profiles and history
+
+Adopting standards for relevant 
+claims data
+
+Providing a legal and regulatory 
+framework
+
+Asset records must migrate to the DLT to allow 
+smart contracts to consume reliable and 
+updated asset information directly over the 
+ledger in the case of a claim
+
+Insurers and regulators will play a key role in 
+setting data standards and facilitating the 
+adoption by external data providers to ensure 
+the effective flow of information among the 
+participants
+
+Regulators, insurers and other relevant 
+stakeholders will have to establish a legal 
+framework that regulates the validity of smart 
+contracts as binding instruments for insurance 
+policies
+
+Why?
+
+Why?
+
+Why?
+
+If asset provenance and loss information are 
+kept off the ledger among different players, 
+smart contracts will lose their effectiveness to 
+process claims automatically
+
+If the data is not standardized, additional 
+manual work will still be required, resulting in 
+cost inefficiencies and jeopardizing gains
+
+The absence of a legal precedent will expose 
+the insurer and insuree to higher counterparty 
+risk and disputes
+
+Challenge
+
+Challenge
+
+Challenge
+
+Engaging the market and enforcing a specific 
+DLT as the dominant mechanism for asset 
+registry may be challenging to implement and 
+will require stakeholders diligence
+
+Changing current company‐specific processes 
+and data sets to a shared standard will require 
+extensive discussion and converging interests
+
+Careful and close collaboration would be 
+required since stakeholders will likely have 
+competing interests and senses of urgency to 
+establish a shared framework
+
+WORLD ECONOMIC FORUM | 2016
+
+Stakeholder 
+alignment
+
+Technology
+
+Regulatory
+
+Governance
+
+63
+
+Critical condition categories
+
+P&C Claims Processing
+Conclusion
+
+Summary
+
+Outlook
+
+•
+
+•
+
+•
+
+•
+
+Claims automation: Claims processing can be automated using 
+trusted third‐party data sources and the codification of 
+business rules in smart contracts on the ledger
+Reduced fraud: Transparent and immutable data on the ledger 
+can also reduce fraudulent claims to a fraction of what they are 
+today
+
+•
+
+The application of DLT within insurance is currently in its 
+infancy, with a number of incumbents and new entrants 
+providing early proof of concept, focusing on:
+‐
+Creation of immutable insurance claim records
+‐
+Development of asset provenance to assist in risk 
+profiling and claims processing
+‐
+P2P insurance
+• Opportunities exist for regulators/FIs to:
+‐ Monitor and assess new DLT‐based products (e.g. P2P 
+insurance)
+Guide the industry towards a lower‐cost model via the 
+common and shared implementation of DLT 
+
+‐
+
+Key takeaways
+
+Unanswered questions
+
+Smart contracts will be key: Insurance policies can 
+be managed using smart contracts on DLT, capturing coverage 
+conditions, and syndicate insurance agreements or insurer‐
+reinsurer agreements
+Loss adjustment expenses may become irrelevant: DLT 
+utilization will fundamentally disrupt the cost and profitability 
+ratios that are currently in use across the insurance industry 
+
+•
+
+•
+
+Profitability: Will the automated processing of claims have 
+adverse effects on loss ratios?
+Pricing: What impact will changes in loss ratios have on 
+insurance premiums?
+
+WORLD ECONOMIC FORUM | 2016
+
+64
+
+Section 5.3
+
+Deposits and Lending: Syndicated Loans
+
+WORLD ECONOMIC FORUM | 2016
+
+65
+
+Syndicated Loans
+Introduction
+
+Current‐state background
+Syndicated loans provide clients with the ability to secure large‐scale diversified financing at the current market rate. These loans are 
+funded by a group of investors (e.g. syndicate), where one investor serves as the lead arranger. The lead arranger serves as the
+underwriter for the loan and performs all administrative tasks throughout the loan life cycle, charging a fee based on the complexity 
+and risk factors associated with the loan. 
+
+Key ecosystem stakeholders
+
+Overview
+
+Regulator
+
+Lead Arranger
+
+Requesting 
+Entity
+
+Syndicate
+
+•
+
+•
+
+•
+
+•
+
+The US market is dominated by incumbents: Four US FIs accounted for 
+more than 50% of the market share (US$ 1,917 billion total volume) in 
+20141
+The EMEA market is large: The total EMEA syndicated loan volume in 
+2014 amounted to US$ 1,214.5 billion1
+The Asia‐Pacific market is growing: The Asia‐Pacific (ex‐Japan) 
+syndicated loan volume increased by 22% in 2014, bringing total volume 
+to US$ 524.2 billion1
+The Latin American market is immature: The total Latin American 
+syndicated loan volume in 2014 amounted to US$ 42.2 billion1
+
+DLT has the potential to optimize syndicated loan back‐office operations. This 
+use case highlights key opportunities in the end‐to‐end syndicated loan 
+process
+
+WORLD ECONOMIC FORUM | 2016
+
+1. Global Syndicated Loans: League Tables 2014, Bloomberg, 2014.
+
+66
+
+Syndicated Loans
+Key market participants
+
+Market participant
+
+Role
+
+Description
+
+Lead Arranger
+
+Syndicate
+
+Requesting Entity
+
+Core
+
+Core
+
+Core
+
+An FI that leads a group of investors through the underwriting and financing of a 
+large loan
+
+A group of investors formed into one entity for the purpose of distributing risk 
+across institutions for large transactions
+
+An organization requesting a large loan from an FI
+
+Regulator
+
+Supporting
+
+A monitor that verifies adherence to AML compliance activities
+
+WORLD ECONOMIC FORUM | 2016
+
+67
+
+Syndicated Loans
+Current‐state process depiction
+
+Syndication
+
+Loan request
+
+1
+Corporation
+
+2
+Lead arranger
+
+Lead arranger solicits 
+syndicate members
+
+3
+
+Syndicate
+
+Member 1 Member 2 Member 3
+
+1
+
+2
+
+3
+
+A corporation requests a loan 
+from an FI (referred to as the 
+lead arranger within the 
+syndicated loan market)
+The lead arranger performs KYC 
+procedures in accordance with 
+regulatory requirements
+To reduce risk, the lead 
+arranger sources prospective 
+members to fund the loan
+
+Diligence
+
+Underwriting
+
+Closing and servicing
+
+Corporation
+
+Lead 
+arranger
+
+Syndicate
+
+4
+
+Lead arranger
+
+30% pledged
+
+5
+
+Loan funded
+
+Principal & interest
+
+Lead arranger
+
+Corporation
+
+6
+
+Syndication fee
+Principal and interest payments
+
+Syndicate
+
+Member 1
+
+25% pledged
+
+Member 2
+
+20% pledged
+
+Member 3
+
+25% pledged
+
+Member 1 Member 2 Member 3
+
+Current‐state process description
+
+4
+
+The lead arranger facilitates the 
+investigation of the 
+corporation’s financial health to 
+determine credit worthiness 
+and the level of risk associated 
+with the loan
+
+5
+
+Syndicate members pledge a 
+percentage of the overall risk 
+based on their respective 
+tolerance levels
+
+6
+
+The lead arranger takes on the 
+administrative responsibility for 
+servicing throughout the agreed 
+upon contract life cycle (e.g. 
+funding the loan and dispersing 
+principal and interest payments 
+to syndicate members)
+
+WORLD ECONOMIC FORUM | 2016
+
+68
+
+Syndicated Loans
+Current‐state pain points
+
+Syndication
+
+Loan request
+
+Corporation
+
+Lead arranger
+
+Lead arranger solicits 
+syndicate members
+
+1
+
+Syndicate
+
+Lead 
+arranger
+
+2
+
+Corporation
+
+Member 1 Member 2 Member 3
+
+Syndicate
+
+3
+
+Diligence
+
+Underwriting
+
+Closing and servicing
+
+5
+
+Lead arranger
+
+30% pledged
+
+4
+
+Loan funded
+
+Principal & interest
+
+6
+7
+Lead arranger
+8
+9
+
+10
+
+Corporation
+
+Syndication fee
+Principal and interest payments
+
+Syndicate
+
+Member 1
+
+25% pledged
+
+Member 2
+
+20% pledged
+
+Member 3
+
+25% pledged
+
+Member 1 Member 2 Member 3
+
+Current‐state pain points
+
+1
+
+2
+
+Time‐intensive process: 
+selecting syndicate members 
+based on financial health and 
+industry expertise is time‐
+intensive and inefficient due to 
+manual review processes
+Time‐intensive review: 
+analysing a corporation’s 
+financial information is time‐
+intensive and inefficient due to 
+manual review processes
+
+3
+
+4
+
+Lack of technology integration: 
+due diligence team members 
+reference various applications 
+and data sources, resulting in 
+additional time required and a 
+potential for errors
+Labour‐intensive process: the
+documentation of syndicate 
+member pledging is labour‐
+intensive and inefficient due to 
+reliance on manual activities
+
+WORLD ECONOMIC FORUM | 2016
+
+5
+
+6
+
+7
+
+Lack of technology integration: 
+underwriting systems do not 
+communicate with diligence 
+systems, duplicating efforts
+Inefficient fund disbursal: the 
+lead arranger facilitates 
+principal and interest disbursal, 
+resulting in additional costs to 
+investors
+Default risk: the lead arranger 
+poses a risk in the disbursement 
+of funds throughout the loan 
+life cycle
+
+8
+
+9
+
+10
+
+Delayed settlement time: while 
+verifying funds, payments settle 
+t+3 (trade date plus three days), 
+delaying investors from 
+obtaining funds
+Costly intermediaries: third‐
+party organizations facilitate 
+servicing operations, resulting in 
+additional costs to investors
+Siloed systems: activities are 
+duplicative since systems do not 
+communicate with one another
+
+69
+
+Syndicated Loans
+Future‐state process depiction
+
+Syndication
+
+Investor records
+Risk tolerance
+
+1
+
+t
+
+s
+
+e
+u
+q
+e
+
+r
+
+n
+a
+o
+
+L
+
+Corporation
+2
+
+3
+
+Member 1
+
+Lead arranger
+
+Smart contract
+
+Member 2
+
+Regulator
+
+Members selected 
+based on criteria
+
+Member 3
+
+1
+
+2
+
+3
+
+A corporation requests a loan from an FI
+acting as the lead arranger
+Leveraging the corporation’s digital identity, 
+the lead arranger performs KYC activities in 
+real time through the DLT’s record‐keeping 
+functionality, which also provides regulators 
+with a transparent view of activity
+The investor’s financial records and risk 
+tolerance stored on DLT automates the 
+selection process, reducing the time it takes 
+to form a syndicate
+
+Diligence and underwriting
+
+Syndicate
+
+Diligence results
+
+4
+Smart contract
+
+5
+
+Assets
+Liabilities
+Project Plan
+
+Lead arranger
+
+30% pledged
+
+Closing and servicing
+
+Loan funded
+
+Principal & interest
+
+6
+
+7
+
+Corporation
+
+Smart contract
+
+Regulator
+
+Loan funding
+Syndication fee payment
+Principal and interest payments
+
+Servicing documents 
+dispersion
+
+Member 1
+
+25% pledged
+
+Member 2
+
+20% pledged
+
+Member 3
+
+25% pledged
+
+Lead arranger
+
+Member 1 Member 2 Member 3
+
+Future‐state process description
+
+4
+
+5
+
+Leveraging the corporation’s financial 
+information and project plan data accessible 
+through the DLT, diligence activities are 
+automated via a smart contract
+Key attributes from the diligence process are 
+populated into the underwriting template, 
+streamlining the process and reducing time 
+through the DLT’s transfer of value capability
+
+6
+
+7
+
+Smart contracts eliminate the need for a 
+third party to fund the loan, disperse funds 
+and facilitate the loan servicing process
+Embedded regulation facilitates the review 
+of financial details to ensure AML 
+procedures are followed appropriately
+
+WORLD ECONOMIC FORUM | 2016
+
+70
+
+Syndicated Loans
+Future‐state benefits
+
+t
+
+s
+
+e
+u
+q
+e
+
+r
+
+n
+a
+o
+
+L
+
+Corporation
+
+1
+
+Member 1
+
+Lead arranger
+2
+
+Smart contract
+
+Member 2
+
+Regulator
+
+Members selected 
+based on criteria
+
+Member 3
+
+1
+
+2
+
+Automated syndicate formation: through 
+programmable selection criteria within a 
+smart contract, syndicate formation is 
+automated, reducing the time for a 
+corporation’s loan to be funded
+Embedded regulator: throughout the 
+syndicated loan life cycle, regulators are 
+provided with a real‐time view of financial 
+details to facilitate AML/KYC activities
+
+Syndication
+
+Investor records
+Risk tolerance
+
+Diligence and underwriting
+
+Syndicate
+
+Diligence results
+
+3
+Smart contract
+
+4
+
+Assets
+Liabilities
+Project Plan
+
+Lead arranger
+
+30% pledged
+
+Closing and servicing
+
+5
+
+Loan funded
+
+Principal & interest
+
+6
+
+7
+
+Corporation
+
+Smart contract
+
+Regulator
+
+Loan funding
+Syndication fee payment
+Principal and interest payments
+
+Servicing documents 
+dispersion
+
+Member 1
+
+25% pledged
+
+Member 2
+
+20% pledged
+
+Member 3
+
+25% pledged
+
+Lead arranger
+
+Member 1 Member 2 Member 3
+
+Future‐state benefits
+
+3
+
+4
+
+Automated diligence and underwriting: 
+corporation financial information analysis 
+and risk underwriting are automated, 
+reducing the execution time and the amount
+of resources required to perform these 
+activities
+Technology integration: diligence systems 
+communicate pertinent financial information 
+to underwriting systems, streamlining 
+process execution and reducing underwriting 
+time
+
+5
+
+6
+
+7
+
+Reduced closing time: loan funding is 
+facilitated in real time, eliminating 
+traditional t+3 settlement and centralized 
+lead arranger operations
+Servicing disintermediation: activities are 
+executed via smart contracts, eliminating the 
+need for third‐party intermediaries
+Reduced counterparty risk: the
+disbursement of principal and interest 
+payments throughout the loan life cycle is 
+automated, reducing operational risk
+
+WORLD ECONOMIC FORUM | 2016
+
+71
+
+Syndicated Loans
+Critical conditions
+
+Building risk rating framework for 
+syndicate selection
+
+Standardizing diligence and 
+underwriting templates
+
+Providing access to financial 
+details on the distributed ledger
+
+FIs must develop a framework that provides 
+guidance for rating and sharing counterparty 
+performance information on the distributed 
+ledger
+
+FIs must standardize financial attributes to 
+facilitate the automated population of diligence 
+and underwriting templates
+
+FIs and loan requestors must be willing to store 
+pertinent financial information on the 
+distributed ledger
+
+Why?
+
+Why?
+
+Why?
+
+Automated syndicate formation relies on a 
+robust counterparty rating system that lead 
+arrangers can leverage for syndicate member 
+selection
+
+The automated population of diligence and 
+underwriting templates requires standardized 
+data fields to move information from one 
+system to another
+
+To facilitate automated syndicate formation, 
+due diligence review and underwriting 
+template creation, pertinent financial details 
+must be accessible through the distributed 
+ledger
+
+Challenge
+
+Challenge
+
+Challenge
+
+Aligning FIs around a single standard for 
+counterparty rating requires an enormous 
+amount of coordination and governance 
+
+The myriad diligence and underwriting 
+collection vehicles across FIs will make  
+alignment around one format difficult
+
+Given no legal precedent or liability model is 
+established to mitigate the risk of storing 
+proprietary financial information on the ledger, 
+participation is uncertain
+
+WORLD ECONOMIC FORUM | 2016
+
+Stakeholder 
+alignment
+
+Technology
+
+Regulatory
+
+Governance
+
+72
+
+Critical condition categories
+
+Syndicated Loans
+Conclusion
+
+Summary
+
+Outlook
+
+•
+
+• Underwriting automation: Underwriting activities can be 
+automated, leveraging financial details stored on the 
+distributed ledger 
+Regulatory transparency: Compliance officials are provided 
+real‐time tools to enforce KYC requirements 
+Cost savings: DLT can provide a global cost reduction 
+opportunity within the process execution and settlement 
+subprocesses of syndicated loans
+
+•
+
+•
+
+Applications of DLT within syndicated loans are currently being 
+explored at the proof‐of‐concept level with a number of 
+incumbents, focusing on:
+‐
+Smart contract settlement and servicing
+‐
+Automated underwriting
+• Opportunities exist for FIs to reduce closing‐time operational 
+risk and manual activities:
+‐
+Loan funding executed via smart contract
+‐
+Account servicing facilitated via smart contract
+‐
+Automated underwriting activities
+
+Key takeaways
+
+Unanswered questions
+
+• Manage loan life cycle via smart contracts: Syndicated loans 
+can be managed using smart contracts on DLT – KYC 
+verification, due diligence review, underwriting automation, 
+loan funding, payment dissemination, etc. – as the loan moves 
+through the syndicated loan life cycle
+Execute servicing disintermediation: Traditionally performed 
+by a third party, closing and servicing activities are executed via 
+smart contract, eliminating third‐party fees
+
+•
+
+•
+
+Automated AML activities: What are the implications of 
+making KYC information more public? Is this a key step to 
+mutualizing KYC information among FIs?
+
+WORLD ECONOMIC FORUM | 2016
+
+73
+
+Section 5.4
+
+Deposits and Lending: Trade Finance
+
+WORLD ECONOMIC FORUM | 2016
+
+74
+
+Trade Finance
+Introduction
+
+Current‐state background
+Trade finance is the process by which importers and exporters mitigate trade risk through the use of trusted intermediaries. FIs serve 
+as the trusted intermediary providing assurance to sellers (in the event the buyer doesn't pay) and contract certainty to buyers (in the 
+event that goods are not received). Regardless of counterparty performance, payment and delivery terms (e.g. prepayment, 
+piecemeal or upon delivery) are documented in a letter of credit or open account contract vehicle. FIs command a fee for 
+documentation/oversight of payment terms and for taking on the risk position of either the importer or exporter.
+
+Key ecosystem stakeholders
+
+Importer
+
+Correspondent
+Banks
+
+Customs
+
+Freight
+
+Import
+Bank
+
+Exporter
+
+Export
+Bank
+
+Overview
+
+•
+
+•
+
+Financing dominates world trade: Today’s trade operations are 
+facilitated through financing. US$ 18 trillion of annual trade transactions 
+involve some form of finance (credit, insurance or guarantee)1
+The trade finance market is large: Since financing has become such an 
+integral part of trading, the market has grown substantially to more than 
+US$ 10 trillion annually1
+
+Inspection Company
+
+DLT has the potential to optimize the regulatory and operations costs of trade 
+finance. This use case highlights the key opportunities in the end‐to‐end trade 
+finance process
+
+WORLD ECONOMIC FORUM | 2016
+
+1. Improving the Availability of Trade Finance in Developing 
+Countries: An Assessment of Remaining Gaps, World Trade Organization, 2015.
+
+75
+
+Trade Finance
+Key market participants
+
+Market participant
+
+Role
+
+Description
+
+Importer
+
+Import Bank
+
+Exporter
+
+Export Bank
+
+Core
+
+Core
+
+Core
+
+Core
+
+An entity requesting a cross‐border product/service
+
+An FI that assumes risk on behalf of the importer
+
+An entity providing the cross‐border product/service
+
+An FI that assumes risk on behalf of the exporter
+
+Inspection Company
+
+Supporting
+
+A company that verifies that the goods shipped match those on the invoice
+
+Freight
+
+Customs
+
+Supporting
+
+The transport of goods by truck, train, ship or aircraft
+
+Supporting
+
+The country authority responsible for controlling the flow of goods
+
+Correspondent Banks
+
+Supporting
+
+An FI that provides services on behalf of import/export banks
+
+WORLD ECONOMIC FORUM | 2016
+
+76
+
+Trade Finance
+Current‐state process depiction
+
+Establish payment terms
+
+Deliver goods
+
+Settle on terms
+
+1
+
+Order goods
+
+Provide invoice
+
+Importer
+
+2
+
+3
+
+Exporter
+
+Financial
+agreement
+
+4
+
+Financials
+
+Financials
+
+Exporter
+
+s
+
+l
+
+a
+
+i
+
+c
+
+n
+a
+n
+
+i
+
+F
+
+5
+
+Import bank Correspondent bank Export bank
+
+Initiate 
+shipment
+
+6
+
+Inspection
+company
+
+9
+
+Receipt 
+notification
+
+Importer
+
+Import bank
+
+Verified
+goods
+
+7
+
+Verified 
+goods
+
+Product
+Product 
+shipped
+
+Customs
+
+Country A
+
+8
+
+Freight
+
+Customs
+
+Country B
+
+10
+
+Initiate 
+payment
+
+Payment
+
+Correspondent bank
+
+Export bank
+
+Current‐state process description
+
+1
+
+2
+
+3
+
+4
+
+An importer and exporter agree to the sale of a 
+product at a future date and time
+The financial agreement is captured within an 
+invoice, which identifies the quantity of goods sold, 
+price and delivery timeline
+The importer provides a bank with a copy of the 
+financial agreement for review
+The import bank reviews the financial agreement 
+and provides financials on behalf of the importer to 
+a correspondent bank, which has established a 
+relationship with the export bank
+
+5
+
+6
+
+7
+
+8
+
+The export bank provides the exporter with the 
+financing details, which enables the exporter to 
+initiate the shipment
+A trusted third‐party organization inspects the 
+goods for alignment with the invoice
+Local customs agents within the export country 
+inspect the goods based on the country code
+The goods are transported by freight from Country 
+A to Country B and local customs agents within the 
+import country inspect the goods based on the 
+country code
+
+9
+
+10
+
+Following inspection, the goods 
+are delivered to the importer, 
+which provides a receipt 
+notification to the import bank
+Upon receiving notification, the 
+import bank initiates the 
+payment to the export bank 
+through the correspondent 
+bank
+
+WORLD ECONOMIC FORUM | 2016
+
+77
+
+Trade Finance
+Current‐state pain points
+
+Establish payment terms
+
+Deliver goods
+
+Settle on terms
+
+Order goods
+
+Provide invoice
+
+Importer
+
+1
+
+2
+
+Exporter
+
+Financial
+agreement
+
+Initiate 
+shipment
+
+Receipt 
+notification
+
+Exporter
+
+Inspection
+company
+
+Importer
+
+Import bank
+
+s
+
+l
+
+a
+
+i
+
+c
+
+n
+a
+n
+
+i
+
+F
+
+Verified
+goods
+
+Verified 
+goods
+
+Product
+Product 
+shipped
+
+4
+
+3
+
+Financials
+
+Financials
+
+Import bank Correspondent bank Export bank
+
+Customs
+
+Country A
+
+5
+
+Freight
+
+6
+
+Customs
+
+Country B
+
+1
+
+2
+
+3
+
+Manual contract creation: the import bank 
+manually reviews the financial agreement provided 
+by the importer and sends financials to the 
+correspondent bank
+Invoice factoring: exporters use invoices to achieve 
+short‐term financing from multiple banks, adding 
+additional risk in the event the delivery of goods 
+fails
+Delayed timeline: the shipment of goods is 
+delayed due to multiple checks by intermediaries 
+and numerous communication points
+
+Current‐state pain points
+
+4
+
+5
+
+6
+
+Manual AML review: the export bank must 
+manually conduct AML checks using the financials 
+provided by the import bank
+Multiple platforms: since each party across 
+countries operates on different platforms, 
+miscommunication is common and the propensity 
+for fraud is high 
+Duplicative bills of lading: bills of lading are 
+financed multiple times due to the inability of 
+banks to verify their authenticity
+
+7
+
+Initiate 
+payment
+
+8
+
+Payment
+
+Correspondent bank
+
+Export bank
+
+7
+
+8
+
+Multiple versions of the truth: 
+as financials are sent from one 
+entity to another, significant 
+version control challenges exist 
+as changes are made
+Delayed payment: multiple 
+intermediaries must verify that 
+funds have been delivered to 
+the importer as agreed prior to 
+the disbursement of funds to 
+the exporting bank
+
+WORLD ECONOMIC FORUM | 2016
+
+78
+
+Trade Finance
+Future‐state process depiction
+
+Establish payment terms
+
+Deliver goods
+
+Settle on terms
+
+Order goods
+
+Provide invoice
+
+Importer
+
+1
+
+Exporter
+
+Smart 
+contract
+
+2
+
+Financial
+agreement
+
+Initiate 
+shipment
+
+Exporter
+
+Smart 
+contract
+
+4
+
+3
+
+Verified 
+goods
+
+5
+
+Verified 
+goods
+
+Product 
+shipped
+
+Receive 
+goods
+
+Customs
+
+Country A
+
+6
+
+Freight
+
+Customs
+
+Country B
+
+Importer
+Smart 
+contract
+
+Import bank
+
+7
+
+Initiate 
+payment
+
+Inspection
+company
+
+Import bank
+
+Export bank
+
++
+
+Shipment
+initiated
+
+Letter of
+credit
+
++
+
+Shipment
+received
+
+Smart 
+contract
+
++
+
+Payment
+complete
+
+Export bank
+
+1
+
+2
+
+Following the sale agreement,
+the financial agreement is 
+shared with the import bank 
+through a smart contract
+The import bank reviews the 
+arrangement, drafts the terms 
+of the letter of credit and 
+submits it to the export bank for 
+approval
+
+Future‐state process description
+
+3
+
+4
+
+5
+
+6
+
+The export bank reviews the letter of credit; once approved a smart 
+contract is generated to cover the terms and conditions of the letter 
+of credit
+The exporter digitally signs the letter of credit within the smart 
+contract to initiate shipment
+Goods are inspected by a third‐party organization and the customs 
+agent in the country of origin (all requiring a digital signature for 
+approval)
+The goods are transported by freight from Country A to Country B and 
+inspected by local customs agents prior to being received by the 
+importer
+
+7
+
+The importer digitally 
+acknowledges receipt of the 
+goods, which initiates payment 
+from the import bank to the 
+export bank via a smart contract
+
+WORLD ECONOMIC FORUM | 2016
+
+79
+
+Trade Finance
+Future‐state benefits
+
+Establish payment terms
+
+Deliver goods
+
+Settle on terms
+
+2
+
+Initiate 
+shipment
+
+Verified 
+goods
+
+Verified 
+goods
+
+Product 
+shipped
+
+Receive 
+goods
+
+Inspection
+company
+
+Customs
+
+Country A
+
+Freight
+4
+
+Customs
+
+Country B
+
+Order goods
+
+Provide invoice
+
+Importer
+
+Exporter
+
+Smart 
+contract
+
+1
+
+Financial
+agreement
+
+Exporter
+
+Smart 
+contract
+
+3
+
+Import bank
+
+Export bank
+
+6
+
+Importer
+Smart 
+contract
+
+Import bank
+
+7
+
+Initiate 
+payment
+
+8
+
+Export bank
+
+5
+
++
+
+Shipment
+initiated
+
+Letter of
+credit
+
++
+
+Shipment
+received
+
+Smart 
+contract
+
++
+
+Payment
+complete
+
+Future‐state benefits
+
+1
+
+2
+
+Real‐time review: financial 
+documents linked and 
+accessible through DLT are 
+reviewed and approved in real 
+time, reducing the time it takes 
+to initiate shipment
+Transparent factoring: invoices 
+accessed on DLT provide a real‐
+time and transparent view into 
+subsequent short‐term 
+financing
+
+3
+
+4
+
+5
+
+6
+
+Disintermediation: banks facilitating trade finance through DLT do not 
+require a trusted intermediary to assume risk, eliminating the need for 
+correspondent banks
+Reduced counterparty risk: bills of lading are tracked through DLT, 
+eliminating the potential for double spending
+Decentralized contract execution: as contract terms are met, status is 
+updated on DLT in real time, reducing the time and headcount 
+required to monitor the delivery of goods
+Proof of ownership: the title available within DLT provides 
+transparency into the location and ownership of the goods
+
+7
+
+8
+
+Automated settlement and 
+reduced transaction fees: 
+contract terms executed via 
+smart contract eliminate the 
+need for correspondent banks 
+and additional transaction fees
+Regulatory transparency: 
+regulators are provided with a 
+real‐time view of essential 
+documents to assist in 
+enforcement and AML activities
+
+WORLD ECONOMIC FORUM | 2016
+
+80
+
+Trade Finance
+Critical conditions
+
+Providing transparency into trade 
+finance agreements
+
+Enabling  interoperability with 
+legacy platforms
+
+Rewriting regulatory guidance 
+and legal frameworks
+
+Bills of lading and invoice details must be 
+transparent within the smart contract to reduce 
+counterparty risk
+
+To ensure smart contracts containing the 
+details of the financing agreement flow 
+through the trade finance process, FIs and 
+technology providers must ensure the ledger is 
+interoperable with many different platforms
+
+Agreed upon procedures must be established 
+within the end‐to‐end trade finance process to 
+provide regulators with a real‐time view of bills 
+of lading, letters of credit, etc. 
+
+Why?
+
+Why?
+
+Why?
+
+Ecosystem participants must have a 
+transparent view into invoice and bills of lading 
+details to ensure factoring and double 
+spending are not taking place
+
+The creation of letters of credit/bills of lading 
+and goods inspection documentation requires 
+stakeholders to integrate the developed DLT 
+solution with legacy systems
+
+Compliance officials must have a real‐time 
+view of financing details within the smart 
+contract to enforce regulatory guidelines
+
+Challenge
+
+Challenge
+
+Challenge
+
+FIs and shipment carriers must establish 
+procedures and liability models that govern the 
+transparent sharing of financial information 
+
+FIs, customs, freight, importers and exporters 
+utilize multiple technology solutions that may 
+be incapable of interfacing with the ledger
+
+Given the lack of legal/regulatory precedent, 
+the procedures that facilitate the use of smart 
+contract reporting to regulatory agencies will 
+be difficult to establish
+
+WORLD ECONOMIC FORUM | 2016
+
+Stakeholder 
+alignment
+
+Technology
+
+Regulatory
+
+Governance
+
+81
+
+Critical condition categories
+
+Trade Finance
+Conclusion
+
+Summary
+
+Outlook
+
+•
+
+•
+
+•
+
+Letter of credit automation: Letter of credit creation can be 
+automated leveraging financial details stored on the distributed 
+ledger
+Regulatory transparency: Compliance officials are provided 
+real‐time tools to enforce AML and customs activities
+• New product opportunities: DLT within global trade networks 
+will yield new product opportunities for incumbents (or 
+innovators) around lending and securitization of trade 
+obligations
+Cost savings: DLT can yield cost savings associated with letter 
+of credit creation, process automation and fraud reduction
+
+•
+
+The application of DLT within trade finance is currently being 
+explored at the proof‐of‐concept level with a number of 
+incumbents, focusing on:
+‐
+Letters of credit encapsulated in a smart contract
+‐
+Electronic invoice ledger
+• Opportunities exist for FIs to reduce counterparty risk and fraud 
+by:
+‐
+‐
+
+Providing transparent invoice factoring 
+Reducing bill of lading double spending via transparent 
+tracking 
+
+Key takeaways
+
+Unanswered questions
+
+• Manage letters of credit via smart contracts: Letters of credit 
+can be managed using smart contracts on DLT – capturing 
+shipment details, financial information and payment data as the 
+letter of credit moves through the trade finance process
+Consider correspondent banking disruption: DLT utilization can 
+fundamentally disrupt the role of correspondent banks as FIs 
+work directly with one another
+
+•
+
+•
+
+•
+
+Pricing: What is the impact on financing fees (taking into 
+account the cost of implementation) as correspondent banks 
+are eliminated from the trade finance process?
+Level of disruption: how will the import banks and export 
+banks ensure that they are not disrupted by new or existing 
+market participants?
+
+WORLD ECONOMIC FORUM | 2016
+
+82
+
+Section 5.5
+
+Capital Raising: Contingent Convertible (“CoCo”) Bonds
+
+WORLD ECONOMIC FORUM | 2016
+
+83
+
+Contingent Convertible (“CoCo”) Bonds
+Introduction
+
+Current‐state background
+Contingent convertible (“CoCo”) bonds are financial instruments that enable banks to increase their capital ratio in case it falls below 
+a predefined threshold. Unlike traditional bonds, "CoCo" bonds provide banks with the ability to convert the bond into equity if a 
+capital ratio condition is met (e.g. bank capital falls below 7.5%) or a discretionary circumstance is determined by the 
+bank/regulators. Today ’s banks are responsible for calculating their own capital ratio, and regulators do not have insight unless they 
+request a stress test.
+
+Key ecosystem stakeholders
+
+Overview
+
+Regulator
+
+Financial Institution
+
+Investor
+
+•
+
+•
+
+"CoCo" bond issuance has flatlined: After experiencing continued 
+double‐digit market growth since 2013,  issuance flatlined in European 
+markets in 2015
+A primary concern has been uncertainty: After being developed as a 
+mechanism to reduce the need for bailouts during financial crises, no 
+"CoCo" bonds have required conversion to equity, making the market 
+largely untested so far
+Another key concern is the extreme volatility of these instruments: 
+While yields have been historically high, recent events have had 
+significant impact. High market volatility, fuelled by regulator stress tests 
+in 2016, eliminated all yields within six weeks
+DLT has the potential to embed regulation into business processes. This use 
+case highlights key opportunities to reduce volatility and uncertainty 
+regarding this instrument and potentially to increase "CoCo" bond issuance in 
+the future
+
+•
+
+WORLD ECONOMIC FORUM | 2016
+
+84
+
+Contingent Convertible (“CoCo”) Bonds
+Key market participants
+
+Market participant
+
+Role
+
+Description
+
+Financial Institution
+
+Investor
+
+Regulator
+
+Core
+
+Core
+
+The institution that issues "CoCo" bonds and solicits investment from investors
+
+The individual and/or institution that agrees to the terms outlined during bond 
+issuance and invests in the asset
+
+Supporting
+
+The entity that ensures market stability; FIs adhere to their predefined loan 
+absorption mechanism criteria
+
+WORLD ECONOMIC FORUM | 2016
+
+85
+
+Contingent Convertible ("CoCo") Bonds
+Current‐state process depiction
+
+Bank
+2
+
+Issuance
+
+Bond request
+
+2
+
+Investors
+
+Trigger options
+
+Capital ratio book‐value 
+calculation
+Capital ratio market‐value
+calculation
+
+Discretionary
+
+Monitoring (ongoing and ad hoc)
+
+Market
+Liabilities
+Assets
+
+Bank
+
+3
+
+and
+
+Regulator
+
+g
+
+i
+
+n
+o
+
+g
+
+n
+
+O
+
+c
+
+o
+h
+d
+
+A
+
+4
+
+Stress test
+
+5
+
+Regulator
+
+Bank
+
+Current‐state process description
+
+Yes
+
+Below 
+condition?
+
+Bank
+
+
+
+Loan absorption
+
+Equity
+
+“CoCo” bond
+
+6
+
+Investors
+
+Trigger options
+
+Capital ratio book‐value 
+calculation
+Capital ratio market‐value
+calculation
+
+Discretionary
+
+1
+
+To initiate issuance, the bank 
+determines a trigger option 
+through a book‐value or 
+market‐value calculation (e.g. 
+bank capital falls below 7.5%) to 
+activate loan absorption 
+(conversion of a “CoCo” bond to 
+equity)
+
+2
+
+3
+
+After determining bond attributes (e.g. trigger and maturity date), the 
+bank issues “CoCo” bonds to raise funds from a broad set of investors 
+(including retail, banks, hedge funds and insurance companies)
+The issuing bank and regulator monitor the trigger to determine if 
+loan absorption needs to be activated through two ongoing and one 
+ad hoc mechanisms:
+‐ Bank analyses trigger (no frequency mandated by regulator)
+‐ Bank and regulator make discretionary decision (e.g. market 
+performance)
+‐ Regulator requests point‐in‐time stress test to assess capital ratio
+
+a
+b
+
+c
+
+4
+
+If any monitoring mechanism 
+results in requiring loan 
+absorption to be activated (e.g. 
+bank capital falls below 7.5% or 
+discretionary action is taken), 
+the “CoCo” bond is converted 
+into equity at a predetermined 
+conversion rate
+
+WORLD ECONOMIC FORUM | 2016
+
+86
+
+Contingent Convertible ("CoCo") Bonds
+Current‐state pain points
+
+Bank
+2
+
+Issuance
+
+Bond request
+
+2
+
+Investors
+
+Trigger options
+
+Capital ratio book‐value 
+calculation
+Capital ratio market‐value
+calculation
+
+Discretionary
+
+1
+
+Limited participation: limited 
+rating information within the 
+“CoCo” bonds market limits 
+participation from large 
+institutional investors
+
+Monitoring (ongoing and ad hoc)
+
+Market
+Liabilities
+Assets
+
+Bank
+
+3
+
+and
+
+Regulator
+
+g
+
+i
+
+n
+o
+
+g
+
+n
+
+O
+
+c
+
+o
+h
+d
+
+A
+
+4
+
+Stress test
+
+5
+
+Regulator
+
+Bank
+
+Yes
+
+Below 
+condition?
+
+Bank
+
+
+
+Loan absorption
+
+Equity
+
+“CoCo” bond
+
+6
+
+Investors
+
+Trigger options
+
+Capital ratio book‐value 
+calculation
+Capital ratio market‐value
+calculation
+
+Discretionary
+
+Current‐state pain points
+
+2
+
+3
+
+4
+
+5
+
+Inconsistent trigger calculation methods: banks can complete capital 
+ratio analyses through book‐value (using internal models) or market‐
+value (comparing stock market capitalization to assets) calculations
+Ambiguity: regulators lack insight into capital ratio (aside from 
+requesting point‐in‐time stress tests) and whether loan absorption 
+may need to be activated in the future
+Lack of real‐time reporting: regulators must rely on public‐facing, 
+point‐in‐time stress tests to assess the health of the banks and “CoCo” 
+bonds market
+Market fear: bank equities are susceptible to extreme volatility as 
+investors fear stress test results
+
+6
+
+Delayed activation time: since 
+trigger condition calculation 
+frequency is not regulated (e.g. 
+bank capital ratios may be 
+calculated quarterly), “CoCo” 
+bonds may not be converted 
+into equity immediately after 
+the condition is met
+
+WORLD ECONOMIC FORUM | 2016
+
+87
+
+Contingent Convertible (“CoCo”) Bonds
+Future‐state process depiction
+
+Issuance
+
+Bond 
+request
+
+Select based 
+on criteria
+
+1
+
+Bank
+
+“CoCo” bond
+Coupon rate
+Maturity date
+Trigger
+
+Trigger options
+
+Market
+Liabilities
+Assets
+
+2
+
+Investors
+
+Bank
+4
+
+3
+
+Tokenized
+instrument
+
+Capital ratio: 7.49%
+
+Trigger options
+
+5
+
+Smart 
+contract
+
+Monitoring (ongoing)
+
+Loan absorption
+
+Equity
+
+Smart 
+contract
+
+Yes
+
+Below 
+condition?
+
+t
+r
+
+e
+
+l
+
+A
+
+Bank
+
+6
+
+Regulator
+
+Investors
+
+8
+
+“CoCo” 
+bond
+
+Bank
+Smart 
+7
+contract
+Discretionary input
+
+
+
+Bank
+
+Regulator
+
+1
+
+2
+
+Similar to the current state, the 
+issuing bank determines the 
+trigger option through a book‐
+value or market‐value 
+calculation to activate loan 
+absorption, and initiates bond 
+issuance
+The bank issues a tokenized 
+“CoCo” bond to raise funds 
+from investors, utilizing the 
+record‐keeping functionality of 
+DLT
+
+WORLD ECONOMIC FORUM | 2016
+
+Future‐state process description
+
+3
+
+4
+
+5
+
+6
+
+The tokenized bond includes key attributes, including a loan 
+absorption trigger, issuing bank, coupon rate and maturity date
+The bank analyses the current capital ratio to determine if loan 
+absorption needs to be activated
+The latest calculation is added directly to the tokenized asset for the 
+bond, providing investors and regulators with transparency into the 
+status of their issued “CoCo” bonds
+If the trigger is reached, regulators and bank leadership are notified in 
+real time through a smart contract
+
+7
+
+8
+
+After a bank or regulator 
+provides discretionary input 
+into conversion (can be 
+automated in the future), loan 
+absorption can be activated 
+through a smart contract
+The “CoCo” bond is converted 
+into equity at a predetermined 
+conversion rate
+
+88
+
+Contingent Convertible ("CoCo") Bonds
+Future‐state benefits
+
+Issuance
+
+Bond 
+request
+
+Select based 
+on criteria
+
+Bank
+
+“CoCo” bond
+Coupon rate
+Maturity date
+Trigger
+
+Trigger options
+
+1
+
+Investors
+
+Bank
+2
+
+Market
+Liabilities
+Assets
+
+Capital ratio: 7.49%
+
+Monitoring (ongoing)
+
+Smart 
+contract
+
+Yes
+
+Bank
+
+3
+
+t
+r
+
+e
+
+l
+
+A
+
+Loan absorption
+
+Equity
+
+Bank
+
+“CoCo” 
+bond
+
+Smart 
+contract
+Discretionary input
+
+5
+
+Investors
+
+
+
+Bank
+
+Regulator
+
+Tokenized
+instrument
+
+Trigger options
+
+Smart 
+contract
+
+Below 
+condition?
+
+Regulator
+
+4
+
+Future‐state benefits
+
+1
+
+Increased participation: up‐to‐
+date capital ratio information 
+stored within DLT can increase 
+confidence and lead to 
+developing a “CoCo” bond 
+rating system, enabling large 
+institutional investors to 
+participate within the market
+
+2
+
+3
+
+4
+
+Improved calculations: integrating capital ratio calculations directly 
+into DLT can improve data input maturity and calculation frequency 
+across banks
+Real‐time reporting: regulators can be notified in real time through a 
+smart contract if a “CoCo” bond trigger is reached
+Reduced stress tests: since regulators have access to a bank’s capital 
+ratio in real time, bank equity volatility can be reduced as the 
+likelihood for point‐in‐time stress tests decreases
+
+5
+
+Real‐time activation time: since 
+the frequency of the trigger 
+calculation and reporting 
+increases through DLT, the time 
+to convert a “CoCo” bond into 
+equity after the condition is met 
+significantly reduces
+
+WORLD ECONOMIC FORUM | 2016
+
+89
+
+Contingent Convertible (“CoCo”) Bonds
+Critical conditions
+
+Standardizing attributes for 
+soliciting  investment
+
+Streamlining trigger calculations
+across FIs
+
+Developing processes to act on
+real‐time trigger notifications
+
+Regulators across markets must initiate 
+conversations with FIs that issue “CoCo” bonds 
+to develop standardized attributes that can be 
+used by investors to make data‐driven 
+investment decisions
+
+Regulators must impose standards for FIs to 
+streamline their methodologies behind trigger 
+calculations, and the frequency that results will 
+be entered into the tokenized “CoCo” bond 
+instruments
+
+Regulators and bank leadership must develop 
+the business processes required to act on real‐
+time trigger notifications to determine if loan 
+absorption should be activated at that FI and 
+across the market
+
+Why?
+
+Why?
+
+Why?
+
+Data fields and templates must be 
+standardized to tokenize “CoCo” bonds across 
+FIs within the distributed ledger
+
+Investor confidence in “CoCo” bonds can only 
+increase if standardization exists within the 
+calculation process and, subsequently, loan 
+absorption
+
+Since the viability of “CoCo” bonds is in 
+question due to loan absorption, transparency 
+is required in order for investors to continue 
+investments
+
+Challenge
+
+Challenge
+
+Challenge
+
+Each market requires different data to be 
+provided when issuing “CoCo” bonds; data field 
+units are currently not standardized across FIs
+
+Each FI currently calculates trigger values 
+independently and with varying degrees of 
+automation
+
+Regulators may require a significant process 
+overhaul since they are traditionally restricted 
+to point‐in‐time stress tests to analyse an FI’s 
+capital ratio
+
+WORLD ECONOMIC FORUM | 2016
+
+Stakeholder 
+alignment
+
+Technology
+
+Regulatory
+
+Governance
+
+90
+
+Critical condition categories
+
+Contingent Convertible (“CoCo”) Bonds
+Conclusion
+
+•
+
+•
+
+•
+
+•
+
+Summary
+
+Outlook
+
+Improved monitoring: Ongoing monitoring can be standardized 
+across FIs while ensuring that regulators receive real‐time 
+notifications of impending loan absorption activation
+Increased investor confidence: Ensuring that processes exist to 
+improve visibility into monitoring and loan absorption will 
+increase investor confidence and, potentially, participation
+
+• No significant applications of DLT within the “CoCo” bond life 
+cycle have been reported or discussed within blockchain 
+research released to date
+• While benefits associated with process execution and reporting 
+costs exist, a majority of benefits are ancillary and focused on 
+improving market stability
+• Opportunity exists for regulators to push standardized capital 
+ratio calculations across FIs and to reduce volatility associated 
+with requesting point‐in‐time stress tests
+
+Key takeaways
+
+Unanswered questions
+
+Ensure educated and empowered investors: Tokenized bond 
+instruments can enable investors to make informed, data‐
+driven decisions; improved monitoring processes can reduce 
+market uncertainty
+Allow point‐in‐time stress tests to become irrelevant: Smart 
+contracts can alert regulators when loan absorption needs to 
+be activated, while ensuring that “over‐reporting” is not a 
+concern
+
+•
+
+Business drivers: Since loan absorption is an indication that a 
+broader crisis may be taking place, is reduced market volatility 
+enough of a driver to warrant investment?
+
+WORLD ECONOMIC FORUM | 2016
+
+91
+
+Section 5.6
+
+Investment Management: Automated Compliance
+
+WORLD ECONOMIC FORUM | 2016
+
+92
+
+Automated Compliance
+Introduction
+
+Current‐state background
+FIs are responsible for complying with and reporting on a multitude of regulatory requirements. These activities may be executed 
+internally by a functional area within the organization or via a third party. Audit, tax, CCAR and routine Securities and Exchange 
+Commission (SEC) filing (10K/10Q) are just a few compliance‐related activities that add additional cost to FIs’ annual spend. 
+
+Key ecosystem stakeholders
+
+Auditor
+
+Financial Institution
+
+Internal
+Revenue
+Service
+
+Regulator
+
+Accountant
+
+Federal
+Reserve
+
+WORLD ECONOMIC FORUM | 2016
+
+Overview
+
+•
+
+•
+
+Compliance costs are high: Compliance activities are a major portion of 
+the cost overhead FIs deal with. In 2014 the largest FIs spent US$ 4 billion 
+in compliance‐related activities1
+Auditing costs are high: Auditing represents one of the largest annual 
+compliance costs for FIs. On average, public companies paid in excess of 
+US$ 7.1 million in audit fees in 20132
+
+DLT has the potential to increase operational efficiencies and provide 
+regulators with enhanced enforcement tools. This use case focuses on the key 
+opportunities in the financial statement audit process to highlight an 
+automated compliance solution
+
+1. Banks face pushback over surging compliance and regulatory costs, 
+Financial Times, 2015.
+2. 2015 Annual Audit Fee Report, Financial Executives Research Foundation, 2015.
+
+93
+
+Automated Compliance
+Key market participants
+
+Market participant
+
+Role
+
+Description
+
+Auditor
+
+Financial Institution
+
+Regulator
+
+Accountant
+
+Federal Reserve
+
+Internal Revenue Service
+
+Core
+
+Core
+
+Supporting
+
+Additional 
+participant
+
+Additional 
+participant
+
+Additional 
+participant
+
+Individual(s) who perform(s) the financial statement examination and provide(s) 
+reasonable assurance of the financials via the audit opinion
+
+An entity providing the financial statements and requesting the audit opinion
+
+A monitor who verifies adherence to audit activities (e.g. the CCAR regulator is 
+responsible for verifying requisite capital is on hand to conduct operations)
+
+Individual(s) responsible for reviewing, preparing and filing the tax statements on 
+behalf of the FI
+
+The US government organization responsible for supervising and regulating 
+banking institutions
+
+The US government organization responsible for tax collection and tax law 
+enforcement
+
+WORLD ECONOMIC FORUM | 2016
+
+94
+
+Automated Compliance
+Current‐state process depiction
+
+Planning
+
+Assessment
+
+Follow‐up
+
+Reporting
+
+1
+
+Risk assessment
+
+Auditor
+
+Audit scope
+
+Objectives
+
+2
+
+Bank
+
+3
+
+Material
+information
+
+Bank
+
+4
+
+Auditor
+
+Accounts
+payable
+
+Accounts
+receivable
+
+5
+
+Identified errors
+
+Auditor
+
+Auditor
+
+Supporting 
+documentation
+
+Bank
+
+6
+
+Bank
+
+8
+
+7
+Independent
+audit report
+
+10K/10Q
+
+Current‐state process description
+
+1
+
+2
+
+Annually, auditors coordinate 
+with the bank to perform the 
+required audit of financial 
+statements
+Members of the audit team 
+work directly with the bank to 
+perform an initial risk 
+assessment and align on the 
+scope, objectives, timing and 
+resources required
+
+3
+
+4
+
+The bank provides the audit 
+team with copies of financially 
+material data and access to the 
+systems that enable analyses to 
+be conducted
+Auditors evaluate the 
+information provided for 
+completeness and conduct tests 
+for accuracy in parallel to 
+performing the evaluation
+
+5
+
+6
+
+Throughout the process, 
+auditors work directly with the 
+leadership and representatives 
+from the bank to address 
+identified errors within the data 
+and testing exceptions
+As exceptions are identified, the 
+audit team requests additional 
+information to determine the 
+depth of the concern
+
+7
+
+8
+
+At the conclusion of the 
+evaluation, the audit team 
+releases an opinion of the 
+overall financial health of the 
+bank in the form of an 
+independent audit report
+The bank uses the results of the 
+report to populate its quarterly 
+and annual filings 
+(10K/10Q)
+
+WORLD ECONOMIC FORUM | 2016
+
+95
+
+Automated Compliance
+Current‐state pain points
+
+Planning
+
+Assessment
+
+Follow‐up
+
+Reporting
+
+1
+
+Risk assessment
+
+Audit scope
+
+Objectives
+
+Auditor
+
+Bank
+
+2
+
+Material
+information
+
+Bank
+
+3
+
+Auditor
+
+Accounts
+payable
+
+Accounts
+receivable
+
+Identified errors
+
+Auditor
+
+Auditor
+
+Supporting 
+documentation
+
+Bank
+
+4
+
+Independent
+audit report
+
+Bank
+
+5
+
+10K/10Q
+
+Current‐state pain points
+
+1
+
+Resource‐intensive: scope 
+formation, risk assessment and 
+audit planning require 
+representatives from multiple 
+functional areas, reducing 
+productivity as individual 
+employees cannot complete 
+their daily activities
+
+2
+
+3
+
+Time‐intensive review: pulling
+sample data for audit review is 
+time‐intensive and inefficient 
+due to dependency on manual 
+activities
+Lack of technology integration: 
+information is copied from 
+source systems and provided to 
+auditors, adding inefficient 
+manual processes that increase 
+the likelihood of errors
+
+4
+
+Resource‐intensive: exception 
+and error follow‐up requires 
+additional interaction with 
+representatives from multiple 
+functional areas, further 
+reducing productivity
+
+5
+
+Lack of technology integration: 
+information provided in the 
+independent audit report does 
+not feed directly into quarterly 
+and annual filings (10K/10Q),
+duplicating efforts
+
+WORLD ECONOMIC FORUM | 2016
+
+96
+
+Automated Compliance
+Future‐state process depiction
+
+1
+
+Income
+
+Assets
+
+Assessment
+
+Accounts
+receivable
+
+DLT financial data extraction layer
+
+Losses
+
+Liabilities
+
+Accounts
+payable
+
+Depreciation
+
+Management
+assertions
+
+Reporting
+
+Additional compliance activities
+
+6
+
+Accessed 
+through DLT
+
+2
+
+Accounts
+payable
+
+Accounts
+receivable
+
+Auditor
+
+3
+
+1
+
+2
+
+Financially material information is accessible 
+to auditors in real time through the use of a 
+financial DLT enabled data extraction layer
+Since auditors have authorized access to this 
+data, representatives and leadership of the 
+bank do not need to be involved with audit 
+planning and data distribution
+
+Independent
+audit report
+
+5
+
+Bank
+
+Comprehensive Capital Assessment Review
+Federal 
+Reserve
+
++
+
+Regulator
+
+Auditor
+
+Stored on DLT
+
+4
+
+Smart 
+contract
+
+10K/10Q
+
+Accountant
+
+Enterprise tax filing
+
++
+
++
+
+IRS
+
+Future‐state process description
+
+3
+
+4
+
+5
+
+The audit team performs an audit evaluation 
+using data directly from the DLT, eliminating 
+errors generated from manual activity and 
+the requirement for follow‐up
+Auditors develop the independent audit 
+report and store it on the DLT for real‐time 
+access by the bank and regulator
+A smart contract facilitates the movement of 
+information from the audit report to 
+financial reporting instruments, minimizing 
+duplicate efforts
+
+6
+
+In the future, DLT is uniquely positioned to 
+seamlessly execute and automate 
+compliance activities such as:
+‐ Comprehensive Capital Assessment 
+Review (pictured)
+‐ Enterprise tax filing (pictured)
+‐ Real time tasks for trading in financial 
+instruments (e.g. insider trading)
+‐ Processing information about new 
+regulatory developments
+
+WORLD ECONOMIC FORUM | 2016
+
+97
+
+Accounts
+receivable
+
+DLT financial data extraction layer
+
+Losses
+
+Liabilities
+
+Reporting
+
+Independent
+audit report
+
+4
+
+Accounts
+payable
+
+5
+
+Depreciation
+
+Management
+assertions
+
+Additional compliance activities
+
+6
+
+Comprehensive Capital Assessment Review
+Federal 
+Reserve
+
++
+
+Regulator
+
+Bank
+
+Automated Compliance
+Future‐state benefits
+
+1
+
+Income
+
+Assets
+
+Assessment
+
+Accessed 
+through DLT
+
+2
+
+Accounts
+payable
+
+Accounts
+receivable
+
+Auditor
+
+Auditor
+
+Stored on DLT
+
+3
+
+Smart 
+contract
+
+10K/10Q
+
+Accountant
+
+Enterprise tax filing
+
++
+
++
+
+IRS
+
+1
+
+2
+
+Data transparency: enabling data stored 
+within financial systems to be accessible via 
+DLT through the financial data extraction 
+layer provides immutable and transparent 
+records that are updated in real time
+Automated review: financial information 
+accessible via DLT enables an automated 
+review via audit software, reducing the time 
+and resources required to perform these 
+activities
+
+Future‐state benefits
+
+3
+
+4
+
+Reduced errors: audit teams have 
+authorized access to financial data, 
+eliminating errors generated by manual 
+activities and streamlining the update
+process
+Integrated systems: reporting activities 
+executed via DLT facilitates the creation of 
+quarterly and annual filings, reducing 
+duplicate efforts
+
+•
+
+5
+
+In the future, DLT can enable additional 
+compliance activities to be seamlessly executed 
+through automation:
+The bank provides Federal Reserve officials 
+with authorized access to facilitate 
+automated capital analysis and store results 
+on DLT
+The bank provides tax accountants with 
+authorized access to real‐time financial data 
+to facilitate tax calculations and automate 
+IRS tax payments
+
+•
+
+6
+
+WORLD ECONOMIC FORUM | 2016
+
+98
+
+Automated Compliance
+Critical conditions
+
+Providing compartmentalized 
+access to data
+
+Automating faster and efficient 
+enforcement of regulations
+
+Enabling  interoperability with 
+legacy platforms
+
+The DLT solution must ensure access can be 
+authorized at the financial category level (e.g. 
+assets, liabilities, etc.)
+
+FIs and regulators must transition to a real‐
+time cadence for sharing financially material 
+information
+
+Legacy platforms of FIs and regulatory agencies 
+must be capable of feeding data directly into 
+and extracting data from the distributed ledger
+
+Why?
+
+Why?
+
+Why?
+
+To mitigate risk, external users should only 
+have access to financial data that is material to 
+their compliance activity
+
+Providing regulators with real‐time transparent 
+access to financial data enables the regulatory 
+enforcement of compliance‐related activities
+
+To facilitate process automation, technology 
+platforms must be capable of transmitting and 
+receiving data on the distributed ledger
+
+Challenge
+
+Challenge
+
+Challenge
+
+Current DLT solutions authorize access to the 
+ledger as a whole and do not provide the 
+capability to partition access
+
+Given no legal/regulatory precedent, 
+establishing a shared arrangement between 
+the regulator and FIs will be arduous
+
+FIs and regulatory agencies use multiple 
+technology solutions that may be incapable of 
+interfacing with the ledger
+
+WORLD ECONOMIC FORUM | 2016
+
+Stakeholder 
+alignment
+
+Technology
+
+Regulatory
+
+Governance
+
+99
+
+Critical condition categories
+
+Automated Compliance
+Conclusion
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Summary
+
+Outlook
+
+Process automation: Audit examination activities are executed 
+via automated audit software, dramatically reducing the time 
+and resources required to perform the audit 
+Regulatory transparency: Audit officials are authorized access 
+to pertinent financial information to execute the audit 
+examination
+Cost savings: DLT can provide major cost savings in process 
+execution and reporting 
+
+•
+
+Applications of DLT within automated compliance are currently 
+being explored at the proof‐of‐concept level with a number of 
+incumbents, focusing on:
+‐
+Continuous auditing
+‐
+AML/KYC verification
+‐
+Automated tax filing
+• Opportunities exist for FIs to reduce headcount and manual 
+activities:
+‐
+Eliminating planning/follow‐up activities
+‐
+Automating assessment/reporting activities
+
+Key takeaways
+
+Unanswered questions
+
+Audit continuously: The convergence of automated audit 
+software and access to real‐time financial information facilitate 
+continuous auditing, which provides greater confidence in the 
+financial health of the organization
+Extract financial data: Financial information stored on a 
+distributed layer facilitates the automated execution of 
+additional compliance activities (e.g. CCAR, tax filing, etc.)
+
+•
+
+Continuous auditing: Will more frequent financial statement 
+audits (potentially continuous) have adverse effects on investor 
+decisions?
+
+WORLD ECONOMIC FORUM | 2016
+
+100
+
+Section 5.7
+
+Investment Management: Proxy Voting
+
+WORLD ECONOMIC FORUM | 2016
+
+101
+
+Proxy Voting
+Introduction
+
+Current‐state background
+Proxy voting facilitates remote investor voting on topics discussed during annual corporate shareholder meetings without requiring 
+attendance. To ensure investors are able to make an informed decision, corporations are responsible for distributing proxy 
+statements. Currently, a third party is responsible for delivering these statements to investors in partnership with intermediaries that 
+track order execution. Investors conduct a manual analysis before casting their vote directly to the third party.
+
+Key ecosystem stakeholders
+
+Overview
+
+Regulator
+
+Corporation
+
+•
+
+•
+
+•
+
+Retail investor participation is low compared to institutional investor 
+participation: On average, institutions voted 83% of their shares, while 
+retail investors voted 28% of their shares1
+As a result, significant participation in elections is lacking each year: 
+From 1 July to 31 December 2015, approximately 24 billion shares 
+remained “un‐voted” as a result of this turnout1
+Efforts are being launched to improve retail participation: As investor 
+activism strengthens, leadership is recognizing the need to engage all 
+shareholders throughout the voting process
+
+Third Party/
+Intermediaries
+
+Investor
+
+DLT has the potential to transfer value irrefutably. This use case highlights the 
+key opportunities to improve retail investor participation in proxy voting
+
+WORLD ECONOMIC FORUM | 2016
+
+102
+
+1. ProxyPulse: First Edition 2016, ProxyPulse.
+
+Proxy Voting
+Key market participants
+
+Market participant
+
+Role
+
+Description
+
+Corporation
+
+Investor
+
+Core
+
+Core
+
+The publicly traded entity that would like to improve proxy voting response rates 
+by implementing a DLT solution
+
+An individual and/or institution that participates in the voting process by receiving 
+proxy statements and casting a vote via phone, mail or online channels
+
+Third Party/Intermediaries
+
+Supporting
+
+Entities that facilitate the proxy voting process, while ensuring that statements are 
+distributed to all beneficial investors
+
+Regulator
+
+Supporting
+
+A monitor who ensures proxy statements are distributed to all investors and the 
+voting process is completed without any illegal or suspicious activity
+
+WORLD ECONOMIC FORUM | 2016
+
+103
+
+Proxy Voting
+Current‐state process depiction
+
+Distribute proxy statement
+
+3
+
+Intermediaries
+
+Provide beneficial 
+investor information in 
+partnership with the 
+Depository Trust & 
+Clearing Corporation
+
+1
+
+Corporation
+
+Third party
+2
+
+Regulator
+
+or
+
+Online
+
+Mail
+
+Investors
+
+Provide notice that 
+proxy statements are 
+accessible by investors
+
+Review proxy statement
+
+Cast vote
+
+4
+
+5
+
+Analyse potential
+voting impact
+
+Investors
+
+Cast
+vote
+
+or
+
+or
+
+6
+
+7
+
+Third 
+party
+
+Results
+released
+
+Proxy
+statements
+
+Online
+or
+
+Mail
+
+1
+
+2
+
+3
+
+The corporation develops a proxy statement 
+internally in partnership with various teams, 
+including general counsel and accounting
+The corporation simultaneously provides a 
+third‐party organization with the documents 
+to distribute to shareholders (via online and 
+mail) and notifies the regulator that the 
+proxy statement is available
+The third‐party organization works with 
+intermediaries to obtain beneficial investor 
+information that may not be available
+
+Current‐state process description
+
+4
+
+Investors analyse the proxy statement to 
+determine the potential impact of the votes 
+being solicited during a corporation’s 
+shareholder meeting
+
+5
+
+6
+
+7
+
+Investors cast their vote directly to the third‐
+party organization either online or by mail or 
+phone
+Results are not shared with investors or the 
+corporation throughout the voting process
+During the shareholder meeting, votes cast 
+by attendees are aggregated with those 
+submitted by proxy and announced
+
+WORLD ECONOMIC FORUM | 2016
+
+104
+
+Proxy Voting
+Current‐state pain points
+
+Distribute proxy statement
+
+1
+
+Intermediaries
+
+2
+Third party
+3
+
+Regulator
+
+Corporation
+
+Provide beneficial 
+investor information in 
+partnership with the 
+Depository Trust & 
+Clearing Corporation
+
+or
+
+Online
+
+Mail
+
+Investors
+
+Provide notice that 
+proxy statements are 
+accessible by investors
+
+Review proxy statement
+
+Cast vote
+
+5
+
+6
+Analyse potential
+voting impact
+
+7
+
+Investors
+
+Cast
+vote
+
+or
+
+or
+
+8
+
+9
+
+Third 
+party
+
+Results
+released
+
+4
+Proxy
+statements
+
+Online
+or
+
+Mail
+
+1
+
+2
+
+3
+
+Ambiguity: a single view into the total 
+population of registered and beneficial 
+investors does not exist without 
+intermediaries
+Costly distribution process: since the online 
+portal for statement distribution can only 
+occur if an investor has “opted‐in”, 
+significant print and mail expenses are 
+incurred
+Limited distribution: depending on the 
+market, proxy statements cannot be shared 
+with institutional investors, restricting the 
+number of potential votes that can be cast
+
+WORLD ECONOMIC FORUM | 2016
+
+Current‐state pain points
+
+4
+
+5
+
+6
+
+Misleading representation: summaries 
+within proxy statements can provide a 
+misleading view into a corporation’s health
+Error prone: in some cases, minor data 
+errors are uncovered by institutional 
+investors conducting detailed analyses
+Manual intensive process: given the length 
+and unstructured format of proxy 
+statements, investors have to manually 
+determine the information that will help 
+facilitate an informed decision
+
+7
+
+8
+
+9
+
+Minimal retail investor participation: in the 
+United States (and other countries 
+worldwide), a majority of shares owned by 
+retail investors go unvoted each year
+Lack of transparency: the corporation and 
+voters do not receive insight into the process 
+until they are made available by the third 
+party
+Voting discrepancies: the number of shares 
+held by investors may differ from the 
+number of votes cast; depending on the  
+regulation, these votes are either adjusted 
+or not counted
+
+105
+
+Proxy Voting
+Future‐state process depiction
+
+Distribute proxy statement
+
+Review proxy statement
+
+Cast vote
+
+1
+
+Investor 
+Details
+
+Corporation 
+Name
+
+Investment 
+Records
+
+Proxy 
+statement
+
+Proxy 
+statement
+
+Corporation
+
+2
+Smart contract
+
+Investors
+
+Investors
+
+Provide notice that 
+proxy statements are 
+accessible by investors
+
+Regulator
+
+4
+
+Investors
+
+3
+
+Analyse potential
+voting impact
+
+Cast
+vote
+
+or
+
+or
+
+Proxy
+statements
+
+Online
+or
+
+Mail
+
+5
+
+6
+
+Smart 
+contract
+
+Results
+released
+
+Validate votes by 
+comparing to ownership 
+data
+
+1
+
+2
+
+As orders are executed to invest in a 
+corporation’s equity, DLT stores investment 
+records including the number of shares
+After a corporation has finalized its proxy 
+statement, a smart contract ensures that it is 
+sent to all investors (via an online portal or 
+mail) and the regulator is notified that the 
+documents are available
+
+Future‐state process description
+
+3
+
+Investors analyse the proxy statement to 
+determine the potential impact of the votes 
+being solicited during a corporation’s 
+shareholder meeting through DLT’s transfer 
+of value capability
+
+4
+
+5
+
+6
+
+Investors cast their vote either online or by 
+mail or phone directly into the DLT as a 
+tokenized asset through back‐end
+infrastructure integration
+A smart contract ensures votes are valid by 
+comparing the number of votes cast to 
+ownership data
+Results are shared with the corporation 
+and/or investors in real time or during a 
+shareholder meeting
+
+WORLD ECONOMIC FORUM | 2016
+
+106
+
+Proxy Voting
+Future‐state benefits
+
+Distribute proxy statement
+
+Review proxy statement
+
+Cast vote
+
+1
+
+Investor 
+Details
+
+Corporation 
+Name
+
+Investment 
+Records
+
+Proxy 
+statement
+
+Proxy 
+statement
+
+Corporation
+
+2
+Smart contract
+
+Investors
+
+Investors
+
+Provide notice that 
+proxy statements are 
+accessible by investors
+
+Regulator
+
+Proxy
+statements
+
+3
+
+Online
+or
+
+Mail
+
+7
+
+4
+
+Investors
+
+Analyse potential
+voting impact
+
+Cast
+vote
+
+or
+
+or
+
+5
+
+6
+
+Smart 
+contract
+
+Results
+released
+
+Validate votes by 
+comparing to ownership 
+data
+
+Future‐state benefits
+
+1
+
+2
+
+Disintermediation: since all investment 
+records are stored on DLT, partnerships with 
+a third‐party organization and intermediaries 
+are not required; a smart contract can notify 
+regulators of proxy statement availability 
+and ensure distribution to investors
+Streamlined distribution process: DLT can 
+reduce the costs associated with printing 
+and mailing proxy statements (difficult to 
+compute savings since investor must “opt‐
+in”)
+
+3
+
+4
+
+Improved accessibility and participation: 
+DLT can increase the mechanisms that can 
+be used to access proxy statements (e.g. 
+native mobile applications)
+Future automated analyses: in the proposed 
+future state, the current proxy statement 
+format will continue to be distributed to 
+investors, but future implementation can 
+enable investors to conduct personalized,
+automated analyses
+
+5
+
+6
+
+7
+
+Automated validation: smart contracts can 
+ensure that voting is aligned to share 
+ownership at the time of the vote
+Increased transparency: depending on 
+requirements, voting data could be made 
+available to the corporation and/or voters in 
+real time
+Improved accessibility and participation: 
+DLT can increase mechanisms used to cast 
+votes (e.g. native mobile applications)
+
+WORLD ECONOMIC FORUM | 2016
+
+107
+
+Proxy Voting
+Critical conditions
+
+Storing investment records 
+on a distributed ledger
+
+Integrating legacy voting 
+mechanisms into tokens
+
+Collaborating across actors to 
+ensure success
+
+Corporations and/or exchanges must store all 
+investment records on a distributed ledger in 
+order to identify beneficial investors without 
+the need for intermediaries
+
+To ensure investors have a broad set of 
+mechanisms to cast votes, systems will need to 
+be developed to convert votes cast via mail or 
+phone into tokens that can be stored on the 
+distributed ledger
+
+Corporations may choose to partner among 
+each other and/or exchanges to minimize 
+parallel development, while providing investors 
+with confidence that the voting system is not 
+susceptible to corruption
+
+Why?
+
+Why?
+
+Why?
+
+Third parties currently work directly with 
+central securities depositors to ensure 
+investors are engaged appropriately 
+throughout the process
+
+Proxy voting must be accessible by investors 
+across demographics to ensure no 
+discriminatory consequences exist during the 
+process
+
+If each corporation develops a voting solution, 
+investors will not be able to standardize 
+analysis across investments; conflict of interest 
+concerns may exist
+
+Challenge
+
+Challenge
+
+Challenge
+
+Ensuring that all investment records are stored 
+on a distributed ledger with corresponding 
+digital identities will require industry discussion 
+regarding whether equity post‐trade activities 
+should also be facilitated through DLT
+
+To ensure no manual processes exist while 
+converting votes cast via mail into tokens, 
+creative solutions will need to be developed to 
+read voter responses autonomously and with 
+complete accuracy
+
+Process and liability models must be 
+established to outline alternative procedures in 
+the event the smart contract does not 
+successfully validate and/or count votes
+
+WORLD ECONOMIC FORUM | 2016
+
+Stakeholder 
+alignment
+
+Technology
+
+Regulatory
+
+Governance
+
+108
+
+Critical condition categories
+
+Proxy Voting
+Conclusion
+
+•
+
+•
+
+•
+
+•
+
+Summary
+
+Outlook
+
+Streamlined distribution: Smart contract technology reduces 
+manual processes associated with proxy statement distribution, 
+reducing the time and manpower required to perform the 
+process
+Automated reconciliation: Smart contract technology prevents 
+investors from casting more votes than the shares they own 
+and provides real‐time updates for error correction, potentially 
+increasing the total number of counted votes 
+
+•
+
+Applications of DLT within proxy voting are currently being 
+explored at the proof‐of‐concept level by incumbent 
+exchanges:
+‐
+NASDAQ
+• Opportunities exist for FIs to improve participation and 
+accessibility to:
+‐
+Proxy statements
+‐
+Vote casting mechanisms
+
+Key takeaways
+
+Unanswered questions
+
+Ensure voting transparency: The potential exists for DLT to 
+provide a transparent view of voting data during annual 
+shareholder meetings
+Provide central authority disintermediation: Investment 
+records stored on the distributed ledger and proxy statements 
+disseminated via smart contract technology eliminate the need 
+for third‐party intermediaries and associated fees
+
+•
+
+Cost vs benefits: When voting operations are executed faster 
+and at lower cost, will voting frequency increase? Additionally, 
+will this change the relationship between companies and 
+activist investors?
+
+WORLD ECONOMIC FORUM | 2016
+
+109
+
+Section 5.8
+
+Market Provisioning: Asset Rehypothecation
+
+WORLD ECONOMIC FORUM | 2016
+
+110
+
+Asset Rehypothecation
+Introduction
+
+Current‐state background
+Asset rehypothecation is a common practice in which FIs securitize existing collateral to reduce the cost of pledging collateral in 
+subsequent trades. As assets are rehypothecated, ownership structures and asset composition can become ambiguous due to the 
+lack of clear transaction and ownership history, exacerbating counterparty risk and asset valuation uncertainty. Regulatory constraints 
+are designed to limit the extent to which an asset can be rehypothecated, but without a mechanism for tracking transaction history, 
+enforcement is not possible.
+
+Key ecosystem stakeholders
+
+Overview
+
+Regulator
+
+Buying
+Investor
+
+Broker/Dealer
+
+Selling
+Investor
+
+•
+
+•
+
+The secondary trading market is large: Secondary trading has become an 
+extremely common practice, driving its volume in the US loan market to 
+US$ 628 billion in 20141
+Secondary market trading is increasing: Although the secondary trading 
+market is already substantially large, it continues to grow; between 2013 
+and 2014 secondary trading volume increased by 21%1
+
+DLT has the potential to optimize the regulatory components of asset 
+rehypothecation. This use case highlights the key opportunities to improve 
+information transfer in the end‐to‐end broker/dealer process
+
+WORLD ECONOMIC FORUM | 2016
+
+1. 4th Quarter 2014 Secondary Trade Data Study, 
+The Loan Syndications and Trading Association.
+
+111
+
+Asset Rehypothecation
+Key market participants
+
+Market participant
+
+Role
+
+Description
+
+Broker/Dealer
+
+Selling Investor
+
+Buying Investor
+
+Core
+
+Core
+
+Core
+
+An entity that assists investors in buying or selling securities
+
+An entity or individual attempting to sell the security
+
+An entity or individual attempting to purchase the security
+
+Regulator
+
+Supporting
+
+A monitor that verifies adherence to regulatory requirements
+
+WORLD ECONOMIC FORUM | 2016
+
+112
+
+Asset Rehypothecation
+Current‐state process depiction
+
+Two counterparties
+
+Three counterparties
+
+Four counterparties
+
+Five counterparties
+
+1
+
+Cash
+
+Collateral
+
+Customer
+
+Each section 
+represents ¼ of 
+collateral value
+
+Bank
+
+2
+3
+
+5
+
+7
+
+Bank
+
+75% of obtained 
+collateral
+4
+
+Investment
+bank
+
+: 75%
+
+6
+75% of obtained 
+collateral
+
+US SEC limits 
+rehypothecation 
+to 140%
+
+9
+
+: 75%
+
+: 75%
+
+Hedge
+fund
+
+100% of obtained 
+collateral
+
+8
+
+Rehypothecation percentage: 
+
+0%
+
+Rehypothecation percentage: 
+
+75%
+
+Rehypothecation percentage: 
+
+131.25%
+
+Rehypothecation percentage: 
+
+187.5%
+
+The customer maintains possession of the home
+
+Current‐state process description
+
+1
+
+2
+
+3
+
+A customer acquires a loan 
+from a bank to purchase a 
+home
+In exchange, the customer 
+provides the bank with the
+house as collateral and 
+authorizes rehypothecation to 
+improve the rate
+During the mortgage repayment 
+period, the bank may use the 
+house as collateral in 
+subsequent transactions
+
+WORLD ECONOMIC FORUM | 2016
+
+4
+
+5
+
+The bank securitizes a portion 
+(75% within the example) of the 
+mortgage debt along with other 
+mortgages and sells it to an 
+investment bank
+The investment bank now has 
+75% of the house value in 
+collateral that can be used in 
+subsequent trades
+
+6
+
+7
+
+The investment bank 
+repackages the debt obtained 
+(75% of 75% within the 
+example) into a security (e.g. 
+mortgage‐backed), which is 
+further divided into tranches 
+and sold to a hedge fund based 
+on its risk appetite
+The hedge fund has now 
+secured 56.25% of the original 
+house value (that can be used in 
+subsequent trades)
+
+8
+
+9
+
+The hedge fund uses a 
+broker/dealer to sell a 
+derivative in over‐the‐counter 
+markets, where the underlying 
+asset is the rehypothecated 
+percentage obtained (100% of 
+75% of 75% within the example) 
+The ownership and collateral 
+value becomes ambiguous, 
+creating a scenario where the 
+total value pledged far exceeds 
+origination
+
+113
+
+Asset Rehypothecation
+Current‐state pain points
+
+Two counterparties
+
+Three counterparties
+
+Four counterparties
+
+Five counterparties
+
+Cash
+
+Collateral
+
+Customer
+
+Each section 
+represents ¼ of 
+collateral value
+
+1
+
+Bank
+
+3
+
+Bank
+
+75% of obtained 
+collateral
+2
+
+4
+
+: 75%
+
+: 75%
+
+: 75%
+
+Investment
+bank
+
+75% of obtained 
+collateral
+
+Hedge
+fund
+
+100% of obtained 
+collateral
+
+5
+
+US SEC limits 
+rehypothecation 
+to 140%
+
+Rehypothecation percentage: 
+
+0%
+
+Rehypothecation percentage: 
+
+75%
+
+Rehypothecation percentage: 
+
+131.25%
+
+Rehypothecation percentage: 
+
+187.5%
+
+The customer maintains possession of the home
+
+Current‐state pain points
+
+1
+
+Lack of regulatory reporting: 
+within secondary trading 
+markets, reporting 
+requirements do not detail the 
+transaction history of the asset
+(e.g. purchase price, purchase 
+date and loan originator) or 
+other counterparties with 
+claims to the asset
+
+2
+
+3
+
+Counterparty risk: investors 
+lack insight into additional 
+counterparties with ownership 
+claims to the asset
+Lack of transparency:
+regulators do not have the 
+ability to track securities as they 
+are rehypothecated in the 
+market, making enforcement of 
+regulator limits nearly 
+impossible
+
+5
+
+4
+
+Security value ambiguity: since 
+a detailed transaction history is 
+not maintained, each trade 
+leveraging a percentage of the 
+collateral makes it more difficult 
+to determine the true value of 
+the asset
+
+Systematic failure: if default 
+occurs with any of the players, a 
+part or even the entire 
+transaction chain is affected, 
+which may have unintended 
+consequences on adjacent 
+operations in the financial 
+system
+
+WORLD ECONOMIC FORUM | 2016
+
+114
+
+Asset Rehypothecation
+Future‐state process depiction
+
+Two counterparties
+
+Three counterparties
+
+Four counterparties
+
+Five counterparties
+
+Cash
+
+Collateral
+
+Smart
+contract
+
+
+
+3
+
+Smart
+contract
+
+
+
+< 140% regulatory limit
+
+< 140% regulatory limit
+
+Smart
+contract
+
+< 140% regulatory limit
+
+6
+
+✘ ✘
+
+Customer
+
+Each section 
+represents ¼ of 
+collateral value
+
+Bank
+
+1
+2
+
+Bank
+
+75% of obtained 
+collateral
+4
+
+Investment
+bank
+
+: 75%
+
+5
+75% of obtained 
+collateral
+
+: 75%
+
+: 75%
+
+Hedge
+fund
+
+100% of obtained 
+collateral
+
+Rehypothecation percentage: 
+
+0%
+
+Rehypothecation percentage: 
+
+75%
+
+Rehypothecation percentage: 
+
+131.25%
+
+Rehypothecation percentage: 
+
+187.5%
+
+The customer maintains possession of the home
+
+Future‐state process description
+
+1
+
+2
+
+Collateral obtained by the bank 
+is tokenized to record the 
+transaction history of the 
+underlying asset on DLT
+A smart contract encapsulates 
+the tokenized collateral and 
+facilitates record‐keeping and 
+the transfer of value
+
+3
+
+4
+
+In subsequent trades, the smart 
+contract broadcasts the 
+transaction history details (e.g. 
+collateral value and 
+counterparty information) to 
+participating entities
+Investors receive a transparent 
+view of the asset history along 
+with associated counterparty 
+information (via the 
+counterparty rating system) to 
+enhance trade decisions
+
+5
+
+Regulators receive authorized 
+real‐time access to view the 
+transaction details and monitor 
+regulatory infractions
+
+6
+
+The smart contract restricts the 
+additional hypothecation of the 
+asset once predetermined 
+regulatory rehypothecation 
+limits are met
+
+WORLD ECONOMIC FORUM | 2016
+
+115
+
+Asset Rehypothecation
+Future‐state benefits
+
+Two counterparties
+
+Three counterparties
+
+Four counterparties
+
+Five counterparties
+
+Cash
+
+Collateral
+
+Smart
+contract
+
+
+
+3
+
+Smart
+contract
+
+
+
+5
+
+< 140% regulatory limit
+
+< 140% regulatory limit
+
+Smart
+contract
+
+< 140% regulatory limit
+
+✘ ✘
+
+Customer
+
+Each section 
+represents ¼ of 
+collateral value
+
+Bank
+
+1
+2
+
+Bank
+
+75% of obtained 
+collateral
+4
+
+Investment
+bank
+
+: 75%
+
+6
+75% of obtained 
+collateral
+
+: 75%
+
+: 75%
+
+Hedge
+fund
+
+100% of obtained 
+collateral
+
+7
+
+Rehypothecation percentage: 
+
+0%
+
+Rehypothecation percentage: 
+
+75%
+
+Rehypothecation percentage: 
+
+131.25%
+
+Rehypothecation percentage: 
+
+187.5%
+
+The customer maintains possession of the home
+
+1
+
+2
+
+Transparency: the collateral 
+value, risk position and 
+ownership history are 
+transparent to investors, aiding 
+in investment decision‐making
+Counterparty risk: 
+counterparties are rated based 
+on transaction history, enabling 
+investors to hedge their risk by 
+selecting a counterparty that 
+best fits their risk profile
+
+Future‐state benefits
+
+3
+
+4
+
+Automated processing: DLT 
+increases processing efficiency, 
+reducing manual processes and 
+associated costs
+Embedded regulation: 
+regulators maintain a clear view 
+of the asset history (e.g. value, 
+ownership and risk position), 
+enabling the enforcement of 
+regulatory constraints
+
+5
+
+6
+
+Automated enforcement: a 
+smart contract ensures assets 
+are not rehypothecated over 
+regulatory limits
+Financial stability: the 
+enforcement of regulatory 
+controls and the transparent 
+transaction history greatly 
+reduce the risk of systematic 
+failure in the event of default
+
+7
+
+Disintermediation: a smart 
+contract facilitates the 
+movement of funds and assets, 
+eliminating the need for costly 
+intermediaries
+
+WORLD ECONOMIC FORUM | 2016
+
+116
+
+Asset Rehypothecation
+Critical conditions
+
+Tokenizing assets using a shared 
+standard
+
+Fostering engagement among the 
+financial ecosystem
+
+Architecting solution to manage 
+over‐the‐counter (OTC) templates
+
+FIs and technology providers must work 
+together to tokenize collateral linked assets 
+within the financial system 
+
+FIs throughout the financial system must agree 
+to participate in a tokenized asset trading 
+system and comply to the agreed upon rules 
+and regulations
+
+Technology providers must design a flexible 
+distributed ledger solution that accounts for 
+non‐standard and future formats of OTC 
+templates 
+
+Why?
+
+Why?
+
+Why?
+
+To track assets and calculate rehypothecation 
+percentages via smart contract, collateral 
+tokenization is required
+
+To accurately track assets as they move 
+through the financial system, all FIs conducting 
+trades must participate in the distributed‐
+ledger‐based solution
+
+While the ledger will most likely refer to 
+documents stored externally, the solution must 
+be flexible in case modifications to OTC 
+templates are require in the future
+
+Challenge
+
+Challenge
+
+Challenge
+
+A tokenization standard among FIs will be 
+difficult to establish, as will incorporating 
+legacy assets into the distributed ledger
+
+DLT is still unproven; a framework for 
+participation must be established and support 
+from the financial services community must be 
+gained
+
+FIs and technology providers will need to 
+collaborate to ensure flexibility and minimal 
+downstream impacts to smart contracts
+
+WORLD ECONOMIC FORUM | 2016
+
+Stakeholder 
+alignment
+
+Technology
+
+Regulatory
+
+Governance
+
+117
+
+Critical condition categories
+
+Asset Rehypothecation
+Conclusion
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Summary
+
+Outlook
+
+Asset tokenization: Collateralized assets are tokenized and 
+stored on the distributed ledger where transaction history 
+details are stored in perpetuity
+Regulatory transparency: Compliance officials maintain a real‐
+time view of asset transaction history (value, ownership, risk 
+position) to assist in the enforcement of regulatory control 
+limits
+Collaboration: successful implementation of DLT would require 
+a significant amount of standardization and normalization of 
+static data between market participants
+
+•
+
+Applications of DLT within asset rehypothecation are currently 
+being explored at the proof‐of‐concept level with a number of 
+incumbents, focusing on:
+‐
+Gold markets
+‐
+Repurchase markets
+‐
+Asset transfer
+• Opportunities exist for counterparty risk reduction and 
+enhanced regulatory enforcement tools:
+‐
+Counterparty rating system
+‐
+Asset transaction history storage
+‐
+Regulatory transparency
+‐
+Smart contract enforcement
+
+Key takeaways
+
+Unanswered questions
+
+Reduce counterparty risk: The transparent view of asset 
+history (value, ownership and risk position), coupled with a 
+counterparty rating system, assists investors in aligning their 
+risk appetite with potential trade partners
+Financial system stability: smart contract technology 
+terminates trades that violate regulatory controls, reducing the 
+propensity of systemic failure within the financial system and 
+improving collateral management
+
+•
+
+Asset history tokenization: Identifying asset value, ownership 
+and risk position is a major challenge in today’s financial 
+system, so how will this issue be resolved so that transaction 
+histories can be stored on the ledger?
+• Will regulators require OTC markets to comply with this 
+implementation?
+
+WORLD ECONOMIC FORUM | 2016
+
+118
+
+Section 5.9
+
+Market Provisioning: Equity Post‐Trade
+
+WORLD ECONOMIC FORUM | 2016
+
+119
+
+Equity Post‐Trade
+Introduction
+
+Current‐state background
+Equity post‐trade processes enable buyers and sellers to exchange details, approve transactions, change records of ownership and 
+exchange securities/cash. These processes are initiated after an investor receives confirmation of an executed trade from the 
+exchange. Central Securities Depositories (CSDs), working in partnership with custodians, match trades and validate investor 
+credentials. After successful validation, Central Clearing Counterparties (CCPs) net all transactions and transfer cash/equity to all 
+involved custodians. Custodians store assets in safekeeping accounts in partnership with CSDs, who are responsible for initiating asset 
+servicing (e.g. income distribution and proxy voting) as required.
+
+Key ecosystem stakeholders
+
+Custodian Bank
+
+Investor
+
+Central
+Securities
+Depository
+
+Exchange
+
+Central
+Clearing 
+Counterparty
+
+Overview
+
+•
+
+•
+
+•
+
+Significant volume exists within the equity market: The NYSE, for 
+example, processes millions of trades and billions of shares each day1
+Processes are time‐intensive: Following confirmation of a trade, post‐
+trade settlement and clearing processes take anywhere from one to three 
+days to complete (depending on the market)
+Intermediaries are costly: Within the United States, banks, central 
+agency bodies and intermediaries generate approximately US$ 9 billion in 
+various post‐trade activities2
+
+DLT has the potential to improve the efficiency of asset transfer. This use case 
+highlights the key opportunities to streamline clearing and settlement 
+processes in cash equities
+
+WORLD ECONOMIC FORUM | 2016
+
+1. NYSE: Transactions, Statistics and Data Library, 2016.
+2. Charting a Path to a Post‐Trade Utility, Broadridge, 2015.
+
+120
+
+Equity Post‐Trade
+Key market participants
+
+Market participant
+
+Role
+
+Description
+
+Custodian Bank
+
+Investor
+
+Central Securities 
+Depository
+
+Central Clearing 
+Counterparty
+
+Core
+
+Core
+
+Core
+
+Core
+
+An entity that investors use to place trades with the exchange, and that manages 
+post‐trade processes and stores assets for servicing
+
+An individual or organization that instigates equity post‐trade processes by 
+initiating a trade
+
+The entity that supports matching trade sections prior to settlement and facilitates 
+asset servicing processes
+
+The central body that manages counterparty credit risk during settlement by 
+acting as the buyer to the seller and vice versa to the buyer
+
+Exchange
+
+Supporting
+
+The entity that matches equity “buy” and “sell” orders on behalf of investors, and 
+confirms them prior to successful post‐trade processes
+
+WORLD ECONOMIC FORUM | 2016
+
+121
+
+Equity Post‐Trade
+Current‐state process depiction
+
+Equity trade execution 
+
+Clearing
+
+Settlement
+
+Asset servicing
+
+1
+
+SELL 100
+
+Investor 1
+
+Bank 1
+
+SELL 100
+
+2
+
+Investor 1
+
+Custodian 1
+
+Investor 2
+
+Exchange
+
+Investor 2
+
+Custodian 1
+
+BUY 100
+
+Bank 2
+
+Investor 3
+
+*  Trade 
+confirmation
+
+Investor 3
+
+Custodian 2
+
+4
+
+Cash
+
+Equity
+
+3
+
+CSD
+Trade date/ 
+details
+Settlement 
+date
+Counterparty 
+bank details
+Cash 
+commitments
+
+Validation
+
+Custodian 1
+
+5
+
+CCP
+
+6
+
+Custodian 2
+
+Investor 1 Investor 2
+
+Investor 3
+
+7
+
+Safekeeping accounts
+
+Investor 1
+
+Investor 3
+
+Investor 2
+
+Custodian 1
+
+CSD
+
+Custodian 2
+
+Distribute
+income 
+
+Corporate 
+actions
+
+8
+
+Proxy 
+statements
+
+Current‐state process description
+
+1
+
+2
+
+Investors use interfaces 
+provided by the bank of their 
+choosing to place equity trade 
+orders through the exchange
+The exchange is responsible for 
+matching the equity trade 
+orders placed by investors 
+across banks in order to confirm 
+trades in real time and initiate 
+post‐trade processes
+
+3
+
+4
+
+Utilizing securities settlement 
+systems, custodian banks send 
+their section of the trade details 
+to the CSD on behalf of the 
+investor
+The CSD is responsible for 
+validating the trade details 
+provided by all custodian banks 
+(e.g. cash commitments and 
+settlement date) and matching 
+all sections of the trade
+
+5
+
+6
+
+After matching all sections of 
+the trade, CCPs determine the 
+“net transaction” across all 
+trades and custodian banks to 
+minimize the number of 
+required transactions
+The simultaneous transfer of 
+equity and cash is managed by 
+the CCP between custodian 
+banks on behalf of all involved 
+investors
+
+7
+
+8
+
+After the required assets are 
+transferred, equity and cash are 
+stored in safekeeping accounts 
+managed in partnership by 
+custodian banks and the CSD
+As various servicing processes 
+occur, third parties work 
+directly with the CSD to ensure 
+custodian banks and, ultimately, 
+investors are engaged
+
+WORLD ECONOMIC FORUM | 2016
+
+122
+
+Equity Post‐Trade
+Current‐state pain points
+
+Equity trade execution 
+
+Clearing
+
+Settlement
+
+Asset servicing
+
+2
+
+Cash
+
+Equity
+
+SELL 100
+
+Investor 1
+
+1
+
+Investor 1
+
+Custodian 1
+
+Bank 1
+
+SELL 100
+
+Investor 2
+
+Exchange
+
+Investor 2
+
+Custodian 1
+
+BUY 100
+
+Bank 2
+
+Investor 3
+
+*  Trade 
+confirmation
+
+Investor 3
+
+Custodian 2
+
+3
+
+CSD
+Trade date/ 
+details
+Settlement 
+date
+Counterparty 
+bank details
+Cash 
+commitments
+
+Validation
+
+Custodian 1
+
+CCP
+
+4
+
+Custodian 2
+
+Investor 1 Investor 2
+
+Investor 3
+
+6
+
+Safekeeping accounts
+
+Investor 1
+
+5
+
+Investor 3
+
+Investor 2
+
+Custodian 1
+
+CSD
+
+Custodian 2
+
+Distribute
+income 
+
+Corporate 
+actions
+
+7
+
+Proxy 
+statements
+
+Current‐state pain points
+
+1
+
+Duration between trade 
+execution and settlement: 
+despite investors being able to 
+see traded assets in their 
+account shortly after receiving 
+confirmation, settlement occurs 
+t+3, which limits the actions 
+that investors can take in the 
+interim
+
+2
+
+3
+
+Inconsistent data: as a result of 
+frequent changes to 
+counterparty bank details, CSDs 
+must manually validate a 
+number of transactions prior to 
+settlement
+Counterparty risk: custodians 
+must account for the possibility 
+that a counterparty is unable to 
+settle when due
+
+4
+
+5
+
+Operational risk: CCPs must 
+account for the possibility that 
+technology and/or manual 
+errors result in inaccurate 
+settlement
+Settlement ambiguity: 
+investors are inconsistently 
+notified when their trades settle 
+depending on custodian 
+procedures
+
+6
+
+7
+
+Safekeeping account 
+complexity: since securities 
+settlement systems connect 
+safekeeping accounts across 
+custodian banks at the CSD, 
+custodians have limited 
+flexibility to store assets
+Costly intermediaries: 
+corporations must involve third 
+parties and intermediaries to 
+initiate asset servicing
+
+WORLD ECONOMIC FORUM | 2016
+
+123
+
+Equity Post‐Trade
+Future‐state process depiction
+
+Equity trade execution 
+
+Clearing
+
+Settlement
+
+Asset servicing
+
+1
+
+SELL 100
+
+Investor 1
+
+Bank 1
+
+SELL 100
+
+2
+
+Investor 1
+
+Custodian 1
+
+Investor 2
+
+Exchange
+
+Investor 2
+
+Custodian 1
+
+BUY 100
+
+Bank 2
+
+Investor 3
+
+*  Trade 
+confirmation
+
+Investor 3
+
+Custodian 2
+
+4
+
+Cash
+
+Equity
+
+3
+
+Smart
+contract
+
+Trade date/ 
+details
+Counterparty 
+details
+Cash 
+commitments
+
+Validation
+
+Custodian 1
+
+6
+
+5
+
+Smart
+contract
+
+Custodian 2
+
+Investor 1 Investor 2
+
+8
+Safekeeping
+accounts
+
+Investor 3
+
+Investor 1
+
+Investor 3
+
+7
+Trade
+confirmation
+
+Investor 2
+
+Custodian 1
+
+Distribute
+income 
+
+Corporate 
+actions
+
+Custodian 2
+
+9
+
+Proxy 
+statements
+
+Future‐state process description
+
+1
+
+2
+
+Similar to the current state, 
+investors use the interfaces 
+provided by the bank of their 
+choosing to place equity trade 
+orders through the exchange
+The exchange is responsible for 
+matching the equity trade 
+orders placed by investors 
+across banks in order to confirm 
+trades in real time and initiate 
+post‐trade processes
+
+3
+
+4
+
+Custodian banks send their 
+section of the trade details to 
+the DLT on behalf of the 
+investor
+A smart contract validates the 
+trade details provided by all 
+custodian banks (e.g. cash 
+commitments and counterparty 
+details) and matches all sections 
+of the trade in real time
+
+5
+
+6
+
+7
+
+After matching all sections of 
+the trade, a smart contract 
+determines the “net 
+transaction” to minimize the 
+number of required 
+transactions
+Smart contracts ensure the 
+simultaneous transfer of equity 
+and cash between custodian 
+banks on behalf of all investors
+Confirmation is stored in the 
+DLT to facilitate future 
+processes
+
+8
+
+9
+
+After required assets are 
+transferred, equity and cash are 
+stored in safekeeping accounts
+managed solely by custodian 
+banks
+As various servicing processes 
+occur, smart contracts notify 
+custodian banks and investors 
+in real time
+
+WORLD ECONOMIC FORUM | 2016
+
+124
+
+Equity Post‐Trade
+Future‐state benefits
+
+Equity trade execution 
+
+Clearing
+
+Settlement
+
+Asset servicing
+
+1
+
+SELL 100
+
+Investor 1
+
+Bank 1
+
+SELL 100
+
+2
+
+Investor 1
+
+Custodian 1
+
+Investor 2
+
+Exchange
+
+Investor 2
+
+Custodian 1
+
+BUY 100
+
+Bank 2
+
+Investor 3
+
+*  Trade 
+confirmation
+
+Investor 3
+
+Custodian 2
+
+2
+
+Cash
+
+Equity
+
+3
+
+Smart
+contract
+
+Trade date/ 
+details
+Counterparty 
+details
+Cash 
+commitments
+
+Validation
+
+Custodian 1
+
+4
+
+Smart
+contract
+
+Custodian 2
+
+Investor 1
+
+Investor 3
+
+5
+Trade
+confirmation
+
+Investor 2
+
+Future‐state benefits
+
+Investor 1 Investor 2
+
+6
+Safekeeping
+accounts
+
+Investor 3
+
+Custodian 1
+
+Distribute
+income 
+
+Corporate 
+actions
+
+Custodian 2
+
+7
+
+Proxy 
+statements
+
+1
+
+Reduced settlement time: 
+through downstream, post‐
+trade automation and efficiency 
+enhancements, settlement 
+could potentially be reduced to 
+real‐time settlement, trade date 
+plus one day or trade date plus 
+two days
+
+2
+
+3
+
+Standardized data 
+requirements: standardizing 
+data fields for trade matching 
+improves the efficiency of 
+existing clearing processes
+Reduced counterparty risk: 
+through automated validation, 
+custodians benefit from the 
+reduced likelihood that the 
+counterparty is unable to settle
+
+4
+
+5
+
+Reduced operational risk:
+through the use of a smart 
+contract to  transfer equity and 
+cash, the likelihood of 
+technology and/or manual 
+errors is decreased
+Real‐time confirmation: by 
+storing trade confirmations on 
+DLT, investors can receive 
+notification of settlement 
+without relying on a custodian
+
+6
+
+7
+
+Reduced account complexity: 
+custodians will be able to store 
+assets with greater flexibility 
+since integration with securities 
+settlement systems will no 
+longer be required
+Servicing disintermediation: 
+servicing activities initiated via a  
+smart contract eliminate the 
+need for third‐party 
+intermediaries
+
+WORLD ECONOMIC FORUM | 2016
+
+125
+
+Equity Post‐Trade
+Critical conditions
+
+Incorporating “net transaction” 
+benefits within settlement
+
+Achieving multistakeholder 
+alignment across participants
+
+Standardizing reference data 
+utilized to match trades
+
+Custodian banks and regulators will need to 
+work together to determine if and how to 
+incorporate the benefits achieved by netting in 
+order to minimize transactions and money 
+transferred across custodian banks
+
+Regulators, custodian banks and exchanges 
+must work in partnership to develop a solution 
+that can handle billions of dollars in daily 
+transaction volume, while providing the 
+economies of scale to benefit players of all sizes
+
+Custodian banks will need to work together to 
+develop a standardized set of data fields that 
+can match trades while providing investor 
+anonymity and confidence in automation
+
+Why?
+
+Why?
+
+Why?
+
+CCPs aggregate executed trades to optimize 
+the movement of assets; the inability to 
+perform similar activities may add 
+inefficiencies to settlement
+
+Given the complexity of post‐trade processes, 
+all entities involved must be willing to directly 
+participate with one another to ensure market 
+stability
+
+The inability to standardize this data will cause 
+manual post‐trade validation processes to still 
+be required, inhibiting the disintermediation of 
+CCPs and CSDs
+
+Challenge
+
+Challenge
+
+Challenge
+
+Since smart contracts execute commands in 
+real time, batching trades with some 
+predefined frequency may require 
+customization
+
+If CCPs will be disintermediated as a result of a 
+successful implementation of DLT, governance 
+and collaboration will be required to ensure a 
+liability model exists in case technology failures 
+occur
+
+Since traditional data fields used to match can 
+change frequently (e.g. bank details), 
+significant collaboration is required to 
+standardize attributes that are not prone to 
+constant updates
+
+WORLD ECONOMIC FORUM | 2016
+
+Stakeholder 
+alignment
+
+Technology
+
+Regulatory
+
+Governance
+
+126
+
+Critical condition categories
+
+Equity Post‐Trade
+Conclusion
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Summary
+
+Outlook
+
+Process automation: Clearing, settlement and servicing 
+activities are executed via automation, dramatically reducing 
+the time and resources required to perform these processes
+Reduced settlement time: Smart contract technology facilitates 
+customizable settlement timelines (real‐time settlement, trade 
+date plus one day, trade date plus two days), reducing the time 
+it takes to exchange assets
+Cost savings: DLT can provide a global cost reduction 
+opportunity associated with process execution and fee 
+reduction 
+
+•
+
+Applications of DLT within equity post‐trade are currently being 
+explored at the proof‐of‐concept level with a number of 
+incumbents and FinTechs, focusing on:
+‐
+Private equity trading
+‐
+Clearing and settlement solutions
+• Opportunities exist for FIs to reduce costs and improve 
+operational efficiencies:
+‐
+Eliminating fees through disintermediation
+‐
+Executing clearing and settlement via smart contract
+
+Key takeaways
+
+Unanswered questions
+
+Reduce operational risk: Simultaneous settlement of cash and 
+equity executed via smart contract reduces the likelihood of 
+manual errors and the resources required to execute the 
+process
+Provide central authority disintermediation: Settlement and 
+servicing activities are executed via smart contract, eliminating 
+costly fees
+
+•
+
+Real‐time settlement: Will the savings associated with 
+transitioning to faster settlement meet or exceed the value of 
+“float” revenues earned today by holding assets during the 
+settlement period?
+• What are the settlement implications of operating a “slow lane” 
+and “fast lane” (i.e. real‐time settlement and trade date plus 
+three days)?
+
+WORLD ECONOMIC FORUM | 2016
+
+127
+
+Section 6
+
+Contact Details
+
+For additional information, please contact:
+
+WORLD ECONOMIC FORUM PROJECT TEAM
+
+PROFESSIONAL SERVICES LEADERSHIP FROM DELOITTE
+
+R. Jesse McWaters
+Project Lead, Financial Services
+World Economic Forum
+jesse.mcwaters@weforum.org
+
+Giancarlo Bruno
+Senior Director, Head of Financial Services Industries
+World Economic Forum
+giancarlo.bruno@weforum.org
+
+Rob Galaski
+Deloitte Canada
+rgalaski@deloitte.ca
+
+Soumak Chatterjee
+Deloitte Canada
+schatterjee@deloitte.ca
+
+WORLD ECONOMIC FORUM | 2016
+
+129
+
