@@ -1,5 +1,5 @@
 import sys
-from pdfminer.pdfparser import  PDFParser, PDFDocument
+from pdfminer.pdfparser import PDFParser, PDFDocument
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import PDFPageAggregator
 from pdfminer.layout import LTTextBoxHorizontal, LAParams

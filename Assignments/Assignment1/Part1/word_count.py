@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 import re
+import codecs
+from collections import Counter
 
 
 def get_stop_words():
@@ -21,26 +23,46 @@ def delete_stopwords(file_str):
 
 
 def operate_file(filename):
-    file = open(filename + '.txt', 'r')
+    file = codecs.open(filename + '.txt', 'r', 'utf-8')
     file_str = file.read()
     file_str = file_str.lower()
-    file_str = re.sub('[^a-z ]', ' ', file_str)     # delete special characters
+    file_str = re.sub('[^a-z ]', ' ', file_str)    # delete special characters
     file_str = re.sub('\\s+', ' ', file_str)        # delete spare spaces
     word_list = delete_stopwords(file_str)          # delete stop words
 
-    word_count = {}
+    count = {}
     for word in word_list:
-        if word not in word_count:
-            word_count[word] = 1
+        if word not in count:
+            count[word] = 1
         else:
-            word_count[word] += 1
+            count[word] += 1
 
-    word_count = sorted(word_count.items(), key=lambda item: item[1], reverse=True)
-    for key, value in word_count:
-        print(key + ": " + str(value))
-    return word_count
+    count = sorted(count.items(), key=lambda item: item[1], reverse=True)
+    return count
 
 
-filename = 'Beyond_Fintech_-_A_Pragmatic_Assessment_of_Disruptive_Potential_in_Financial_Services'
-operate_file(filename)
+filename1 = 'Beyond_Fintech_-_A_Pragmatic_Assessment_of_Disruptive_Potential_in_Financial_Services'
+filename2 = 'WEF_A_Blueprint_for_Digital_Identity'
+filename3 = 'WEF_The_future__of_financial_services'
+filename4 = 'WEF_The_future_of_financial_infrastructure'
+word_count1 = operate_file(filename1)
+word_count2 = operate_file(filename2)
+word_count3 = operate_file(filename3)
+word_count4 = operate_file(filename4)
+word_count1 = Counter(word_count1)
+word_count2 = Counter(word_count2)
+word_count3 = Counter(word_count3)
+word_count4 = Counter(word_count4)
+word_count = dict(word_count1 + word_count2 + word_count3 + word_count4)
+'''
+for key, value in word_count:
+    print(key + ": " + str(value))
+'''
+csvfile = codecs.open('word_count.csv', 'w', 'utf-8')
+csvfile.write("Word,Count\n")
+for key, value in word_count:
+    csvfile.write(key + "," + str(value) + "\n")
+csvfile.close()
+
+
 
