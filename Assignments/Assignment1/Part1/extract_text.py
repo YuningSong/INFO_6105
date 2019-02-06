@@ -1,15 +1,13 @@
-import sys
+# -*- coding: utf-8 -*-
 from pdfminer.pdfparser import PDFParser, PDFDocument
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import PDFPageAggregator
 from pdfminer.layout import LTTextBoxHorizontal, LAParams
 from pdfminer.pdfinterp import PDFTextExtractionNotAllowed
 
-pdf_name = "Beyond_Fintech_-_A_Pragmatic_Assessment_of_Disruptive_Potential_in_Financial_Services"
-
 
 def parse(file_name):
-    fp = open(file_name + ".pdf", 'rb')
+    fp = open("pdf/" + file_name + ".pdf", 'rb')
     # 用文件对象创建一个PDF文档分析器
     parser = PDFParser(fp)
     # 创建一个PDF文档
@@ -43,13 +41,17 @@ def parse(file_name):
             # 想要获取文本就获得对象的text属性，
             for x in layout:
                 if (isinstance(x, LTTextBoxHorizontal)):
-                    with open(file_name + ".txt", 'a') as f:
+                    with open("txt/" + file_name + ".txt", 'a', encoding='utf-8') as f:
                         results = x.get_text()
-                        #print(results)
+                        # print(results)
                         f.write(results + "\n")
 
 
-if __name__ == "__main__":
-    parse(sys.argv[1])
-
-
+filename1 = 'Beyond_Fintech_-_A_Pragmatic_Assessment_of_Disruptive_Potential_in_Financial_Services'
+filename2 = 'WEF_A_Blueprint_for_Digital_Identity'
+filename3 = 'WEF_The_future__of_financial_services'
+filename4 = 'WEF_The_future_of_financial_infrastructure'
+parse(filename1)
+parse(filename2)
+parse(filename3)
+parse(filename4)
