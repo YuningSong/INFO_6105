@@ -9,7 +9,6 @@ pdf_name = "Beyond_Fintech_-_A_Pragmatic_Assessment_of_Disruptive_Potential_in_F
 
 
 def parse(file_name):
-    '''解析PDF文本，并保存到TXT文件中'''
     fp = open(file_name + ".pdf", 'rb')
     # 用文件对象创建一个PDF文档分析器
     parser = PDFParser(fp)
@@ -18,7 +17,6 @@ def parse(file_name):
     # 连接分析器，与文档对象
     parser.set_document(doc)
     doc.set_parser(parser)
-
     # 提供初始化密码，如果没有密码，就创建一个空的字符串
     doc.initialize()
 
