@@ -40,7 +40,7 @@ def parse(file_name):
             # 一般包括LTTextBox, LTFigure, LTImage, LTTextBoxHorizontal 等等
             # 想要获取文本就获得对象的text属性，
             for x in layout:
-                if (isinstance(x, LTTextBoxHorizontal)):
+                if isinstance(x, LTTextBoxHorizontal):
                     with open("txt/" + file_name + ".txt", 'a', encoding='utf-8') as f:
                         results = x.get_text()
                         # print(results)
