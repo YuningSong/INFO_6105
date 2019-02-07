@@ -24,21 +24,22 @@ def delete_stopwords(file_str):
     return words_list
 
 
+# Get Word List
 def get_words(filename):
     file = codecs.open(filename + '.txt', 'r', 'utf-8')
     file_str = file.read()
     file_str = file_str.lower()
-    file_str = re.sub('\\s{2,}|\t|\n', ' ', file_str)   # delete \t \n
-    file_str = re.sub('\\s+', ' ', file_str)            # delete spare spaces
+    file_str = re.sub('\\s{2,}|\t|\n', ' ', file_str)                              # delete \t \n
+    file_str = re.sub('\\s+', ' ', file_str)                                       # delete spare spaces
     words = file_str.split(' ')
-    words = [word for word in words if word.find("@") < 0 and word.find("/") < 0]   # delete links and mail box addresses
+    words = [word for word in words if word.find("@") < 0 and word.find("/") < 0]  # delete links and mail box addresses
     file_str = ' '.join(words)
-    file_str = re.sub('[^a-z\']', ' ', file_str)    # delete special characters
-    file_str = re.sub('\\s+', ' ', file_str)        # delete spare spaces
-    word_dict = delete_stopwords(file_str)          # delete stop words
-    word_dict = [word for word in word_dict if '\'' not in word]
+    file_str = re.sub('[^a-z\']', ' ', file_str)                                   # delete special characters
+    file_str = re.sub('\\s+', ' ', file_str)                                       # delete spare spaces
+    word_list = delete_stopwords(file_str)                                         # delete stop words
+    word_list = [word for word in word_list if '\'' not in word]
     file.close()
-    return word_dict
+    return word_list
 
 
 def get_word_count(words):

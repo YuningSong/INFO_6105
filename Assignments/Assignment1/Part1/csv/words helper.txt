@@ -1,0 +1,16 @@
+Word Count Top 100:
+No.42 dlt -- DLT: distributed ledger technology
+No.69 fis -- FIs: financial institutions
+
+Word TF-IDF Top 100:
+No.5 rps -- RPs: Relying parties
+No.6 idps -- IdPs: Identity providers
+No.15 dlt -- DLT: distributed ledger technology
+No.18 rp -- RP: Relying party
+No.25 idp -- IdP: Identity provider
+No. 30 fis -- FIs: financial institutions
+No.85 psd -- PSD: Payments Services Directive
+
+Word TextRank Top 100:
+No.50 dlt -- DLT: distributed ledger technology
+No.69 fis -- FIs: financial institutions
