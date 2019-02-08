@@ -18,10 +18,10 @@
 ### (1) [get_job_content2.py](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part2/Comerica%20Inc/get_job_content2.py)
 * Author: Jixiao Yang 
 * Scrap html contents from [Comerica Bank Jobs](https://recruiting.adp.com/srccar/public/RTI.home?d=comerica-jobs&c=1057141#/)
-* Output: html files in [Comerica](https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part2/Comerica%20Inc/Comerica) folder
+* Output: html files in [/Comerica](https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part2/Comerica%20Inc/Comerica)
 ### (2) [get_job_content2_handle.py](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part2/Comerica%20Inc/get_job_content2_handle.py)
 * Author: Jixiao Yang 
-* Analyse html contents to get job informations from html files in [Comerica](https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part2/Comerica%20Inc/Comerica) folder
+* Analyse html contents to get job informations from html files in [/Comerica](https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part2/Comerica%20Inc/Comerica)
 * Output: [result2.csv](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part2/Comerica%20Inc/result2.csv)
 ### (3) [get_keywords2.py](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part2/Comerica%20Inc/get_keywords2.py)
 * Author: Jixiao Yang 
