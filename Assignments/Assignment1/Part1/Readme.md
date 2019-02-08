@@ -1,15 +1,17 @@
-## File functions: 
-* extract_text.py:   
+# Part 1: Extract keywords from documents to build a dictionary of top keywords
+### Author: Jixiao Yang
+### 1. File functions: 
+* [extract_text.py](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part1/extract_text.py)   
   * Transform pdf to txt  
   * Input: 4 pdf files at [/pdf](https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part1/pdf)
   * Output: 4 txt files at [/txt](https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part1/txt)
-* count & tf-idf.py:   
+* [count & tf-idf.py](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part1/count%20%26%20tf-idf.py)   
   * Get word count and tf-idf from txt folder
   * Input: 4 txt files at [/txt](https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part1/txt)
   * Output:
     * [word_count.csv](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part1/csv/word_count.csv)
     * [word_tf_idf.csv](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part1/csv/word_tf_idf.csv)
-* text_rank.py:   
+* [text_rank.py](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part1/text_rank.py)   
   * Get text rank from pdf
   * Input: 4 pdf files at [/pdf](https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part1/pdf)
   * Output: [word_text_rank.csv](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part1/csv/word_text_rank.csv)
@@ -30,4 +32,7 @@
    is the total page number.
    If the word does not appear in page i then <a href="https://www.codecogs.com/eqnedit.php?latex=S_{i}=0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{i}=0" title="S_{i}=0" /></a>.
    </div>
- 
+ ### 2. Final Results
+ * (1) Word Count: [word_count_top100.csv](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part1/csv/word_count_top100.csv)
+ * (2) TF-IDF:     [word_tf_idf_top100.csv](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part1/csv/word_tf_idf_top100.csv)
+ * (3) Text Rank:  [word_text_rank_top100.csv](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part1/csv/word_text_rank_top100.csv)
