@@ -41,7 +41,7 @@ def printCsv(sinfo):
 
 def main():
     sinfo = []
-    urls = getURL(2)  # set the number of page you want
+    urls = getURL(6)  # set the number of page you want
     i = 1
     for url in urls:
         html = getHTMLText(url)
