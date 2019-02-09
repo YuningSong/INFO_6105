@@ -7,4 +7,5 @@
 * Part2:
   * [result_final.csv](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part2/result_final.csv)
 * Part3:
-  * [Final Report](https://kinyang007.github.io)
+  * Claat: [Final Report](https://kinyang007.github.io)
+  * PDF: [Final Report](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part3/Final%20Report.pdf)
