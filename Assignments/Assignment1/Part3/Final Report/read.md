@@ -1,16 +1,16 @@
-# Assignment1
+# Assignment1: Hiring trends in the largest banks in the US
 ## Overview    
-
-## Key area of FIN Tech    
 * FIN TECH is a shorted form for financial technology. It is the new technology and innovation that aims to compete with traditional financial methods in the delivery of financial services.
 * In order to analyze the keywords that are typically used in Fin tech, we extract keywords form 4 reports the World Economic forum (WEF)'s. We used three methodologies to get these  top 100 keywords. Fin tech is based on finance and most virtual banks established to date have been subsidiaries of large traditional financial institutions, so Fin tech is developing on the basis of traditional industry.
+
+## Key Area of FIN Tech    
 * Digital identity project is the most recent phase of the industry's ongoing disruptive innovation in financial service field, the institution explores the potential to transform the infrastructure of the financial services industry.
 * Fin tech is customer-driven area. As customers become more tech savvy, the customer experiences of financial institutions will be increasingly shaped by customer demands.
 * In the past, data is often unstructured and solid. In order to put it to use, incumbents are investing heavily in data transformation, automation and new analytics.
 * With the development of the technology, potential for financial products and services to integrate more seamlessly with other services offered by technology players.
 * In the face of growing interest in start-ups and digital democratization, a series of alternative funding platforms have emerged. These platforms widening access to capital raising activities and providing funding to a greater number of companies and projects.
 * Thus, after remove special characters and some meaningless words manually. The original key words file is attached to [Word count](https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part1/csv/word_count_top100.csv), [TF-IDF](https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part1/csv/word_tf_idf_top100.csv) and [TextRank](https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part1/csv/word_text_rank_top100.csv). 
-According to these top 100 key words we divided finch area into 10 main areas and 63 relative jobs in total. For example in the technology area we got 20 jobs such as Product Business Analyst, Virtualization Engineer etc. You can see it at(Two.csv). And we visualize these data in a embedded pie chart. The inner loop represents 10 main areas ,each area is related to the outer loop which presents the specific jobs they need in this area as you can see in (three.png). 
+According to these top 100 key words we divided finch area into 10 main areas and 63 relative jobs in total. For example in the technology area we got 20 jobs such as Product Business Analyst, Virtualization Engineer etc. And we visualize these data in a embedded pie chart. The inner loop represents 10 main areas ,each area is related to the outer loop which presents the specific jobs they need in this area as you can see in the picture below. 
 
 ## Trends Analysis     
 * We analyzed bank 23 (Huntington Banschares) and bank 24(Comerica Inc)'s 500+ open job listings in their official careers websites by job functions. After scrape job postings from the websites, we organize it to CSV file with the specific informations, including job title, post date, job description, location and job type. According to the datasets from the companies, we compare it with the part 1's datasets and build an integrated format. Up to 02/09/2019, 40% of all banks' jobs were in its technology division. The highest percentage of technology jobs were for analyst, followed by engineer and architect. 18% of all technology jobs at two companies were in its Engine Analyst, which was going building a next-generation decision engine for messaging to customers and prospects with one-to-one personalized marketing techniques. 24% of all technology jobs at Comerica Inc were principle engineer software, which mainly provide engineering and architecture support for complex system management activities.
@@ -19,7 +19,8 @@ According to these top 100 key words we divided finch area into 10 main areas an
 * Through the research and development of distributed ledger technology. It will significantly increase transparency between market participants and reduce the need for intermediaries by providing autonomous execution capabilities.
 * The banks are also making a number of operation hires for its lockbox processor, which is responsible for sorting mail to customer's specifications, extracting contents, checking errors, or performing data entry functions. But with the development of the advanced systems, this task would be replaced by the technology.
 * There are also a large proportion of retail field, including retail personal banker and bank teller. The Retail Personal Banker (RPB) is responsible for contributing to the overall success of a Retail Banking Center by committing to banker-readiness, conducting marketing activities leading to revenue growth in loans. It means in the high-tech products also needs human resources to maintain its operation.
-* ![alt text](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment1/Part3/chart.html "Title Text 1")
+* ![Alt text](https://raw.githubusercontent.com/kinyang007/INFO_6105/master/Assignments/Assignment1/Part3/chart.png "chart.png")
+
 ## Insights     
 * FinTech jobs demand is mainly from start-ups, Financial institutions (banks, investment firms), Regulators, Law Enforcement Agencies, Multinational companies, SMEs.
 * FinTech gains momentum year-on-year, there is a huge demand for professionals with specific FinTech skills. However, when it comes to tech talent, demand definitely outstrips supply.

@@ -1,0 +1,105 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Assignment1: Hiring trends in the largest banks in the US</title>
+  <script src="../../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../../elements/codelab.html">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <style is="custom-style">
+    body {
+      font-family: "Roboto",sans-serif;
+      background: var(--google-codelab-background, #F8F9FA);
+    }
+  </style>
+  
+</head>
+<body unresolved class="fullbleed">
+
+  <google-codelab title="Assignment1: Hiring trends in the largest banks in the US"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Overview" duration="0">
+        <ul>
+<li>FIN TECH is a shorted form for financial technology. It is the new technology and innovation that aims to compete with traditional financial methods in the delivery of financial services.</li>
+<li>In order to analyze the keywords that are typically used in Fin tech, we extract keywords form 4 reports the World Economic forum (WEF)&#39;s. We used three methodologies to get these  top 100 keywords. Fin tech is based on finance and most virtual banks established to date have been subsidiaries of large traditional financial institutions, so Fin tech is developing on the basis of traditional industry.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Key Area of FIN Tech" duration="0">
+        <ul>
+<li>Digital identity project is the most recent phase of the industry&#39;s ongoing disruptive innovation in financial service field, the institution explores the potential to transform the infrastructure of the financial services industry.</li>
+<li>Fin tech is customer-driven area. As customers become more tech savvy, the customer experiences of financial institutions will be increasingly shaped by customer demands.</li>
+<li>In the past, data is often unstructured and solid. In order to put it to use, incumbents are investing heavily in data transformation, automation and new analytics.</li>
+<li>With the development of the technology, potential for financial products and services to integrate more seamlessly with other services offered by technology players.</li>
+<li>In the face of growing interest in start-ups and digital democratization, a series of alternative funding platforms have emerged. These platforms widening access to capital raising activities and providing funding to a greater number of companies and projects.</li>
+<li>Thus, after remove special characters and some meaningless words manually. The original key words file is attached to <a href="https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part1/csv/word_count_top100.csv" target="_blank">Word count</a>, <a href="https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part1/csv/word_tf_idf_top100.csv" target="_blank">TF-IDF</a> and <a href="https://github.com/kinyang007/INFO_6105/tree/master/Assignments/Assignment1/Part1/csv/word_text_rank_top100.csv" target="_blank">TextRank</a>.<br>According to these top 100 key words we divided finch area into 10 main areas and 63 relative jobs in total. For example in the technology area we got 20 jobs such as Product Business Analyst, Virtualization Engineer etc. And we visualize these data in a embedded pie chart. The inner loop represents 10 main areas ,each area is related to the outer loop which presents the specific jobs they need in this area as you can see in the picture below.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Trends Analysis" duration="0">
+        <ul>
+<li>We analyzed bank 23 (Huntington Banschares) and bank 24(Comerica Inc)&#39;s 500+ open job listings in their official careers websites by job functions. After scrape job postings from the websites, we organize it to CSV file with the specific informations, including job title, post date, job description, location and job type. According to the datasets from the companies, we compare it with the part 1&#39;s datasets and build an integrated format. Up to 02/09/2019, 40% of all banks&#39; jobs were in its technology division. The highest percentage of technology jobs were for analyst, followed by engineer and architect. 18% of all technology jobs at two companies were in its Engine Analyst, which was going building a next-generation decision engine for messaging to customers and prospects with one-to-one personalized marketing techniques. 24% of all technology jobs at Comerica Inc were principle engineer software, which mainly provide engineering and architecture support for complex system management activities.</li>
+<li>The banks are actively hiring analyst and engineer to complete the functional mobile platforms. The system can build and integrate customer-facing enhancements to the institutions&#39; core offerings. This hints that they will offer products which become reliable alternatives to offerings of traditional institutions.</li>
+<li>There are also high demand in the digital identity. The company needs to provide a landscape scan of current efforts to build digital identity solutions. It is a globally challenge for every top Fintech company to solve it.</li>
+<li>Through the research and development of distributed ledger technology. It will significantly increase transparency between market participants and reduce the need for intermediaries by providing autonomous execution capabilities.</li>
+<li>The banks are also making a number of operation hires for its lockbox processor, which is responsible for sorting mail to customer&#39;s specifications, extracting contents, checking errors, or performing data entry functions. But with the development of the advanced systems, this task would be replaced by the technology.</li>
+<li>There are also a large proportion of retail field, including retail personal banker and bank teller. The Retail Personal Banker (RPB) is responsible for contributing to the overall success of a Retail Banking Center by committing to banker-readiness, conducting marketing activities leading to revenue growth in loans. It means in the high-tech products also needs human resources to maintain its operation.</li>
+<li><img alt="Alt text" title="chart.png" src="img\7b30e9065c854bde.png"></li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Insights" duration="0">
+        <ul>
+<li>FinTech jobs demand is mainly from start-ups, Financial institutions (banks, investment firms), Regulators, Law Enforcement Agencies, Multinational companies, SMEs.</li>
+<li>FinTech gains momentum year-on-year, there is a huge demand for professionals with specific FinTech skills. However, when it comes to tech talent, demand definitely outstrips supply.</li>
+<li>Average remunerations and experience levels for FinTech professionals differ from one firm to another and from one country to another.</li>
+<li>Contrary to popular perception, a FinTech employee cannot succeed on the back of his technical or financial skills alone. FinTech professionals also need to build a robust portfolio of soft skills to achieve long-term success in this industry.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-49880327-14', 'auto');
+
+    (function() {
+      var gaCodelab = '';
+      if (gaCodelab) {
+        ga('create', gaCodelab, 'auto', {name: 'codelab'});
+      }
+
+      var gaView;
+      var parts = location.search.substring(1).split('&');
+      for (var i = 0; i < parts.length; i++) {
+        var param = parts[i].split('=');
+        if (param[0] === 'viewga') {
+          gaView = param[1];
+          break;
+        }
+      }
+      if (gaView && gaView !== gaCodelab) {
+        ga('create', gaView, 'auto', {name: 'view'});
+      }
+    })();
+  </script>
+
+</body>
+</html>
