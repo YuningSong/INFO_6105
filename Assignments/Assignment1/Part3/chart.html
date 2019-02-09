@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Jobcharts</title>
+		<!-- 引入 ECharts 文件 -->
+		<script src="echarts.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!-- 为 ECharts 准备一个具备大小（宽高）的 容器 -->
+		<div id="chart1" style="width: 80%;height: 800px;top: 50px;left: 10%;border: 3px solid #000;"></div>
+	</body>
+</html>
+ 
+<script type="text/javascript">
+	// 基于准备好的容器(这里的容器是id为chart1的div)，初始化echarts实例
+	var chart1 = echarts.init(document.getElementById("chart1"));
+	
+	// 指定图表的配置项和数据
+	option = {
+    itemStyle:{
+                    show:false,
+                    borderColor:'#000000',
+                    borderWidth:1,
+    },
+    tooltip : {
+        trigger: 'item',
+        formatter: "{a} <br/>{b} : {c} ({d}%)"
+    },
+    legend: {
+        orient : 'vertical',
+        x : 'left',
+        data:['1','2','3','4','5','6','7','8','9','10']
+        
+    },
+    toolbox: {
+        show : true,
+        feature : {
+            mark : {show: true},
+            dataView : {show: true, readOnly: false},
+            magicType : {
+                show: true, 
+                type: ['pie', 'funnel']
+            },
+            restore : {show: true},
+            saveAsImage : {show: true}
+        }
+    },
+    calculable : false,
+    series : [
+        {
+            name:'访问来源',
+            type:'pie',
+            color:['#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B','#00008B',
+                   '#1874CD','#1874CD','#1874CD',
+                   '#00B2EE','#00B2EE','#00B2EE','#00B2EE',
+                   '#FF4040','#FF4040','#FF4040','#FF4040','#FF4040',
+                   '#FF7256','#FF7256','#FF7256','#FF7256','#FF7256',
+                   '#FFA500','#FFA500','#FFA500','#FFA500','#FFA500','#FFA500',
+                   '#006400','#006400','#006400','#006400','#006400','#006400','#006400',
+                   '#008B00','#008B00','#008B00','#008B00','#008B00','#008B00',
+                   '#71C671','#71C671','#71C671',
+                   '#EEE8AA','#EEE8AA','#EEE8AA','#EEE8AA',
+                   ],
+            selectedMode: 'single',
+            radius : ['60%', '90%'],
+            
+            // for funnel
+            x: '20%',
+            width: '40%',
+            funnelAlign: 'right',
+            max: 1548,
+            
+         
+                
+                label: {
+                normal: {
+                    position: 'inner'
+                }
+                },
+                labelLine: {
+                normal: {
+                    show: false
+                }
+                },
+            
+            
+            data:[
+              {value:50, name:'others'},
+                {value:20, name:'Product Business Analyst'},
+                {value:13, name:'Senior Digital Analyst',},
+                {value:13, name:'Mobile API Engineer',},
+                {value:13, name:'Data architect'},
+                {value:13, name:'Lead Salesforce Developer'},
+                {value:12, name:''},
+                {value:12, name:''},
+                {value:10, name:''},
+                {value:9, name:''},
+                {value:8, name:''},
+                {value:8, name:''},
+                {value:8, name:''},
+                {value:7, name:''},
+                {value:5, name:''},
+                {value:5,name:''},
+                {value:5,name:''},
+                {value:5,name:''},
+                {value:5,name:''},
+                {value:4,name:''},
+
+              {value:76,name:'Bank teller'},
+                {value:48,name:'Retail personal banker'},
+                {value:6,name:''},
+
+             {value:22,name:'Operation analyst'},
+                {value:13,name:''},
+                {value:12,name:''},
+                {value:7,name:''},
+
+              {value:19,name:' Portfolio Manager'},  
+                {value:18,name:''},
+                {value:3,name:''},
+                {value:2,name:''},
+                {value:2,name:''},
+
+               {value:15,name:'Relationship manager'}, 
+                {value:13,name:'Portfolio Manager'},
+                {value:10,name:''},
+                {value:3,name:''},
+                {value:2,name:''},
+
+              {value:13,name:'Others'}, 
+                {value:6,name:''},
+                {value:5,name:''},
+                {value:3,name:''},
+                {value:2,name:''},
+                {value:2,name:''},
+
+              {value:13,name:'Financial planner'},
+                {value:3,name:''},
+                {value:2,name:''},
+                {value:2,name:''},
+                {value:2,name:''},
+                {value:2,name:''},
+                {value:2,name:''},
+            
+               {value:6,name:''},
+                {value:3,name:''},
+                {value:2,name:''},
+                {value:2,name:''},
+                {value:2,name:''},
+                {value:2,name:''},
+
+               {value:8,name:'Risk Analyst'},
+                {value:7,name:''},
+                {value:3,name:''},
+
+              {value:1,name:''},
+                {value:1,name:''},
+                {value:1,name:''},
+                {value:1,name:''},
+            
+            ]
+        },
+        {
+            name:'访问来源',
+            type:'pie',
+            color:['#00008B',
+                   '#1874CD',
+                   '#00B2EE',
+                   '#FF4040',
+                   '#FF7256',
+                   '#FFA500',
+                   '#006400',
+                   '#008B00',
+                   '#71C671',
+                   '#EEE8AA'],
+            radius : ['25%', '60%'],
+            
+            // for funnel
+            x: '60%',
+            width: '35%',
+            funnelAlign: 'left',
+            max: 2048,
+            label: {
+                normal: {
+                    position: 'inner'
+                }
+            },
+            data:[
+                {value:225, name:'Technology'},
+                {value:130,name:'Retail'},
+                {value:54,name:'Operation'},
+                {value:44,name:'Investment'},
+                {value:43,name:'Relationship'},
+                {value:31,name:'Managment'},
+                {value:26,name:'Finance'},
+                {value:18,name:'Risk'},
+                {value:17,name:'Acc'},
+                {value:4,name:'HR'},
+               
+            ],
+        }
+    ]
+};
+
+
+
+	// 使用刚指定的配置项和数据显示图表
+	chart1.setOption(option);
+	
+</script>
