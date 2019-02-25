@@ -1,23 +1,67 @@
-import pandas
+import numpy
 
-word_list = []
-with open('../Part1/top_100_key_words_all_teams.csv', 'r', encoding='utf-8') as file:
-    for line in file:
-        tmp = line.split(',')
-        word_list.append(tmp[1])
 
-data_frame = pandas.read_csv('../Part1/TeamAll.csv')
-columns = data_frame.columns.tolist()
-rows = len(data_frame)
-job_title = data_frame[columns[1]].tolist()
-institution = data_frame[columns[2]].tolist()
+def calculate_euclidean_distance(vector1, vector2):
+    """
+    Calculate euclidean distance between two vectors
 
-data = []
-for i in range(rows):
-    dict = {}
-    dict['job_title'] = job_title[i]
-    dict['institution'] = institution[i]
-    for j in range(100):
-        dict[word_list[j]] = data_frame[columns[j+3].tolist()[i]]
-    data.append(dict)
+    :param vector1:
+    :param vector2:
+    :return: The euclidean distance between vector1 and vector2
+    """
+    return numpy.sqrt(numpy.sum(numpy.power(vector1 - vector2, 2)))
+
+
+def rand_centroids(vector_set, k):
+    """
+    Initialize centroids of k clusters
+    Select k existing vectors in vector set as initial centroid vectors
+
+    :param vector_set: The set of vectors (Type: Matrix)
+    :param k:          Number of clusters
+    :return:           k initial centroid vectors
+    """
+    rand_row = numpy.arange(vector_set.shape[0])
+    numpy.random.shuffle(rand_row)
+    return vector_set[rand_row[0: k]]
+
+
+def k_means(vector_set, k, times=1000):
+    """
+    K-Means Clustering Algorithm
+    Create k initial centroid vectors at first
+    In each iteration, assign each vector in vector set to the nearest centroid vector,
+    then re-calculate the centroid vector of each cluster.
+
+    :param vector_set: The set of vectors (Type: Matrix)
+    :param k:          Number of clusters
+    :param times:      Times to iterate
+    :return:           centroids of k clusters
+    """
+    row, col = numpy.shape(vector_set)
+    cluster_assess = numpy.mat(numpy.zeros((row, 2)))
+    centroids = rand_centroids(vector_set, k)
+    # print(centroids)
+
+    for cnt in range(times):
+        for i in range(row):
+            min_dist = numpy.inf
+            min_id = -1
+            for j in range(k):
+                dist = calculate_euclidean_distance(centroids[j, :], vector_set[i, :])
+                if dist < min_dist:
+                    min_dist = dist
+                    min_id = j
+            cluster_assess[i, :] = min_id, min_dist
+
+        for i in range(k):
+            vectors_in_cluster = vector_set[numpy.nonzero(cluster_assess[:, 0] == i)[0]]
+            centroids[i, :] = numpy.rint(numpy.mean(vectors_in_cluster, axis=0))
+    return centroids
+
+
+word_vector_set = numpy.loadtxt(open('csv/job_words_with_fintech.csv', 'r'), delimiter=',', skiprows=0)
+center = k_means(word_vector_set, 8, times=1000)
+print(center)
+numpy.savetxt('csv/cluster_center.csv', center, delimiter=',')
 
