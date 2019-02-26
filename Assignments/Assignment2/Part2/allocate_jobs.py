@@ -14,7 +14,7 @@ def load_data(filepath):
     vector_set = []
     job_info = []
     for i in range(rows):
-        info = [data_frame.loc[i][0], data_frame.loc[i][1], data_frame.loc[i][2], data_frame.loc[i][3]]
+        info = data_frame.iloc[i]
         job_info.append(info)
         vector = []
         for j in range(100):
@@ -49,7 +49,7 @@ for i in range(row):
         if dist < min_dist:
             min_dist = dist
             min_id = j
-    cluster_dict[j].append(job_info[i] + word_vector_set[i, :].tolist)
+    cluster_dict[min_id+1].append(job_info[i])
 print('calculate finished')
 
 top100_words = []
@@ -61,7 +61,7 @@ with open('../Part1/top_100_key_words.csv', 'r', encoding='utf-8') as file:
 
 header = ['Job Number', 'Job Title', 'Institution', 'URL'] + top100_words
 for key, value in cluster_dict.items():
-    with open('csv/clusters/cluster' + str(key) + '.csv', 'w', newline='') as file:
+    with open('csv/clusters/cluster' + str(key) + '.csv', 'w', encoding='utf-8', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(header)
         for tmp in value:

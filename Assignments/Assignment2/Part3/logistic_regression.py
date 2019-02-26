@@ -22,7 +22,7 @@ lr.fit(x1, y1)                                              # training model
 print('The average accuracy of training set is：%s' % lr.score(x1, y1))
 print('The average accuracy of testing set is：%s' % lr.score(x2, y2))
 
-print('Coefficients:\n ', lr.coef_)       # coefficient
+print('Coefficients:\n ', lr.coef_)         # coefficient
 print('Constant value:\n ', lr.intercept_)  # constant
 
 with open('result.txt', 'w') as file:

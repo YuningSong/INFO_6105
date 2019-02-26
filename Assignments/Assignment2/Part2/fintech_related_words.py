@@ -27,14 +27,14 @@ with open('csv/fintech_related_keywords.csv', 'w') as file:
     for key, value in related_words:
         file.write(str(key) + ',' + value + '\n')
 
-data_frame = pandas.DataFrame({
-    "Cluster1": cluster_related_words[1],
-    "Cluster2": cluster_related_words[2],
-    "Cluster3": cluster_related_words[3],
-    "Cluster4": cluster_related_words[4],
-    "Cluster5": cluster_related_words[5],
-    "Cluster6": cluster_related_words[6],
-    "Cluster7": cluster_related_words[7],
-    "Cluster8": cluster_related_words[8]
-})
+data_frame = pandas.concat([
+    pandas.DataFrame({"Cluster1": cluster_related_words[1]}),
+    pandas.DataFrame({"Cluster2": cluster_related_words[2]}),
+    pandas.DataFrame({"Cluster3": cluster_related_words[3]}),
+    pandas.DataFrame({"Cluster4": cluster_related_words[4]}),
+    pandas.DataFrame({"Cluster5": cluster_related_words[5]}),
+    pandas.DataFrame({"Cluster6": cluster_related_words[6]}),
+    pandas.DataFrame({"Cluster7": cluster_related_words[7]}),
+    pandas.DataFrame({"Cluster8": cluster_related_words[8]})
+], axis=1)
 data_frame.to_csv('csv/fintech_related_keywords_divided_into_clusters.csv', sep=',', header=True, index=False)
