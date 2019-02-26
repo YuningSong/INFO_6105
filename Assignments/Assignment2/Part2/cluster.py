@@ -36,7 +36,7 @@ def k_means(vector_set, k, times=1000):
     :param vector_set: The set of vectors (Type: Matrix)
     :param k:          Number of clusters
     :param times:      Times to iterate
-    :return:           centroids of k clusters
+    :return:           centroids of k clusters, clusters list
     """
     row, col = numpy.shape(vector_set)
     cluster_assess = numpy.mat(numpy.zeros((row, 2)))
@@ -57,11 +57,10 @@ def k_means(vector_set, k, times=1000):
         for i in range(k):
             vectors_in_cluster = vector_set[numpy.nonzero(cluster_assess[:, 0] == i)[0]]
             centroids[i, :] = numpy.rint(numpy.mean(vectors_in_cluster, axis=0))
-    return centroids
+    return centroids, cluster_assess
 
 
 word_vector_set = numpy.loadtxt(open('csv/job_words_with_fintech.csv', 'r'), delimiter=',', skiprows=0)
-center = k_means(word_vector_set, 8, times=1000)
+center, clusters = k_means(word_vector_set, 8, times=1000)
 print(center)
 numpy.savetxt('csv/cluster_center.csv', center, delimiter=',')
-
