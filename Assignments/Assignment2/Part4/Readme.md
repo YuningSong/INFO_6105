@@ -11,6 +11,7 @@
 ### 3. Which companies have the most fintech related jobs and which ones least?
 * The most one: JP Morgan
 * the least one: Pendi
+![image](https://img.datawrapper.de/Y9bse/plain.png)
 ### 4. Rank the jobs in fintech categories.
 * Cluster1 > Cluster7 > Cluster8 > Cluster5
 ![image](https://img.datawrapper.de/Xtdfj/plain.png)
