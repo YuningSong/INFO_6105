@@ -12,5 +12,5 @@
 model to build a model to determine if the job is related to fintech or not
 * Input: [learning_data.csv](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment2/Part3/csv/learning_data.csv)
 * Output: 
- * [result.txt](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment2/Part3/result.txt)
- * [jobs_judge_result.csv](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment2/Part3/csv/jobs_judge_result.csv)
+  * [result.txt](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment2/Part3/result.txt)
+  * [jobs_judge_result.csv](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment2/Part3/csv/jobs_judge_result.csv)
