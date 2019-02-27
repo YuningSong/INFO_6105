@@ -19,7 +19,7 @@ for i in range(row):
             cluster_related_words[i+1].append(top100_words[j])
             if top100_words[j] not in related_words:
                 related_words[j+1] = top100_words[j]
-
+related_words[32] = 'fintech'
 related_words = sorted(related_words.items(), key=lambda item: item[0])
 print(len(related_words), related_words)
 with open('csv/fintech_related_keywords.csv', 'w') as file:

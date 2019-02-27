@@ -26,7 +26,7 @@ def rand_centroids(vector_set, k):
     return vector_set[rand_row[0: k]]
 
 
-def k_means(vector_set, k, times=1000):
+def k_means(vector_set, k, times=30):
     """
     K-Means Clustering Algorithm
     Create k initial centroid vectors at first
@@ -43,7 +43,13 @@ def k_means(vector_set, k, times=1000):
     centroids = rand_centroids(vector_set, k)
     # print(centroids)
 
+    # cluster_changed = True
+    # cnt = 0
+    # while cluster_changed:
+    #     cluster_changed = False
+    #     cnt += 1
     for cnt in range(times):
+        print('Loop', cnt)
         for i in range(row):
             min_dist = numpy.inf
             min_id = -1
@@ -52,15 +58,16 @@ def k_means(vector_set, k, times=1000):
                 if dist < min_dist:
                     min_dist = dist
                     min_id = j
+            # if cluster_assess[i, 0] != min_id:
+            #     cluster_changed = True
             cluster_assess[i, :] = min_id, min_dist
-
         for i in range(k):
             vectors_in_cluster = vector_set[numpy.nonzero(cluster_assess[:, 0] == i)[0]]
             centroids[i, :] = numpy.rint(numpy.mean(vectors_in_cluster, axis=0))
     return centroids, cluster_assess
 
 
-word_vector_set = numpy.loadtxt(open('csv/job_words_with_fintech.csv', 'r'), delimiter=',', skiprows=0)
-center, clusters = k_means(word_vector_set, 8, times=1000)
+word_vector_set = numpy.loadtxt(open('csv/job_words.csv', 'r'), delimiter=',', skiprows=0)
+center, clusters = k_means(word_vector_set, 8, times=30)
 print(center)
 numpy.savetxt('csv/cluster_center.csv', center, delimiter=',')
