@@ -1,7 +1,6 @@
 ## Part 2: Forming clusters(categories) for different areas in fintech
 ### Author: Jixiao Yang
-### 1. [get_cluster_data.py]
-(https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment2/Part2/get_cluster_data.py)
+### 1. [get_cluster_data.py](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment2/Part2/get_cluster_data.py)
 * Get job words as cluster data from the job list
 * Input:  [top_100_key_words_with_jobs.csv](https://github.com/kinyang007/INFO_6105/blob/master/Assignments/Assignment2/Part1/top_100_key_words_with_jobs.csv)
 * Output: [job_words.csv]
