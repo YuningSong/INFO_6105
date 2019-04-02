@@ -51,11 +51,13 @@ def tone_analyzer_api(text):
             print(tone)
         # for sentence in tone_analysis['sentences_tone']:
         #     print(sentence)
-        return tone_analysis['document_tone']['tones'], tone_analysis['sentences_tone']
+        if 'sentences_tone' in tone_analysis:
+            return tone_analysis['document_tone']['tones'], tone_analysis['sentences_tone']
+        else:
+            return tone_analysis['document_tone']['tones'], None
     except WatsonApiException as ex:
         print("Method failed with status code " + str(ex.code) + ": " + ex.message)
 
 
 if __name__ == '__main__':
     app.run(debug=True)
-
