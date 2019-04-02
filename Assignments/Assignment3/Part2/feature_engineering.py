@@ -15,4 +15,6 @@ print(es)
 features, feature_names = ft.dfs(entityset=es, target_entity='loan', max_depth=2)
 print(features)
 
-features.to_csv('csv/final.csv')
+# features.to_csv('csv/final.csv')
+
+

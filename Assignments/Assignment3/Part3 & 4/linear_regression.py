@@ -88,14 +88,3 @@ print('MAPE Train(%):\n', mape_train*100)   # MAPE Train
 print('MAPE Test(%):\n', mape_test*100)     # MAPE Test
 print('MAPE Cross(%):\n', mape_cross*100)   # MAPE Cross
 
-
-'''
-with open('result.txt', 'w') as file:
-    file.write('The average accuracy of training set is：%s\n' % lr.score(x1, y1))
-    file.write('The average accuracy of testing set is：%s\n' % lr.score(x2, y2))
-    file.write('Coefficients:\n ' + str(lr.coef_) + '\n')
-    file.write('Intercept:\n ' + str(lr.intercept_) + '\n')
-    file.write('MAPE Train(%):\n' + str(mape_train*100) + '\n')
-    file.write('MAPE Test(%):\n' + str(mape_test*100) + '\n')
-    file.write('MAPE Cross(%):\n' + str(mape_cross*100) + '\n')
-'''

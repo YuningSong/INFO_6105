@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+<h2>Translated Lyrics</h2>
+<p>{{ text }}</p>
+
+<h2>Document Tones</h2>
+<table border="1">
+    <tr/><th/>Tone Name<th/>Score
+    {% for tone in document_tones %}
+        <tr/><td/>{{ tone['tone_name'] }}<td/>{{ tone['score'] }}
+    {% endfor %}
+</table>
+
+<h2>Sentence Tones</h2>
+<ol>
+    {% for sentence_tone in sentence_tones %}
+        {% for tone in sentence_tone['tones'] %}
+            {% if loop.first %}
+                <li>{{ sentence_tone['text'] }}</li>
+                <table border="1">
+                    <tr/><th/>Tone Name<th/>Score
+            {% endif %}
+            <tr/><td/>{{ tone['tone_name'] }}<td/>{{ tone['score'] }}
+            {% if loop.last %}
+                </table>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</ol>
+</table>
+</body>
+</html>
