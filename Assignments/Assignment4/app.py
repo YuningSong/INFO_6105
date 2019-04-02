@@ -7,18 +7,26 @@ from watson_developer_cloud import WatsonApiException
 app = Flask(__name__)
 
 
+# input lyrics
 @app.route('/')
 def index():
     return render_template('input.html')
 
 
+# help
+@app.route('/help')
+def help():
+    return render_template('help.html')
+
+
+# analyze result
 @app.route('/result', methods=['GET', 'POST'])
 def result():
     if request.method == 'POST':
         lyrics = request.form['lyrics']
         text = deal_with_lyrics(lyrics)
         document_tones, sentence_tones = tone_analyzer_api(text)
-    return render_template('result.html', text=text, document_tones=document_tones, sentence_tones=sentence_tones)
+    return render_template('result.html', document_tones=document_tones, sentence_tones=sentence_tones)
 
 
 # Google Translate API
