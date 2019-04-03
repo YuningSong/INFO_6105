@@ -30,6 +30,7 @@ y0 = cross_val_predict(clf, x3, y3, cv=5)
 mape_cross = sum(np.abs((y0 - y3) / y3)) / len(y3) * 100
 print('The forest mape (cross validation) is:\n', mape_cross)
 
+# Optimization
 clf = MLPRegressor(learning_rate='constant', learning_rate_init=0.001, solver='lbfgs', alpha=1e-5,
                    hidden_layer_sizes=(5, 2), random_state=1)
 clf.fit(x2, y2)
