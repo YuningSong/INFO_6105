@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c85bf3a-70bb-439b-90e9-cb5c532c179a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part3 &amp; 4/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/Part3 &amp; 4/neural_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment4/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0c85bf3a-70bb-439b-90e9-cb5c532c179a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Part3 &amp; 4/random_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="34" column="31" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="31" />
+            <state relative-caret-position="390">
+              <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -57,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Part3 &amp; 4/neural_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="46" column="56" lean-forward="true" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+            <state relative-caret-position="303">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -233,12 +229,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553219257827</updated>
       <workItem from="1553219260859" duration="22315000" />
-      <workItem from="1554317913863" duration="883000" />
+      <workItem from="1554317913863" duration="1408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23198000" />
+    <option name="totallyTimeSpent" value="23723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -320,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Part3 &amp; 4/neural_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="46" column="56" lean-forward="true" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+        <state relative-caret-position="303">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -330,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Part3 &amp; 4/random_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="31" />
+        <state relative-caret-position="390">
+          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
