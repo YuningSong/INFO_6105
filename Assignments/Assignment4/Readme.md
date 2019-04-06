@@ -1,8 +1,5 @@
 ## Chinese Song Tone Analysis 
-### Author: Jixiao Yang 
-* Before Running:
-```Console
-git clone https://github.com/kinyang007/INFO_6105.git
-cd INFO_6105/Assignments/Assignment4
-pip install -r requirement.txt
-```
+* Presentation: 
+  * Video: [Link](https://www.youtube.com/watch?v=V90gL36fzwY&feature=youtu.be)
+  * Report: [Link](https://docs.google.com/presentation/d/1fO_fYPO8cIgvywyKeo_X3p1z-JuNghaS7wOpVrhmiog/edit#slide=id.g559a5ae760_1_71)
+  * Claat: [Link]()
