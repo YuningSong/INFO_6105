@@ -1,0 +1,7 @@
+{
+  "name": "Chinese Song Tone Analyzer",
+  "description": "Analyzing Chinese Song Tone",
+  "image": "heroku/python",
+  "repository": "https://github.com/kinyang007/Chinese-Song-Tone-Analyzer",
+  "keywords": ["python", "flask"]
+}

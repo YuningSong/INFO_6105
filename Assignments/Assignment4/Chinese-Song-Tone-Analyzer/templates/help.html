@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block navbar_nav %}
+    <ul class="nav navbar-nav">
+        <li><a href="/">Analyze Lyrics</a></li>
+        <li class="active"><a href="/help">Help</a></li>
+    </ul>
+{% endblock %}
+{% block body_container %}
+    <div class="container">
+        <strong>Help Document</strong><br/>
+
+        <p><b>Q:</b> What you can do with this website?</p>
+        <p><b>A:</b>We provide a platform for you to get a result of a song's tone, like whether the emotionally expression of this song
+            is happy or not.</p>
+        <br/>
+        <p><b>Q:</b> How to use?</p>
+        <p><b>Step1:</b>Copy lyrics you want to analysis into the textbox</p>
+        <p><b>Step2:</b>Press the <b>Submit</b> button and here you go ,the result will be printed soon</p>
+        <p><b>Step3:</b>You can start another analysis either by press the <b>Reset</b> Button or delete lyrics mannualy and repeat
+            step 1 and step2.</p>
+        <img src="/Users/cestdrama/Desktop/INFO_6105/Assignments/Assignment4/img/q2.png"  alt="img1" />
+        <br/>
+        <p><b>Q:</b> What can we get from the result?</p>
+        <p><b>A:</b> Basically we can get a general tone analysis result of this song. It will include score of several features,like
+                     joy,fear,sadness, confident etc, but each one of them are not necessarily included. What's more, you can also check the tone
+                     of each lyrics which has already been translated into English.
+                     below are the definition of these features:
+        <li><b>Anger:</b>Likelihood of writer being perceived as angry. Low value indicates unlikely to be perceived as angry.
+            High value indicates very likely to be perceived as angry.</li>
+        <li><b>Fear:</b>Likelihood of writer being perceived as scared.
+            Low value indicates unlikely to be perceived as fearful. High value, very likely to be perceived as scared.</li>
+        <li><b>Joy:</b>Joy or happiness has shades of enjoyment, satisfaction and pleasure.
+            There is a sense of well-being, inner peace, love, safety and contentment.</li>
+        <li><b>Sadness:</b>Likelihood of writer being perceived as sad.
+            Low value, unlikely to be perceived as sad. High value very likely to be perceived as sad.</li>
+        <li><b>Analytic:</b>A writer's reasoning and analytical attitude about things.
+            Higher value, more likely to be perceived as intellectual, rational, systematic, emotionless, or impersonal.</li>
+        <li><b>Confident:</b>A writer's degree of certainty.
+            Higher value, more likely to be perceived as assured, collected, hopeful, or egotistical.</li>
+        <li><b>Tentative:</b> A writer's degree of inhibition.
+            Higher value, more likely to be perceived as questionable, doubtful, limited, or debatable.</li>
+        <img src="/Users/cestdrama/Desktop/INFO_6105/Assignments/Assignment4/img/q31.png"  alt="img2" /> <br/>
+        <img src="/Users/cestdrama/Desktop/INFO_6105/Assignments/Assignment4/img/q32.png"  alt="img3"/>
+    </div>
+{% endblock %}
