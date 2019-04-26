@@ -1,0 +1,7 @@
+{
+  "name": "User Rating Accuracy Analysis",
+  "description": "Analyzing User Rating Accuracy",
+  "image": "heroku/python",
+  "repository": "https://gtihub.com/kinyang007/User-Rating-Accuracy-Analysis",
+  "keywords": ["python", "flask"]
+}
