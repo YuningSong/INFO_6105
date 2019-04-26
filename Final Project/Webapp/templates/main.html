@@ -2,7 +2,7 @@
 {% block navbar_nav %}
     <ul class="nav navbar-nav">
         <li><a class="nav-link active" href="/">Analyze Reliability</a></li>
-        <li><a class="nav-link" href="/check_dataset">Check Dataset</a></li>
+        <li><a class="nav-link" href="/check_dataset/page/1">Check Dataset</a></li>
     </ul>
 {% endblock %}
 {% block body_container %}
@@ -30,16 +30,16 @@
 
                     <div class="row">
                         <div class="col-sm-5">
-                            <p>Review Count: </p>
+                            <p>Friends Count: </p>
                         </div>
                         <div class="col-sm-7">
-                            <input class="form-control" type="text" name="review_count" value="{{ review_count }}" placeholder="Review Count"/>
+                            <input class="form-control" type="text" name="friends_count" value="{{ friends_count }}" placeholder="Friends Count"/>
                         </div>
                     </div>
-                    {% if review_count_failed is not none %}
+                    {% if friends_count_failed is not none %}
                         <div class="row text-danger">
                             <div class="col-sm-5"></div>
-                            <div class="col-sm-7"><p>{{ review_count_failed }}</p></div>
+                            <div class="col-sm-7"><p>{{ friends_count_failed }}</p></div>
                         </div>
                     {% else %}
                         <br/>
@@ -57,6 +57,23 @@
                         <div class="row text-danger">
                             <div class="col-sm-5"></div>
                             <div class="col-sm-7"><p>{{ elite_count_failed }}</p></div>
+                        </div>
+                    {% else %}
+                        <br/>
+                    {% endif %}
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>Fans: </p>
+                        </div>
+                        <div class="col-sm-7">
+                            <input class="form-control" type="text" name="fans" value="{{ fans }}" placeholder="Fans"/>
+                        </div>
+                    </div>
+                    {% if fans_failed is not none %}
+                        <div class="row text-danger">
+                            <div class="col-sm-5"></div>
+                            <div class="col-sm-7"><p>{{ fans_failed }}</p></div>
                         </div>
                     {% else %}
                         <br/>

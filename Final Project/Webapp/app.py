@@ -1,7 +1,13 @@
-from flask import Flask, request, render_template
-import static.analysis as analysis
+from flask import Flask, request, render_template, g, url_for
+import static.models as models
+import static.csv as csv
 
 app = Flask(__name__)
+
+
+@app.before_request
+def load_dataset():
+    g.path = csv.dataset_path()
 
 
 # main page
@@ -11,9 +17,12 @@ def main_page():
 
 
 # check dataset
-@app.route('/check_dataset')
-def check_dataset():
-    return render_template("check_dataset.html")
+@app.route('/check_dataset/page/<int:page_num>', methods=['GET'])
+def check_dataset(page_num):
+    limits = 20
+    pages = csv.cal_dataset_pages(g.path, limits)
+    df = csv.show_csv(g.path, page_num, limits)
+    return render_template('check_dataset.html', df=df, pages=pages, page_num=page_num)
 
 
 # get analysis result
@@ -21,15 +30,17 @@ def check_dataset():
 def get_result():
     if request.method == 'POST':
         user_name = request.form['user_name']
-        review_count = request.form['review_count']
+        friends_count = request.form['friends_count']
         elite_count = request.form['elite_count']
+        fans = request.form['fans']
         average_star = request.form['average_star']
         business_average_star = request.form['buisness_average_star']
 
         validation_flag = False
         user_name_failed = None
-        review_count_failed = None
+        friends_count_failed = None
         elite_count_failed = None
+        fans_failed = None
         average_star_failed = None
         business_average_star_failed = None
 
@@ -40,13 +51,13 @@ def get_result():
 
         # review count validation
         try:
-            review_count = int(review_count)
-            if review_count < 5:
+            friends_count = int(friends_count)
+            if friends_count < 0:
                 validation_flag = True
-                review_count_failed = "Review Count must above 5!"
+                friends_count_failed = "Friends Count must above 0!"
         except ValueError:
             validation_flag = True
-            review_count_failed = "Review Count must be an integer!"
+            friends_count_failed = "Friends Count must be an integer!"
 
         # elite count validation
         try:
@@ -57,6 +68,16 @@ def get_result():
         except ValueError:
             validation_flag = True
             elite_count_failed = "Elite Count must be an integer!"
+
+        # fans validation
+        try:
+            fans = int(fans)
+            if elite_count < 0:
+                validation_flag = True
+                fans_failed = "Fans must above 0!"
+        except ValueError:
+            validation_flag = True
+            fans_failed = "Fans must be an integer!"
 
         # average star validation
         try:
@@ -82,24 +103,25 @@ def get_result():
             return render_template(
                 "main.html",
                 user_name_failed=user_name_failed,
-                review_count_failed=review_count_failed,
+                friends_count_failed=friends_count_failed,
                 elite_count_failed=elite_count_failed,
+                fans_failed=fans_failed,
                 average_star_failed=average_star_failed,
                 business_average_star_failed=business_average_star_failed,
                 user_name=user_name,
-                review_count=review_count,
+                friends_count=friends_count,
                 elite_count=elite_count,
                 average_star=average_star,
                 business_average_star=business_average_star
             )
+        score = models.random_forest(average_star, elite_count, fans, friends_count, business_average_star)
 
-        score = analysis.model_analysis(average_star, elite_count, review_count, business_average_star)
-        # score = 0
         return render_template(
             "result.html",
             score=score,
             user_name=user_name,
-            review_count=review_count,
+            friends_count=friends_count,
+            fans=fans,
             elite_count=elite_count,
             average_star=average_star,
             business_average_star=business_average_star
