@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% block navbar_nav %}
+    <ul class="nav navbar-nav">
+        <li><a class="nav-link active" href="/">Analyze Reliability</a></li>
+        <li><a class="nav-link" href="/check_dataset">Check Dataset</a></li>
+    </ul>
+{% endblock %}
+{% block body_container %}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-6 col-center-block">
+                <h1 class="text-center">Input your user information</h1>
+                <form action="result" method="post">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>User Name: </p>
+                        </div>
+                        <div class="col-sm-7">
+                            <input class="form-control" type="text" name="user_name" value="{{ user_name }}" placeholder="Username"/>
+                        </div>
+                    </div>
+                    {% if user_name_failed is not none %}
+                        <div class="row text-danger">
+                            <div class="col-sm-5"></div>
+                            <div class="col-sm-7"><p>{{ user_name_failed }}</p></div>
+                        </div>
+                    {% else %}
+                        <br/>
+                    {% endif %}
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>Review Count: </p>
+                        </div>
+                        <div class="col-sm-7">
+                            <input class="form-control" type="text" name="review_count" value="{{ review_count }}" placeholder="Review Count"/>
+                        </div>
+                    </div>
+                    {% if review_count_failed is not none %}
+                        <div class="row text-danger">
+                            <div class="col-sm-5"></div>
+                            <div class="col-sm-7"><p>{{ review_count_failed }}</p></div>
+                        </div>
+                    {% else %}
+                        <br/>
+                    {% endif %}
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>Elite Count: </p>
+                        </div>
+                        <div class="col-sm-7">
+                            <input class="form-control" type="text" name="elite_count" value="{{ elite_count }}" placeholder="Elite Count"/>
+                        </div>
+                    </div>
+                    {% if elite_count_failed is not none %}
+                        <div class="row text-danger">
+                            <div class="col-sm-5"></div>
+                            <div class="col-sm-7"><p>{{ elite_count_failed }}</p></div>
+                        </div>
+                    {% else %}
+                        <br/>
+                    {% endif %}
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>Average Rating: </p>
+                        </div>
+                        <div class="col-sm-7">
+                            <input class="form-control" type="text" name="average_star" value="{{ average_star }}" placeholder="Average Rating"/>
+                        </div>
+                    </div>
+                    {% if average_star_failed is not none %}
+                        <div class="row text-danger">
+                            <div class="col-sm-5"></div>
+                            <div class="col-sm-7"><p>{{ average_star_failed }}</p></div>
+                        </div>
+                    {% else %}
+                        <br/>
+                    {% endif %}
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>Business Average Stars: </p>
+                        </div>
+                        <div class="col-sm-7">
+                            <input class="form-control" type="text" name="buisness_average_star" value="{{ business_average_star }}" placeholder="Business Average Stars"/>
+                        </div>
+                    </div>
+                    {% if business_average_star_failed is not none %}
+                        <div class="row text-danger">
+                            <div class="col-sm-5"></div>
+                            <div class="col-sm-7"><p>{{ business_average_star_failed }}</p></div>
+                        </div>
+                    {% else %}
+                        <br/>
+                    {% endif %}
+
+                    <div class="row">
+                        <div class="col-sm-8"></div>
+                        <div class="col-sm-4">
+                            <input class="btn btn-primary" type="submit" value="Submit"/>
+                            <input class="btn btn-default" type="reset" value="Reset"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

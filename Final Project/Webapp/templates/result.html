@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block navbar_nav %}
+    <ul class="nav navbar-nav">
+        <li><a class="nav-link active" href="/">Analyze Reliability</a></li>
+        <li><a class="nav-link" href="/check_dataset">Check Dataset</a></li>
+    </ul>
+{% endblock %}
+{% block body_container %}
+    <div class="container">
+        <div class="col-xs-6 col-md-6 col-center-block">
+            <br/>
+            <h2 class="text-center">Here is your result, {{ user_name }}: </h2>
+            <div class="col-xs-6 col-md-7 col-center-block">
+                <table>
+                    <tr/><td/>Review Count:           <td/>&nbsp;&nbsp;{{ review_count }}
+                    <tr/><td/>Elite Count:            <td/>&nbsp;&nbsp;{{ elite_count }}
+                    <tr/><td/>Average Rating:         <td/>&nbsp;&nbsp;{{ average_star }}
+                    <tr/><td/>Business Averate Stars: <td/>&nbsp;&nbsp;{{ business_average_star }}
+                    <tr/><td/>Score:                  <td/>&nbsp;&nbsp;{{ score }}
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}
