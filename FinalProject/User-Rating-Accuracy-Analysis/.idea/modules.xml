@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Webapp.iml" filepath="$PROJECT_DIR$/.idea/Webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/User-Rating-Accuracy-Analysis.iml" filepath="$PROJECT_DIR$/.idea/User-Rating-Accuracy-Analysis.iml" />
     </modules>
   </component>
 </project>
